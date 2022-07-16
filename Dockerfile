@@ -1,13 +1,14 @@
 # Dockerfile
-FROM node:16.16.0-alpine
+FROM node:lts-alpine
 
 # create destination directory
 RUN mkdir -p /usr/src/nuxt-app
 WORKDIR /usr/src/nuxt-app
 
 # update and install dependency
-#RUN apk update && apk upgrade
-#RUN apk add git
+RUN apt update
+RUN apt install nodejs
+RUN ln -s /usr/bin/nodejs /usr/local/bin/node
 
 # copy the app, note .dockerignore
 COPY . /usr/src/nuxt-app/
