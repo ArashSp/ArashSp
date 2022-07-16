@@ -110,7 +110,7 @@
                 and manage your webhook APIs.
               </p>
 
-              <p class="mb-5 display-7 lh-lg">LEARN MORE</p>
+              <p class="mb-5 display-7 fw-bold lh-lg">LEARN MORE</p>
             </div>
             <div class="col">
               <img src="../assets/icons/Group 342.svg" class="IconStyle mb-3" />
@@ -120,7 +120,7 @@
                 streams using webhookies white-labeled developer portal or build
                 your own developer experience using webhookies powerful API.
               </p>
-              <p class="mb-4 display-7 lh-lg">LEARN MORE</p>
+              <p class="mb-4 display-7 fw-bold lh-lg">LEARN MORE</p>
             </div>
             <div class="col">
               <img src="../assets/icons/Group 343.svg" class="IconStyle mb-3" />
@@ -131,7 +131,7 @@
                 reject subscriptions you have full control over who gets your
                 data.
               </p>
-              <p class="mb-5 display-7 lh-lg">LEARN MORE</p>
+              <p class="mb-5 display-7 fw-bold lh-lg">LEARN MORE</p>
             </div>
           </div>
           <div class="row">
@@ -171,12 +171,7 @@
       </div>
     </div>
 
-    <div class="bg-primary p-5 my-5 text-center spacer">
-      <p class="display-2 fw-normal">Start adding elegant event-driven integration</p>
-      <button type="button" class="btn btn-primary rounded-2 my-3 display-7 fw-bold">
-        DOWNLOAD NOW
-      </button>
-    </div>
+   <downloadnow />
   </div>
 </template>
 

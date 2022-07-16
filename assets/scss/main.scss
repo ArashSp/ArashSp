@@ -6,6 +6,7 @@ $navbar1: #1b2433;
 $active: #0061f1;
 $background: #11171f;
 $icon: #a8aebc;
+$number:#004DBF;
 
 @import "node_modules/bootstrap/scss/_functions";
 @import "node_modules/bootstrap/scss/_variables";
@@ -17,6 +18,7 @@ $custom-theme-colors: (
   "white": $white,
   "Navbar1": $navbar1,
   "icon": $icon,
+  "number":$number,
 );
 
 // fix for bootstrap 5.1 transposing colors
@@ -48,6 +50,7 @@ $display-font-sizes: (
   6: 16px,
   7: 14px,
   8: 12px,
+  9: 35px,
 );
 // $display-font-weight: (
 //   1: 700,
