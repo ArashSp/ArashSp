@@ -2,26 +2,37 @@
   <div class="bg-dark text-white">
     <nav class="navbar navbar-expand-lg navbar-dark bg-Navbar1 NavigationBar">
       <div class="container">
-        <a class="navbar-brand ms-5 ps-5" href="#">
+        <Nuxt-link class="navbar-brand ms-5 ps-5" to="/">
           <img src="../assets/images/Logo.svg" style=""
-        /></a>
+        /></Nuxt-link>
         <div class="collapse navbar-collapse">
           <div class="navbar-nav mt-1 mx-5">
             <a class="nav-link ms-1 display-7 fw-normal" href="#"> GITHUB</a>
-            <a class="nav-link ms-3 display-7 fw-normal" href="#"> DOCS</a>
+            <Nuxt-link class="nav-link ms-3 display-7 fw-normal" to="/Docs">
+              DOCS</Nuxt-link
+            >
             <a class="nav-link ms-3 display-7 fw-normal" href="#"> COMMUNITY</a>
-            <nuxt-link class="nav-link ms-3 display-7 fw-normal" to="/HowItWorks">
+            <nuxt-link
+              class="nav-link ms-3 display-7 fw-normal"
+              to="/HowItWorks"
+            >
               HOW IT WORKS</nuxt-link
             >
-            <a class="nav-link ms-3 display-7 fw-normal" href="#">EVENT HUB</a>
-            <a class="nav-link ms-3 display-7 fw-normal" href="#"> BLOG</a>
-            <a class="nav-link ms-3 display-7 fw-normal" href="#"> USE CASES</a>
+            <Nuxt-link class="nav-link ms-3 display-7 fw-normal" to="/EventHub"
+              >EVENT HUB</Nuxt-link
+            >
+            <Nuxt-link class="nav-link ms-3 display-7 fw-normal" to="/Blog">
+              BLOG</Nuxt-link
+            >
+            <Nuxt-link class="nav-link ms-3 display-7 fw-normal" to="/useCases">
+              USE CASES</Nuxt-link
+            >
 
             <button
-              class="btn btn-primary btn-sm ms-3 display-8 fw-bold"
+              class="btn btn-primary btn-sm ms-3 "
               type="button"
             >
-              GET STARTED
+              <nuxt-link to="/GettingStarted" class=" text-decoration-none text-white display-8 fw-bold"> GET STARTED </nuxt-link>
             </button>
           </div>
         </div>

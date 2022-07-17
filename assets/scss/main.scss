@@ -6,7 +6,12 @@ $navbar1: #1b2433;
 $active: #0061f1;
 $background: #11171f;
 $icon: #a8aebc;
-$number:#004DBF;
+$number: #004dbf;
+$btnsearch: #66a3ff;
+$SideList: #ffffff80;
+$listtext: #747474;
+$rightsidetext: #8c8c8c;
+$codesample: #1d2633;
 
 @import "node_modules/bootstrap/scss/_functions";
 @import "node_modules/bootstrap/scss/_variables";
@@ -18,8 +23,34 @@ $custom-theme-colors: (
   "white": $white,
   "Navbar1": $navbar1,
   "icon": $icon,
-  "number":$number,
+  "number": $number,
+  "btnsearch": $btnsearch,
+  "listtext": $listtext,
+  "rightsidetext": $rightsidetext,
+  "codesample": $codesample,
 );
+
+.transparent {
+  background-color: #ffffff;
+  opacity: 0.4;
+}
+.blogbtn {
+  background: linear-gradient(
+    149.48deg,
+    #1d2838 9.15%,
+    rgba(29, 40, 56, 0.5) 81.46%
+  );
+  border-radius: 3.99529px;
+}
+.blogbox {
+  background: radial-gradient(
+      36.77% 60.75% at 50% 65.32%,
+      #0061f1 0%,
+      #181818 100%
+    ),
+    url(.jpg);
+  background-blend-mode: hue, normal;
+}
 
 // fix for bootstrap 5.1 transposing colors
 $theme-colors: map-merge($theme-colors, $custom-theme-colors);
@@ -51,6 +82,7 @@ $display-font-sizes: (
   7: 14px,
   8: 12px,
   9: 35px,
+  10: 28px,
 );
 // $display-font-weight: (
 //   1: 700,
