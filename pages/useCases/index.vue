@@ -7,38 +7,48 @@
           <div class="row pt-3">
             <div class="col-1"></div>
             <div class="col-10">
-              <div class="row pt-4">
+              <div class="row pt-4 nav">
                 <div class="col text-center border-bottom-3">
-                  <img src=" ../../assets/icons/IconComp.svg" class="pb-4" />
-                  <p class="fw-bold display-7">Event Hub</p>
+                  <a href="#EventHub" class="nav-link link-icon">
+                    <img src=" ../../assets/icons/IconComp.svg" class="pb-4" />
+                    <p class="fw-bold display-7">Event Hub</p>
+                  </a>
                 </div>
                 <div class="col text-center border-bottom-3">
-                  <img
-                    src=" ../../assets/icons/IconComp (1).svg"
-                    class="pb-4"
-                  />
-                  <p class="fw-bold display-7">B2B API Gateway</p>
+                  <a href="#B2B" class="nav-link link-icon">
+                    <img
+                      src=" ../../assets/icons/IconComp (1).svg"
+                      class="pb-4"
+                    />
+                    <p class="fw-bold display-7">B2B API Gateway</p>
+                  </a>
+                </div>
+                <div class="col text-center border-bottom-3 gx-0">
+                  <a href="#Data" class="nav-link link-icon">
+                    <img
+                      src=" ../../assets/icons/IconComp (2).svg"
+                      class="pb-4"
+                    />
+                    <p class="fw-bold display-7">Data Synchronization</p>
+                  </a>
                 </div>
                 <div class="col text-center border-bottom-3">
-                  <img
-                    src=" ../../assets/icons/IconComp (2).svg"
-                    class="pb-4"
-                  />
-                  <p class="fw-bold display-7">Data Synchronization</p>
+                  <a href="#Process" class="nav-link link-icon px-1">
+                    <img
+                      src=" ../../assets/icons/IconComp (3).svg"
+                      class="pb-4"
+                    />
+                    <p class="fw-bold display-7">Event-Driven Data Easy</p>
+                  </a>
                 </div>
                 <div class="col text-center border-bottom-3">
-                  <img
-                    src=" ../../assets/icons/IconComp (3).svg"
-                    class="pb-4"
-                  />
-                  <p class="fw-bold display-7">Event-Driven Data Easy</p>
-                </div>
-                <div class="col text-center border-bottom-3">
-                  <img
-                    src=" ../../assets/icons/IconComp (4).svg"
-                    class="pb-4"
-                  />
-                  <p class="fw-bold display-7">Real-Time Buisness IQ</p>
+                  <a href="#Real" class="nav-link link-icon px-2">
+                    <img
+                      src=" ../../assets/icons/IconComp (4).svg"
+                      class="pb-4"
+                    />
+                    <p class="fw-bold display-7">Real-Time Buisness IQ</p>
+                  </a>
                 </div>
               </div>
             </div>
@@ -47,7 +57,7 @@
         </div>
 
         <div>
-          <div class="row pb-5">
+          <div class="row pb-5" id="EventHub">
             <div class="col-1 pt-5 gx-0 mb-4">
               <img src="../../assets/icons/Hub.svg" />
             </div>
@@ -91,7 +101,7 @@
         <div class="py-5 my-5"></div>
 
         <div>
-          <div class="row pb-5">
+          <div class="row pb-5" id="B2B">
             <div class="col-1 pt-5 gx-0 mb-4">
               <img src="../../assets/icons/Api.svg" />
             </div>
@@ -138,7 +148,7 @@
         <div class="py-5 my-5"></div>
 
         <div>
-          <div class="row pb-5">
+          <div class="row pb-5" id="Data">
             <div class="col-1 pt-5 gx-0 mb-4">
               <img src="../../assets/icons/Cloud.svg" />
             </div>
@@ -183,7 +193,7 @@
         <div class="py-5 my-5"></div>
 
         <div>
-          <div class="row pb-5">
+          <div class="row pb-5" id="Process">
             <div class="col-1 pt-5 gx-0 mb-4">
               <img src="../../assets/icons/Settings.svg" />
             </div>
@@ -229,8 +239,8 @@
 
         <div class="py-5 my-5"></div>
 
-        <div class="pb-5">
-             <div class="row pb-5">
+        <div class="pb-5" id="Real">
+          <div class="row pb-5">
             <div class="col-1 pt-5 gx-0 mb-4">
               <img src="../../assets/icons/Brain.svg" />
             </div>

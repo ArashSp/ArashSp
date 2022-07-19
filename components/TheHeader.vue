@@ -3,7 +3,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-Navbar1 NavigationBar">
       <div class="container">
         <Nuxt-link class="navbar-brand ms-5 ps-5" to="/">
-          <img src="../assets/images/Logo.svg" style=""
+          <img src="../assets/images/Group.svg" style=""
         /></Nuxt-link>
         <div class="collapse navbar-collapse">
           <div class="navbar-nav mt-1 mx-5">

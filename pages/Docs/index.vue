@@ -296,9 +296,11 @@
 
         <div class="row pb-5">
           <div class="col-9">
+          <nuxt-link to="/GettingStarted">
             <button type="button" class="btn btn-outline-btnsearch px-4">
               Get started
             </button>
+            </nuxt-link>
           </div>
           <div class="col-3 text-right">
             <button type="button" class="btn btn-outline-btnsearch px-4 ms-4">

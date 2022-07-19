@@ -5,45 +5,53 @@
       <div class="col-6">
         <div class="pb-5">
           <div class="row">
-            <div class="col-2"></div>
-            <div class="col-8">
-              <div class="row">
+            <div class="col-1"></div>
+            <div class="col-10">
+              <div class="row nav">
                 <div class="col text-center border-bottom-3">
-                  <img
-                    src=" ../../assets/icons/IconComp (8).svg"
-                    class="pb-3"
-                  />
-                  <p class="fw-bold display-7">Integration Costs</p>
+                  <a href="#Cost" class="nav-link link-icon">
+                    <img
+                      src=" ../../assets/icons/IconComp (8).svg"
+                      class="pb-3"
+                    />
+                    <p class="fw-bold display-7">Integration Costs</p>
+                  </a>
                 </div>
                 <div class="col text-center border-bottom-3">
-                  <img
-                    src=" ../../assets/icons/IconComp (5).svg"
-                    class="pb-3"
-                  />
-                  <p class="fw-bold display-7">Unlock Your Data</p>
+                  <a href="#Unlock" class="nav-link link-icon">
+                    <img
+                      src=" ../../assets/icons/IconComp (5).svg"
+                      class="pb-3"
+                    />
+                    <p class="fw-bold display-7">Unlock Your Data</p>
+                  </a>
                 </div>
                 <div class="col text-center border-bottom-3">
-                  <img
-                    src=" ../../assets/icons/IconComp (6).svg"
-                    class="pb-3"
-                  />
-                  <p class="fw-bold display-7">Event-Driven Data Easy</p>
+                  <a href="#Event" class="nav-link link-icon">
+                    <img
+                      src=" ../../assets/icons/IconComp (6).svg"
+                      class="pb-3"
+                    />
+                    <p class="fw-bold display-7">Event-Driven Data Easy</p>
+                  </a>
                 </div>
                 <div class="col text-center border-bottom-3">
-                  <img
-                    src=" ../../assets/icons/IconComp (7).svg"
-                    class="pb-3"
-                  />
-                  <p class="fw-bold display-7">Imagine The Possible</p>
+                  <a href="#Imagine" class="nav-link link-icon">
+                    <img
+                      src=" ../../assets/icons/IconComp (7).svg"
+                      class="pb-3"
+                    />
+                    <p class="fw-bold display-7">Imagine The Possible</p>
+                  </a>
                 </div>
               </div>
             </div>
-            <div class="col-2"></div>
+            <div class="col-1"></div>
           </div>
         </div>
 
         <div>
-          <div class="row">
+          <div class="row" id="Cost">
             <div class="col-1 pt-5 gx-0 mb-4">
               <img src="../../assets/icons/Cost.svg" />
             </div>
@@ -103,7 +111,7 @@
         <div class="py-5 my-5"></div>
 
         <div>
-          <div class="row">
+          <div class="row" id="Unlock">
             <div class="col-1 pt-5 gx-0 mb-4">
               <img src="../../assets/icons/Icok.svg" />
             </div>
@@ -116,7 +124,7 @@
               Discoverable, self-service, event-driven, real-time APIs are
               essential for cutting down the cost and time to integrate.
             </p>
-            <div class="fw-lighter display-5 pt-2 pb-3 ps-4 ">
+            <div class="fw-lighter display-5 pt-2 pb-3 ps-4">
               <ul>
                 <li class="pb-4">
                   decentralizing integration - empowering your developers.
@@ -141,7 +149,7 @@
         <div class="py-5 my-5"></div>
 
         <div>
-          <div class="row">
+          <div class="row" id="Event">
             <div class="col-1 pt-5 gx-0 mb-4">
               <img src="../../assets/icons/Settings.svg" />
             </div>
@@ -176,7 +184,7 @@
         <div class="py-5 my-5"></div>
 
         <div>
-          <div class="row">
+          <div class="row" id="Imagine">
             <div class="col-1 pt-5 gx-0 mb-4">
               <img src="../../assets/icons/Rocket.svg" />
             </div>
@@ -198,12 +206,15 @@
             <div class="BoxEventHub2 py-4 text-center">
               <div class="row">
                 <div class="col-8">
-                  <p class="fw-bold display-10 mt-1 ">
+                  <p class="fw-bold display-10 mt-1">
                     Get in touch for a demo today!
                   </p>
                 </div>
                 <div class="col-4">
-                  <button type="button" class="btn btn-white text-primary fw-bold display-7">
+                  <button
+                    type="button"
+                    class="btn btn-white text-primary fw-bold display-7"
+                  >
                     Contact us
                   </button>
                 </div>

@@ -4,7 +4,9 @@
       <div class="row">
         <div class="col-3"></div>
         <div class="col-6">
-          <p class="display-1 text-center mb-5 fw-bold">An open-source webhook API platform</p>
+          <p class="display-1 text-center mb-5 fw-bold">
+            An open-source webhook API platform
+          </p>
           <p class="display-4 text-center mb-5 fw-light">
             With webhookie you can add powerful event-driven API (aka webhook
             API) capability to your platform, product, or integration
@@ -14,7 +16,10 @@
           <div class="row">
             <div class="col-4"></div>
             <div class="col-4 text-center">
-              <button type="button" class="btn btn-primary mb-5 display-7 fw-bold">
+              <button
+                type="button"
+                class="btn btn-primary mb-5 display-7 fw-bold"
+              >
                 LEARN MORE
               </button>
             </div>
@@ -26,18 +31,21 @@
     </div>
 
     <div class="row gx-0">
-      <div class="col-3"></div>
-      <div class="col-6 text-center">
+      <div class="ratio ratio-21x9 text-center">
+        <!-- <video controls autoplay loop src="../assets/images/webhookie_animation.mp4" class="mt-5 mb-5 pb-5" /> -->
         <img
-          src="../assets/images/HomePageImg1.svg"
+          src="../assets/images/webhookie.gif"
           class="mt-5 mb-5 pb-5"
-          style="max-width: 100%"
+          style=""
         />
       </div>
-      <div class="col-2 px-0"></div>
     </div>
+
+    <div class="my-5 py-5"></div>
     <div class="bg-primary p-5 my-5 text-center spacer">
-      <p class="display-2 fw-normal">Requirement for doing business in digital age</p>
+      <p class="display-2 fw-normal">
+        Requirement for doing business in digital age
+      </p>
       <button type="button" class="btn btn-primary rounded-2 h7 my-3 fw-bold">
         DOWNLOAD NOW
       </button>
@@ -47,7 +55,9 @@
       <div class="row">
         <div class="col-3"></div>
         <div class="col-6">
-          <p class="TitleFont text-center mb-5 display-1 fw-bold">Real-Time Data</p>
+          <p class="TitleFont text-center mb-5 display-1 fw-bold">
+            Real-Time Data
+          </p>
           <p class="display-4 text-center mb-5 fw-light">
             If you are not providing your API consumers with real-time data then
             you are not giving them the edge required to compete in today's fast
@@ -90,7 +100,10 @@
 
     <div class="bg-primary p-5 my-5 text-center spacer display-2">
       <p class="display-2 fw-normal">An open-source webhook API platform</p>
-      <button type="button" class="btn btn-primary rounded-2 my-3 display-7 fw-bold">
+      <button
+        type="button"
+        class="btn btn-primary rounded-2 my-3 display-7 fw-bold"
+      >
         DOWNLOAD NOW
       </button>
     </div>
@@ -103,7 +116,9 @@
           <div class="row">
             <div class="col">
               <img src="../assets/icons/Group 341.svg" class="IconStyle mb-3" />
-              <p class="display-3 fw-bold">An open-source webhook API platform</p>
+              <p class="display-3 fw-bold">
+                An open-source webhook API platform
+              </p>
               <p class="display-5 fw-lighter">
                 Using the ASYNC API specification design your webhook APIs in
                 webhookies design console. Control who can discover, subscribe
@@ -171,7 +186,7 @@
       </div>
     </div>
 
-   <downloadnow />
+    <downloadnow />
   </div>
 </template>
 
@@ -197,12 +212,11 @@
   );
 }
 .RTDBox2 {
-    background:
-      linear-gradient(
-        149.48deg,
-        rgba(35, 43, 55, 0.45) 9.15%,
-        rgba(0, 77, 191, 0.32) 81.46%
-      )
+  background: linear-gradient(
+    149.48deg,
+    rgba(35, 43, 55, 0.45) 9.15%,
+    rgba(0, 77, 191, 0.32) 81.46%
+  );
 }
 .IconStyle {
   height: 27.97476577758789px;

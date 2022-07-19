@@ -195,13 +195,14 @@
               your architecture try webhookie. It’s open-source and easy to
               deploy as a container. Get started fast with webhookie.
             </p>
-
-            <button
-              type="button"
-              class="btn btn-outline-btnsearch fw-lighter display-6 my-4"
-            >
-              Recents Posts
-            </button>
+            <Nuxt-Link to="/Blog">
+              <button
+                type="button"
+                class="btn btn-outline-btnsearch fw-lighter display-6 my-4"
+              >
+                Recents Posts
+              </button>
+            </Nuxt-Link>
           </div>
         </div>
       </div>

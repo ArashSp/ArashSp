@@ -70,33 +70,37 @@
         </button>
         <div class="row">
           <div class="col">
-            <div>
-              <img
-                src="../../assets/images/Frame 266.svg"
-                class="mt-3 pb-2"
-                style="max-width: 100%"
-              />
-              <button
-                type="button"
-                class="btn blogbtn btn-sm text-icon mt-1 px-2"
-              >
-                API
-              </button>
-              <button
-                type="button"
-                class="btn blogbtn btn-sm text-icon ms-3 mt-1 px-2"
-              >
-                Use Case
-              </button>
-              <p class="fw-bold display-9 mt-3">
-                Webhook APIs are REST APIS perfect side kick!
-              </p>
-              <p class="fw-lighter display-7">Liam Frode . February 2, 2022</p>
-              <p class="fw-lighter display-5">
-                The success of REST APIs In Postman’s State of the…The success
-                of REST APIs In Postman’s State of the…
-              </p>
-            </div>
+            <nuxt-link to="/BlogPages" class="nav-link link-white">
+              <div>
+                <img
+                  src="../../assets/images/Frame 266.svg"
+                  class="mt-3 pb-2"
+                  style="max-width: 100%"
+                />
+                <button
+                  type="button"
+                  class="btn blogbtn btn-sm text-icon mt-1 px-2"
+                >
+                  API
+                </button>
+                <button
+                  type="button"
+                  class="btn blogbtn btn-sm text-icon ms-3 mt-1 px-2"
+                >
+                  Use Case
+                </button>
+                <p class="fw-bold display-9 mt-3">
+                  Webhook APIs are REST APIS perfect side kick!
+                </p>
+                <p class="fw-lighter display-7">
+                  Liam Frode . February 2, 2022
+                </p>
+                <p class="fw-lighter display-5">
+                  The success of REST APIs In Postman’s State of the…The success
+                  of REST APIs In Postman’s State of the…
+                </p>
+              </div>
+            </nuxt-link>
           </div>
           <div class="col">
             <div>
