@@ -1,12 +1,67 @@
 <template>
   <div class="bg-dark text-white">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-Navbar1 NavigationBar">
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-Navbar1 NavigationBar"
+    >
       <div class="container">
-        <Nuxt-link class="navbar-brand ms-5 ps-5" to="/">
-          <img src="../assets/images/Group.svg" style=""
-        /></Nuxt-link>
-        <div class="collapse navbar-collapse">
-          <div class="navbar-nav mt-1 mx-5">
+        <div class="">
+          <Nuxt-link class="navbar-brand ps-5" to="/">
+            <img src="../assets/images/Group.svg" style=""
+          /></Nuxt-link>
+        </div>
+        <div class="dropstart d-xl-none d-lg-none d-block-md">
+          <button
+            class="btn dropdown-toggle text-icon"
+            type="button"
+            id="Menu"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          ></button>
+          <ul
+            class="dropdown-menu dropdown-menu-dark mt-5 me-n5 NavigationBar"
+            aria-labelledby="Menu"
+          >
+            <li>
+              <Nuxt-link class="dropdown-item display-7 pb-1" to=""
+                >GITHUB</Nuxt-link
+              >
+            </li>
+            <li>
+              <Nuxt-link class="dropdown-item display-7 pb-1" to="/Docs"
+                >DOCS</Nuxt-link
+              >
+            </li>
+            <li>
+              <Nuxt-link class="dropdown-item display-7 pb-1" to=""
+                >COMMUNITY</Nuxt-link
+              >
+            </li>
+            <li>
+              <Nuxt-link class="dropdown-item display-7 pb-1" to="/HowItWorks"
+                >HOW IT WORKS</Nuxt-link
+              >
+            </li>
+            <li>
+              <Nuxt-link class="dropdown-item display-7 pb-1" to="EventHub"
+                >EVENT HUB</Nuxt-link
+              >
+            </li>
+            <li>
+              <Nuxt-link class="dropdown-item display-7 pb-1" to="/Blog"
+                >BLOG</Nuxt-link
+              >
+            </li>
+            <li>
+              <Nuxt-link class="dropdown-item display-7 pb-1" to="/useCases"
+                >USE CASES</Nuxt-link
+              >
+            </li>
+          </ul>
+        </div>
+        <div
+          class="collapse navbar-collapse d-lg-none d-md-none d-inline-xl ms-5"
+        >
+          <div class="navbar-nav mt-1">
             <a class="nav-link ms-1 display-7 fw-normal" href="#"> GITHUB</a>
             <Nuxt-link class="nav-link ms-3 display-7 fw-normal" to="/Docs">
               DOCS</Nuxt-link
@@ -28,11 +83,13 @@
               USE CASES</Nuxt-link
             >
 
-            <button
-              class="btn btn-primary btn-sm ms-3 "
-              type="button"
-            >
-              <nuxt-link to="/GettingStarted" class=" text-decoration-none text-white display-8 fw-bold"> GET STARTED </nuxt-link>
+            <button class="btn btn-primary btn-sm ms-3" type="button">
+              <nuxt-link
+                to="/GettingStarted"
+                class="text-decoration-none text-white display-8 fw-bold"
+              >
+                GET STARTED
+              </nuxt-link>
             </button>
           </div>
         </div>
@@ -45,3 +102,5 @@
   background: linear-gradient(104.08deg, #1b2433 39.98%, #2f4970 96.11%);
 }
 </style>
+
+<!-- d-xl-none d-lg-none d-block-md  -->

@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   css: ["~/assets/scss/main.scss"],
   script: [
     {
-      src: "./pages/rticle.js",
+      src: "./pages/article.js",
     },
   ],
 });
