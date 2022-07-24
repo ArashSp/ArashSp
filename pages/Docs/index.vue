@@ -1,28 +1,12 @@
 <template>
   <div>
+   
     <div class="row gx-0">
-      <div class="col-3"></div>
-      <div class="col-6">
-        <form class="d-flex pt-4">
-          <input
-            class="form-control bg-dark text-white py-2 px-4"
-            type="search"
-            placeholder="Search..."
-            aria-label="Search"
-          />
-          <button class="btn btn-btnsearch text-white px-4 py-2" type="submit">
-            Search
-          </button>
-        </form>
-      </div>
-      <div class="col-3"></div>
-    </div>
-    <div class="row gx-0">
-      <div class="col-3">
+      <div class="col-3 ">
         <SidebarLeft />
       </div>
 
-      <div class="col-6">
+      <div class="col-6 mt-5">
         <div class="pt-4">
           <div class="row pb-3">
             <p class="fw-bold display-9">API Documentation</p>
@@ -57,7 +41,7 @@
           </div>
         </div>
 
-        <div class="pt-4">
+        <div class="pt-4 " id="API">
           <div class="row pb-3">
             <p class="fw-bold display-9">API Documentation</p>
           </div>
@@ -103,7 +87,7 @@
           </div>
         </div>
         <!-- API Documentation -->
-        <div class="pt-4 mt-4">
+        <div class="pt-4 mt-4" id="Group">
           <div class="row pb-3">
             <p class="fw-bold display-9">Group API</p>
           </div>
@@ -136,7 +120,7 @@
           </div>
         </div>
         <!-- Group API -->
-        <div class="pt-4 mt-4">
+        <div class="pt-4 mt-4" id="Public">
           <div class="row pb-3">
             <p class="fw-bold display-9">Public API</p>
           </div>
@@ -157,7 +141,7 @@
           </div>
         </div>
         <!-- Public API -->
-        <div class="pt-4 mt-4">
+        <div class="pt-4 mt-4" id="Subscription">
           <div class="row pb-3">
             <p class="fw-bold display-9">Subscription API</p>
           </div>
@@ -197,7 +181,7 @@
           </div>
         </div>
         <!-- Subscription API -->
-        <div class="pt-4 mt-4">
+        <div class="pt-4 mt-4" id="Traffic ">
           <div class="row pb-3">
             <p class="fw-bold display-9">Traffic API</p>
           </div>
@@ -229,7 +213,7 @@
           </div>
         </div>
         <!-- Traffic API -->
-        <div class="pt-4 mt-4">
+        <div class="pt-4 mt-4" id="User">
           <div class="row pb-3">
             <p class="fw-bold display-9">User API</p>
           </div>
@@ -260,7 +244,7 @@
           </div>
         </div>
         <!-- User API -->
-        <div class="pt-4 mt-4 pb-5 mb-5">
+        <div class="pt-4 mt-4 pb-5 mb-5" id="Webhook">
           <div class="row pb-3">
             <p class="fw-bold display-9">Webhook API API</p>
           </div>

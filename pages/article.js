@@ -1,7 +1,8 @@
-var articles = [Article1];
+export const articles = [article1];
 
-var Article1 = [
+var article1 = [
   {
+    id:"1",
     MainTitle: "Webhook APIs are REST APIS perfect side kick!",
     ArticlePic: "../assets/images/Frame 266.svg",
     ArticleDate: "February 2, 2022",

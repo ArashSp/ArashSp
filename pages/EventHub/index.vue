@@ -6,7 +6,7 @@
         <div class="pb-5">
           <div class="row">
             <div class="col-1"></div>
-            <div class="col-10">
+            <div class="col-10 d-none d-lg-block">
               <div class="row nav">
                 <div class="col text-center border-bottom-3">
                   <a href="#Cost" class="nav-link link-icon">
@@ -52,10 +52,10 @@
 
         <div>
           <div class="row" id="Cost">
-            <div class="col-1 pt-5 gx-0 mb-4">
+            <div class="col-1 pt-5 mb-4">
               <img src="../../assets/icons/Cost.svg" />
             </div>
-            <div class="col-9 ps-2 pt-5 gx-0">
+            <div class="col-9 ps-2 pt-5 ms-5">
               <p class="fw-bold display-2">
                 Is the cost of integration too high?
               </p>
@@ -112,10 +112,10 @@
 
         <div>
           <div class="row" id="Unlock">
-            <div class="col-1 pt-5 gx-0 mb-4">
+            <div class="col-1 pt-5 mb-4">
               <img src="../../assets/icons/Icok.svg" />
             </div>
-            <div class="col-9 ps-2 pt-5 gx-0">
+            <div class="col-9 ps-2 pt-5 ms-5">
               <p class="fw-bold display-2">Unlock your data</p>
             </div>
           </div>
@@ -150,10 +150,10 @@
 
         <div>
           <div class="row" id="Event">
-            <div class="col-1 pt-5 gx-0 mb-4">
+            <div class="col-1 pt-5 mb-4">
               <img src="../../assets/icons/Settings.svg" />
             </div>
-            <div class="col-9 ps-2 pt-5 gx-0">
+            <div class="col-9 ps-2 pt-5  ms-5">
               <p class="fw-bold display-2">Event-driven data made easy</p>
             </div>
           </div>
@@ -185,10 +185,10 @@
 
         <div>
           <div class="row" id="Imagine">
-            <div class="col-1 pt-5 gx-0 mb-4">
+            <div class="col-1 pt-5 mb-4">
               <img src="../../assets/icons/Rocket.svg" />
             </div>
-            <div class="col-9 ps-2 pt-5 gx-0">
+            <div class="col-9 ps-2 pt-5  ms-5">
               <p class="fw-bold display-2">Imagine the possible</p>
             </div>
           </div>

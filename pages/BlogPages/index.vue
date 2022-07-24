@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="row gx-0 mb-5">
-      <div class="col-3">
+      <div class="col-3 d-none d-lg-block">
         <div class="my-5"></div>
         <div class="ps-5 mt-5 pe-5">
           <p class="fw-normal display-6">Recents posts</p>
@@ -206,7 +206,7 @@
           </div>
         </div>
       </div>
-      <div class="col-3">
+      <div class="col-3 d-none d-lg-block">
         <div class="mt-5 pe-5">
           <nav class="nav flex-column dw-bold display-6">
             <Nuxt-link

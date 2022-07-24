@@ -1,8 +1,6 @@
 <template>
   <div class="bg-dark text-white">
-    <nav
-      class="navbar navbar-expand-lg navbar-dark bg-Navbar1 NavigationBar"
-    >
+    <nav class="navbar navbar-expand-lg navbar-dark bg-Navbar1 NavigationBar">
       <div class="container">
         <div class="">
           <Nuxt-link class="navbar-brand ps-5" to="/">
@@ -16,7 +14,21 @@
             id="Menu"
             data-bs-toggle="dropdown"
             aria-expanded="false"
-          ></button>
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-list"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+              />
+            </svg>
+          </button>
           <ul
             class="dropdown-menu dropdown-menu-dark mt-5 me-n5 NavigationBar"
             aria-labelledby="Menu"
@@ -79,11 +91,11 @@
             <Nuxt-link class="nav-link ms-3 display-7 fw-normal" to="/Blog">
               BLOG</Nuxt-link
             >
-            <Nuxt-link class="nav-link ms-3 display-7 fw-normal" to="/useCases">
+            <Nuxt-link class="nav-link mx-3 display-7 fw-normal" to="/useCases">
               USE CASES</Nuxt-link
             >
 
-            <button class="btn btn-primary btn-sm ms-3" type="button">
+            <button class="btn btn-primary btn-sm" type="button">
               <nuxt-link
                 to="/GettingStarted"
                 class="text-decoration-none text-white display-8 fw-bold"

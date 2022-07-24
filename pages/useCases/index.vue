@@ -4,7 +4,7 @@
       <div class="col-3"></div>
       <div class="col-6">
         <div>
-          <div class="row pt-3">
+          <div class="row pt-3 d-none d-lg-block">
             <div class="col-1"></div>
             <div class="col-10">
               <div class="row pt-4 nav">
@@ -102,10 +102,10 @@
 
         <div>
           <div class="row pb-5" id="B2B">
-            <div class="col-1 pt-5 gx-0 mb-4">
+            <div class="col-1 pt-5 mb-4">
               <img src="../../assets/icons/Api.svg" />
             </div>
-            <div class="col-9 ps-2 pt-5 gx-0">
+            <div class="col-9 ps-2 pt-5 ms-5">
               <p class="fw-bold display-2">B2B API Gateway</p>
             </div>
           </div>
@@ -149,10 +149,10 @@
 
         <div>
           <div class="row pb-5" id="Data">
-            <div class="col-1 pt-5 gx-0 mb-4">
+            <div class="col-1 pt-5 mb-4">
               <img src="../../assets/icons/Cloud.svg" />
             </div>
-            <div class="col-9 ps-2 pt-5 gx-0">
+            <div class="col-9 ps-2 pt-5 ms-5">
               <p class="fw-bold display-2">Data Synchronization</p>
             </div>
           </div>
@@ -194,10 +194,10 @@
 
         <div>
           <div class="row pb-5" id="Process">
-            <div class="col-1 pt-5 gx-0 mb-4">
+            <div class="col-1 pt-5 mb-4">
               <img src="../../assets/icons/Settings.svg" />
             </div>
-            <div class="col-9 ps-2 pt-5 gx-0">
+            <div class="col-9 ps-2 pt-5 ms-5">
               <p class="fw-bold display-2">Process automation</p>
             </div>
           </div>
@@ -241,10 +241,10 @@
 
         <div class="pb-5" id="Real">
           <div class="row pb-5">
-            <div class="col-1 pt-5 gx-0 mb-4">
+            <div class="col-1 pt-5 mb-4">
               <img src="../../assets/icons/Brain.svg" />
             </div>
-            <div class="col-9 ps-2 pt-5 gx-0">
+            <div class="col-9 ps-2 pt-5 ms-5">
               <p class="fw-bold display-2">Real-time business intelligence</p>
             </div>
           </div>

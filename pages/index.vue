@@ -114,7 +114,7 @@
         <div class="col-10">
           <p class="display-1 text-center mb-5 fw-bold">Key Features</p>
           <div class="row">
-            <div class="col">
+            <div class="col-lg col-md-auto">
               <img src="../assets/icons/Group 341.svg" class="IconStyle mb-3" />
               <p class="display-3 fw-bold">
                 An open-source webhook API platform
@@ -127,7 +127,7 @@
 
               <p class="mb-5 display-7 fw-bold lh-lg">LEARN MORE</p>
             </div>
-            <div class="col">
+            <div class="col-lg col-md-auto">
               <img src="../assets/icons/Group 342.svg" class="IconStyle mb-3" />
               <p class="display-3 fw-bold">Discovery</p>
               <p class="display-5 fw-lighter">
@@ -135,9 +135,9 @@
                 streams using webhookies white-labeled developer portal or build
                 your own developer experience using webhookies powerful API.
               </p>
-              <p class="mb-4 display-7 fw-bold lh-lg">LEARN MORE</p>
+              <p class="mb-5 display-7 fw-bold lh-lg">LEARN MORE</p>
             </div>
-            <div class="col">
+            <div class="col-lg col-md-auto">
               <img src="../assets/icons/Group 343.svg" class="IconStyle mb-3" />
               <p class="display-3 fw-bold">Subscription Management</p>
               <p class="display-5 fw-lighter">
@@ -150,7 +150,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="col">
+            <div class="col-lg col-md-auto">
               <img src="../assets/icons/Group 344.svg" class="IconStyle mb-3" />
               <p class="display-3">Traffic visibility</p>
               <p class="display-5 fw-lighter">
@@ -160,7 +160,7 @@
               </p>
               <p class="display-7 fw-bold lh-lg">LEARN MORE</p>
             </div>
-            <div class="col">
+            <div class="col-lg col-md-auto">
               <img src="../assets/icons/Group 345.svg" class="IconStyle mb-3" />
               <p class="display-3">Guaranteed delivery</p>
               <p class="display-5 fw-lighter">
@@ -170,7 +170,7 @@
               </p>
               <p class="display-7 fw-bold lh-lg">LEARN MORE</p>
             </div>
-            <div class="col">
+            <div class="col-lg col-md-auto">
               <img src="../assets/icons/Vector.svg" class="IconStyle mb-3" />
               <p class="display-3">Security</p>
               <p class="display-5 fw-lighter">

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="d-none d-lg-block">
     <ul class="pt-5 bg-transparent noStyle">
       <li>
         <button
@@ -10,12 +10,19 @@
           Overview
         </button>
         <div class="collapse" id="Overview-collapse">
-          <ul
-            class="btn-toggle-nav pb-1 fw-lighter display-7 noStyle "
-          >
-            <li class="py-3"><Nuxt-Link to="/GettingStarted" class="text-decoration-none link-white"> Getting Started</Nuxt-Link></li>
+          <ul class="btn-toggle-nav pb-1 fw-lighter display-7 noStyle">
+            <li class="py-3">
+              <Nuxt-Link
+                to="/GettingStarted"
+                class="text-decoration-none link-white"
+              >
+                Getting Started</Nuxt-Link
+              >
+            </li>
             <li class="pb-3">
-              <Nuxt-Link to="/Docs" class="text-decoration-none link-white"> Api Documentation</Nuxt-Link>
+              <Nuxt-Link to="/Docs" class="text-decoration-none link-white">
+                Api Documentation</Nuxt-Link
+              >
             </li>
             <li class="pb-3"><Nuxt-Link to=""> Vision</Nuxt-Link></li>
           </ul>
@@ -109,7 +116,6 @@
 </template>
 
 <style scoped>
-
 .noStyle {
   list-style-type: none;
 }

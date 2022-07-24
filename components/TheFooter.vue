@@ -4,7 +4,7 @@
       <div class="col-2"></div>
       <div class="col-8">
         <div class="row px-0">
-          <div class="col-4">
+          <div class="col-lg-4 col-md-auto mb-5">
             <div class="col">
               <nuxt-link to="/">
                 <img src="../assets/images/Logo2.svg" class="me-5 mb-4" />
@@ -80,7 +80,7 @@
           </div>
           <div class="col-8">
             <div class="row">
-              <div class="col-4 mt-2">
+              <div class="col-lg-4 mt-2 col-md-auto mb-5">
                 <p class="display-6 ms-2 fw-bold">Get Started</p>
                 <nav class="nav flex-column">
                   <nuxt-link class="nav-link link-icon display-6 fw-light" to=""
@@ -99,24 +99,18 @@
                   >
                 </nav>
               </div>
-              <div class="col-4 mt-2">
+              <div class="col-lg-4 mt-2 col-md-auto mb-5">
                 <p class="display-6 ms-2 fw-bold">Company</p>
                 <nav class="nav flex-column">
-                  <nuxt-link class="nav-link link-icon display-6 fw-light" to=""
-                    >About Us</nuxt-link
-                  >
                   <nuxt-link class="nav-link link-icon display-6 fw-light" to=""
                     >Privacy Policy</nuxt-link
                   >
                   <nuxt-link class="nav-link link-icon display-6 fw-light" to=""
                     >Terms & Conditions</nuxt-link
                   >
-                  <nuxt-link class="nav-link link-icon display-6 fw-light" to=""
-                    >Contact Us</nuxt-link
-                  >
                 </nav>
               </div>
-              <div class="col-4 mt-2">
+              <div class="col-lg-4 mt-2 col-md-auto">
                 <p class="display-6 ms-2 fw-bold">Resources</p>
                 <nav class="nav flex-column">
                   <nuxt-link
