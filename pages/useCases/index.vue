@@ -58,10 +58,10 @@
 
         <div>
           <div class="row pb-5" id="EventHub">
-            <div class="col-1 pt-5 gx-0 mb-4">
+            <div class="col-1 pt-5  mb-4">
               <img src="../../assets/icons/Hub.svg" />
             </div>
-            <div class="col-9 ps-2 pt-5 gx-0">
+            <div class="col-9 ps-2 pt-5 ms-5">
               <p class="fw-bold display-2">Event Hub</p>
             </div>
           </div>

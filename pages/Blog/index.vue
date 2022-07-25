@@ -75,58 +75,70 @@
       <div class="col-1"></div>
     </div>
 
-    <div class="row gx-0">
-      <div class="col" v-for="article in articles" :key="article.id">
-        <nuxt-link to="/BlogPages" class="nav-link link-white">
+    <div class="row gx-0" >
+    
+      <div class="col-4 my-3 " v-for="article in myJson">
+      <div :key="article.id">
+        <nuxt-link :to="'/Blogs/' + article.id" class="nav-link link-white">
           <div>
             <img
-              src="{{article.ArticlePic}}"
+              :src="article.ArticlePic"
               class="mt-3 pb-2"
               style="max-width: 100%"
             />
+        
             <button
               type="button"
               class="btn blogbtn btn-sm text-icon mt-1 px-2"
             >
-              API
+              {{article.btn1Name}}
             </button>
             <button
               type="button"
-              class="btn blogbtn btn-sm text-icon ms-3 mt-1 px-2"
+              class="btn blogbtn btn-sm text-icon ms-2 mt-1 px-2"
+              
             >
-              Use Case
+              {{article.btn2Name}}
             </button>
             <p class="fw-bold display-9 mt-3">
-              {{article.MainTitle}}
+              {{ article.MainTitle }}
             </p>
-            <p class="fw-lighter display-7">Liam Frode . February 2, 2022</p>
+            <p class="fw-lighter display-7">
+              {{ article.Author }} {{ article.ArticleDate }}
+            </p>
             <p class="fw-lighter display-5">
-              The success of REST APIs In Postman’s State of the…The success of
-              REST APIs In Postman’s State of the…
+              {{ article.CardDescription }}
             </p>
+            
           </div>
         </nuxt-link>
+        </div>
       </div>
-     
     </div>
 
     <Downloadnow />
   </div>
 </template>
 <script>
-import {articles} from "../article";
 import Downloadnow from "~~/components/Downloadnow.vue";
-export default { 
-  
-  components: { Downloadnow } ,
-  
+import articles from './article.json'
+
+
+
+console.log();
+
+
+export default {
+  components: { Downloadnow },
   data() {
     return {
-      articles : articles
-    }
+        myJson: articles
+    };
   },
-  
-  
-  };
+  mounted() {
+    console.log("test")
+    console.log(this.myJson)
+  },
+};
 </script>
 <style scoped></style>

@@ -7,7 +7,7 @@ export default defineNuxtConfig({
   head: {
     script: [
       {
-        src: "/pages/article.js",
+        src: "/pages/Blog/article.js",
       },
     ],
   },
