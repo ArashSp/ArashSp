@@ -2,7 +2,6 @@
   <div>
     <div class="row gx-0 mb-5">
       <div class="col-3 d-none d-lg-block">
-        <div class="my-5"></div>
         <div class="ps-5 mt-5 pe-5">
           <p class="fw-normal display-6">Recents posts</p>
           <nav class="nav flex-column dw-bold display-6">
@@ -30,113 +29,101 @@
         </div>
       </div>
       <div class="col-6">
-        <div class="row gx-0" v-for="article in myJson">
-          <div class="pt-5">
-            <div
-             
-              class=" blogbtn text-icon mt-1 px-2 text-white"
-            >
-              General
-            </div>
-            <div
-          
-              class=" blogbtn text-icon ms-3 mt-1 px-2 text-white"
-            >
+        <div class="row gx-0">
+          <div class="pt-5 row">
+            <div class="blogbtn text-icon mt-1 mx-2 text-white text-center py-2" style="max-width:15%;">General</div>
+            <div class="blogbtn text-icon mt-1 mx-2 text-white text-center py-2"  style="max-width:15%;">
               Use Case
             </div>
             <p class="fw-bold display-9 mt-3 mt-4">
-              {{article.MainTitle}}
+              {{ currentArticle.MainTitle }}
             </p>
-            <p class="fw-lighter display-7">Liam Frode . February 2, 2022</p>
+            <p class="fw-lighter display-7"> {{currentArticle.Author}}</p>
 
             <img
-              :src=" article.ArticlePic"
+              :src="currentArticle.ArticlePic"
               class="mt-3 pb-2"
               style="max-width: 100%"
             />
-            <p class="fw-bold display-9 my-5">{{article.ArticleTitle1}}</p>
+            <p class="fw-bold display-9 my-5">{{ currentArticle.ArticleTitle1 }}</p>
             <p class="fw-lighter display-5 lh-base pb-3">
-             {{article.ArticleBody1}}
+              {{ currentArticle.ArticleBody1 }}
             </p>
             <p class="fw-lighter display-5 lh-base pb-3">
-            {{article.ArticleBody1_2}}
+              {{ currentArticle.ArticleBody1_2 }}
             </p>
             <p class="fw-lighter display-5 lh-base pb-3">
-              {{article.ArticleBody1_3}}
+              {{ currentArticle.ArticleBody1_3 }}
             </p>
-            <img
-              :src="ArticlePic1"
-              class="mt-3 pb-4"
-              style="max-width: 100%"
-            />
-            <p class="fw-bold display-9 mt-3 mb-4">{{item.ArticleTitle2}}</p>
+            <img :src="currentArticle.ArticlePic1" class="mt-3 pb-4" style="max-width: 100%" />
+            <p class="fw-bold display-9 mt-3 mb-4">{{ currentArticle.ArticleTitle2 }}</p>
             <p class="fw-lighter display-5 lh-base pb-3">
-            {{article.ArticleBody2}}
+              {{ currentArticle.ArticleBody2 }}
             </p>
             <p class="fw-lighter display-5 lh-base pb-3">
-            {{article.ArticleBody2_2}}
+              {{ currentArticle.ArticleBody2_2 }}
             </p>
             <p class="fw-lighter display-5 lh-base pb-3">
-              {{article.ArticleBody2_3}}
+              {{ currentArticle.ArticleBody2_3 }}
             </p>
 
             <p class="fw-light display-10 mt-3 mt-4">
-             {{article.ArticleTitle3}}
+              {{ currentArticle.ArticleTitle3 }}
             </p>
             <ul>
               <li class="fw-lighter display-5 lh-base pb-3">
-                {{article.ArticleBody3}}
+                {{ currentArticle.ArticleBody3 }}
               </li>
               <li class="fw-lighter display-5 lh-base pb-3">
-                {{article.ArticleBody3_2}}
+                {{ currentArticle.ArticleBody3_2 }}
               </li>
               <li class="fw-lighter display-5lh-base pb-3">
-                {{article.ArticleBody3_3}}
+                {{ currentArticle.ArticleBody3_3 }}
               </li>
             </ul>
             <img
-              :src="article.ArticlePic3"
+              :src="currentArticle.ArticlePic3"
               class="mt-3 pb-4"
               style="max-width: 100%"
             />
             <p class="fw-bold display-9 mt-3 mt-4">
-            {{article.ArticleTitle4}}
+              {{ currentArticle.ArticleTitle4 }}
             </p>
             <p class="fw-lighter display-5 lh-base pb-3">
-              {{article.ArticleBody4}}
+              {{ currentArticle.ArticleBody4 }}
             </p>
             <p class="fw-lighter display-5 lh-base pb-3">
-               {{article.ArticleBody4_2}}
+              {{ currentArticle.ArticleBody4_2 }}
             </p>
             <p class="fw-lighter display-5 lh-base pb-3">
-            {{article.ArticleBody4_3}}
+              {{ currentArticle.ArticleBody4_3 }}
             </p>
 
             <p class="fw-bold display-9 mt-3 mt-4">
-              {{article.ArticleTitle5}}
+              {{ currentArticle.ArticleTitle5 }}
             </p>
             <p class="fw-lighter display-5 lh-base pb-3">
-             {{article.ArticleBody5}}
+              {{ currentArticle.ArticleBody5 }}
             </p>
             <p class="fw-lighter display-5 lh-base pb-3">
-              {{article.ArticleBody5_2}}
+              {{ currentArticle.ArticleBody5_2 }}
             </p>
             <p class="fw-lighter display-5 lh-base pb-3">
-               {{article.ArticleBody5_3}}
+              {{ currentArticle.ArticleBody5_3 }}
             </p>
 
             <img
-              :src="article.ArticlePic5"
+              :src="currentArticle.ArticlePic5"
               class="mt-3 pb-4"
               style="max-width: 100%"
             />
 
-            <p class="fw-bold display-9 mt-3 mt-4">{{item.ArticleTitle6}}</p>
+            <p class="fw-bold display-9 mt-3 mt-4">{{ currentArticle.ArticleTitle6 }}</p>
             <p class="fw-lighter display-5 lh-base pb-3">
-              {{article.ArticleBody6}}
+              {{ currentArticle.ArticleBody6 }}
             </p>
             <p class="fw-lighter display-5 lh-base pb-3">
-                {{article.ArticleBody6_2}}
+              {{ currentArticle.ArticleBody6_2 }}
             </p>
             <Nuxt-Link to="/Blog">
               <button
@@ -190,29 +177,31 @@
   </div>
 </template>
 <script>
-import Downloadnow from "../../../components/Downloadnow.vue";
-import articles from "../article.json";
+import Downloadnow from "../../components/Downloadnow.vue";
+import articles from "./article.json";
+// const route = useRoute();
+
+
 
 export default {
-
-
-  
+  // setup() {
+    //   route.params.id = search.value;
+  //   if (search.value == myJson.id)
+  //   {
+    
+    //   }
+  // },
+ 
   components: { Downloadnow },
-
   data() {
+    // this.newArray= result.data.filter(myJson => myJson.id === route.params.id )[0];
     return {
-       myJson: articles
-    }
+      myJson: articles,
+      currentArticle: {},
+    };
   },
-  };
-
-  onMounted(async () => {
-  const fetchData = await fetch(
-    `${$route.params.id}`
-  );
-  const json = await fetchData.json();
-  myJson.id = json.$route.params.id;
-  
-});
-
+  mounted() {
+    currentArticle = myJson.find(j => j.id === $route.params.id )    
+  }
+};
 </script>

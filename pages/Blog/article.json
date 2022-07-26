@@ -122,7 +122,6 @@
  
     }
     ,
-
     {
       "id": "4",
       "MainTitle": "The 4 use cases for webhook APIs",
@@ -134,9 +133,7 @@
 
         "btn1Name":"API",
         "btn2Name":"",
-        
-
-
+      
          "ArticleTitle1": " The success of REST APIs",
         "ArticleBody1":
           "In Postman’s State of the API 2021 report 94% of developers stated they use REST APIs with nearly 50% of developers reporting that they not only used REST APIs but loved them too!",

@@ -136,8 +136,7 @@ export default {
     };
   },
   mounted() {
-    console.log("test")
-    console.log(this.myJson)
+    
   },
 };
 </script>
