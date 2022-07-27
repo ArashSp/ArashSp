@@ -79,7 +79,7 @@
     
       <div class="col-4 my-3 " v-for="article in myJson">
       <div :key="article.id">
-        <nuxt-link :to="'/Blogs/' + article.id" class="nav-link link-white">
+        <nuxt-link :to="'/Blog/' + article.id" class="nav-link link-white">
           <div>
             <img
               :src="article.ArticlePic"
