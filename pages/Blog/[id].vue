@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="row gx-0 mb-5">
-      <div class="col-3 d-none d-lg-fle">
+      <div class="col-3 d-none d-lg-flex">
         <div class="ps-5 mt-5 pe-5">
           <p class="fw-normal display-6">Recents posts</p>
           <nav class="nav flex-column dw-bold display-6">
@@ -28,120 +28,122 @@
           </nav>
         </div>
       </div>
-      <div class="col-6">
-        <div class="row gx-0">
-          <div class="pt-5 row">
+      <div class="col-lg-6 col-sm-auto col-xs-auto col-md-auto">
+        <div class="row gx-0" v-for="article in myJson.slice(0, 1)">
+          <div class="pt-5 row ">
             <div
-              class="col blogbtn text-icon mt-1 mx-2 px-2 mx-2 text-white text-center py-2"
+              class="col-3 blogbtn text-icon mt-1 mx-2 px-2 mx-2 text-white text-center py-2"
               style=""
             >
-              General
+              {{ article.btn1Name }}
             </div>
             <div
-              class="col blogbtn text-icon mt-1 px-2 text-white text-center py-2"
+              class="col-3 blogbtn text-icon mt-1 px-2 text-white text-center py-2"
               style=""
             >
-              Use Case
+              {{ article.btn2Name }}
             </div>
 
-            <p class="fw-bold display-9 mt-3 mt-4">
-              {{ articlex.MainTitle }}
-            </p>
-            <p class="fw-lighter display-7">{{ articlex.Author }}</p>
+            <div class="">
+              <p class="fw-bold display-9 mt-3 mt-4">
+                {{ article.MainTitle }}
+              </p>
+              <p class="fw-lighter display-7">{{ article.Author }}</p>
 
-            <img
-              :src="articlex.ArticlePic"
-              class="mt-3 pb-2"
-              style="max-width: 100%"
-            />
-            <p class="fw-bold display-9 my-5">{{ articlex.ArticleTitle1 }}</p>
-            <p class="fw-lighter display-5 lh-base pb-3">
-              {{ articlex.ArticleBody1 }}
-            </p>
-            <p class="fw-lighter display-5 lh-base pb-3">
-              {{ articlex.ArticleBody1_2 }}
-            </p>
-            <p class="fw-lighter display-5 lh-base pb-3">
-              {{ articlex.ArticleBody1_3 }}
-            </p>
-            <img
-              :src="articlex.ArticlePic1"
-              class="mt-3 pb-4"
-              style="max-width: 100%"
-            />
-            <p class="fw-bold display-9 mt-3 mb-4">
-              {{ articlex.ArticleTitle2 }}
-            </p>
-            <p class="fw-lighter display-5 lh-base pb-3">
-              {{ articlex.ArticleBody2 }}
-            </p>
-            <p class="fw-lighter display-5 lh-base pb-3">
-              {{ articlex.ArticleBody2_2 }}
-            </p>
-            <p class="fw-lighter display-5 lh-base pb-3">
-              {{ articlex.ArticleBody2_3 }}
-            </p>
+              <img
+                :src="article.ArticlePic"
+                class="mt-3 pb-2"
+                style="max-width: 100%"
+              />
+              <p class="fw-bold display-9 my-5">{{ article.ArticleTitle1 }}</p>
+              <p class="fw-lighter display-5 lh-base pb-3">
+                {{ article.ArticleBody1 }}
+              </p>
+              <p class="fw-lighter display-5 lh-base pb-3">
+                {{ article.ArticleBody1_2 }}
+              </p>
+              <p class="fw-lighter display-5 lh-base pb-3">
+                {{ article.ArticleBody1_3 }}
+              </p>
+              <img
+                :src="article.ArticlePic1"
+                class="mt-3 pb-4"
+                style="max-width: 100%"
+              />
+              <p class="fw-bold display-9 mt-3 mb-4">
+                {{ article.ArticleTitle2 }}
+              </p>
+              <p class="fw-lighter display-5 lh-base pb-3">
+                {{ article.ArticleBody2 }}
+              </p>
+              <p class="fw-lighter display-5 lh-base pb-3">
+                {{ article.ArticleBody2_2 }}
+              </p>
+              <p class="fw-lighter display-5 lh-base pb-3">
+                {{ article.ArticleBody2_3 }}
+              </p>
 
-            <p class="fw-light display-10 mt-3 mt-4">
-              {{ articlex.ArticleTitle3 }}
-            </p>
-            <ul>
-              <li class="fw-lighter display-5 lh-base pb-3">
-                {{ articlex.ArticleBody3 }}
-              </li>
-              <li class="fw-lighter display-5 lh-base pb-3">
-                {{ articlex.ArticleBody3_2 }}
-              </li>
-              <li class="fw-lighter display-5lh-base pb-3">
-                {{ articlex.ArticleBody3_3 }}
-              </li>
-            </ul>
-            <img
-              :src="articlex.ArticlePic3"
-              class="mt-3 pb-4"
-              style="max-width: 100%"
-            />
-            <p class="fw-bold display-9 mt-3 mt-4">
-              {{ articlex.ArticleTitle4 }}
-            </p>
-            <p class="fw-lighter display-5 lh-base pb-3">
-              {{ articlex.ArticleBody4 }}
-            </p>
-            <p class="fw-lighter display-5 lh-base pb-3">
-              {{ articlex.ArticleBody4_2 }}
-            </p>
-            <p class="fw-lighter display-5 lh-base pb-3">
-              {{ articlex.ArticleBody4_3 }}
-            </p>
+              <p class="fw-light display-10 mt-3 mt-4">
+                {{ article.ArticleTitle3 }}
+              </p>
+              <ul>
+                <li class="fw-lighter display-5 lh-base pb-3">
+                  {{ article.ArticleBody3 }}
+                </li>
+                <li class="fw-lighter display-5 lh-base pb-3">
+                  {{ article.ArticleBody3_2 }}
+                </li>
+                <li class="fw-lighter display-5lh-base pb-3">
+                  {{ article.ArticleBody3_3 }}
+                </li>
+              </ul>
+              <img
+                :src="article.ArticlePic3"
+                class="mt-3 pb-4"
+                style="max-width: 100%"
+              />
+              <p class="fw-bold display-9 mt-3 mt-4">
+                {{ article.ArticleTitle4 }}
+              </p>
+              <p class="fw-lighter display-5 lh-base pb-3">
+                {{ article.ArticleBody4 }}
+              </p>
+              <p class="fw-lighter display-5 lh-base pb-3">
+                {{ article.ArticleBody4_2 }}
+              </p>
+              <p class="fw-lighter display-5 lh-base pb-3">
+                {{ article.ArticleBody4_3 }}
+              </p>
 
-            <p class="fw-bold display-9 mt-3 mt-4">
-              {{ articlex.ArticleTitle5 }}
-            </p>
-            <p class="fw-lighter display-5 lh-base pb-3">
-              {{ articlex.ArticleBody5 }}
-            </p>
-            <p class="fw-lighter display-5 lh-base pb-3">
-              {{ articlex.ArticleBody5_2 }}
-            </p>
-            <p class="fw-lighter display-5 lh-base pb-3">
-              {{ articlex.ArticleBody5_3 }}
-            </p>
+              <p class="fw-bold display-9 mt-3 mt-4">
+                {{ article.ArticleTitle5 }}
+              </p>
+              <p class="fw-lighter display-5 lh-base pb-3">
+                {{ article.ArticleBody5 }}
+              </p>
+              <p class="fw-lighter display-5 lh-base pb-3">
+                {{ article.ArticleBody5_2 }}
+              </p>
+              <p class="fw-lighter display-5 lh-base pb-3">
+                {{ article.ArticleBody5_3 }}
+              </p>
 
-            <img
-              :src="articlex.ArticlePic5"
-              class="mt-3 pb-4"
-              style="max-width: 100%"
-            />
+              <img
+                :src="article.ArticlePic5"
+                class="mt-3 pb-4"
+                style="max-width: 100%"
+              />
 
-            <p class="fw-bold display-9 mt-3 mt-4">
-              {{ articlex.ArticleTitle6 }}
-            </p>
-            <p class="fw-lighter display-5 lh-base pb-3">
-              {{ articlex.ArticleBody6 }}
-            </p>
-            <p class="fw-lighter display-5 lh-base pb-3">
-              {{ articlex.ArticleBody6_2 }}
-            </p>
+              <p class="fw-bold display-9 mt-3 mt-4">
+                {{ article.ArticleTitle6 }}
+              </p>
+              <p class="fw-lighter display-5 lh-base pb-3">
+                {{ article.ArticleBody6 }}
+              </p>
+              <p class="fw-lighter display-5 lh-base pb-3">
+                {{ article.ArticleBody6_2 }}
+              </p>
+            </div>
             <Nuxt-Link to="/Blog">
               <button
                 type="button"
@@ -197,39 +199,30 @@
 import Downloadnow from "../../components/Downloadnow.vue";
 import articles from "./article.json";
 
-// const route = useRoute();
 export default {
-  // setup() {
-  //   route.params.id = search.value;
-  //   if (search.value == myJson.id)
-  //   {
+  setup() {
+    // const route = useRoute();
+    console.log();
 
-  //   }
-  // },
+    return {};
+  },
   components: { Downloadnow },
+
   data() {
-    // this.newArray= result.data.filter(myJson => myJson.id === route.params.id )[0];
     return {
       myJson: articles,
-      articlex: {},
-      id: "",
+      // articlex : {},
+      //  temparray,
     };
   },
-
-  Mounted() {
-    id = $route.params.id;
-    var currentArticle = {};
-    var search = [];
-    search = this.myJson;
-
-    currentArticle = search.find(x => x.value.id === id.value);
-
-    // currentArticle = search.filter(function (item) {
-    //   return item.id === id.value ;
-    // });
-
-    this.articlex = currentArticle;
-    console.log(j.id)
-  },
+  // mounted() {
+  //    temparray = myJson[0];
+  //    console.log(temparray)
+  // //  var id = this.route.params.id;
+  // //  this.articlex = this.myJson.find((x) => x.id === 1);
+  //   // currentArticle = search.filter(function (item) {
+  //   //   return item.id === id.value;
+  //   // });
+  // },
 };
 </script>

@@ -5,11 +5,11 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "dev-debug": "node --debug node_modules/.bin/nuxt"
+    "debug": "node --debug node_modules/.bin/nuxt"
   },
   
   "devDependencies": {
-    "nuxt": "^3.0.0-rc.4",
+    "nuxt": "^3.0.0-rc.6",
     "autoprefixer": "^10.4.2",
     "fibers": "^5.0.0",
     "nuxt3": "latest",
