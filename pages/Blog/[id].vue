@@ -29,19 +29,16 @@
         </div>
       </div>
       <div class="col-lg-6 col-sm-auto col-xs-auto col-md-auto">
-        <div class="row gx-0" v-for="article in myJson.slice(0, 1)">
-          <div class="pt-5 row ">
+        <div class="row gx-0">
+          <div class="pt-5 row">
+          <div v-for="tag in article.tags" class="col-3 ">
             <div
-              class="col-3 blogbtn text-icon mt-1 mx-2 px-2 mx-2 text-white text-center py-2"
+
+              class="blogbtn text-icon mt-1 px-2 text-white text-center py-2"
               style=""
             >
-              {{ article.btn1Name }}
-            </div>
-            <div
-              class="col-3 blogbtn text-icon mt-1 px-2 text-white text-center py-2"
-              style=""
-            >
-              {{ article.btn2Name }}
+              {{ tag.name }}
+              </div>
             </div>
 
             <div class="">
@@ -200,29 +197,26 @@ import Downloadnow from "../../components/Downloadnow.vue";
 import articles from "./article.json";
 
 export default {
-  setup() {
-    // const route = useRoute();
-    console.log();
-
-    return {};
+  setup() {   
+    const route = useRoute();
+    const article = articles.find(x => x.id === route.params.id);
+    return {
+      article
+    };
   },
   components: { Downloadnow },
 
   data() {
     return {
-      myJson: articles,
-      // articlex : {},
-      //  temparray,
     };
   },
-  // mounted() {
-  //    temparray = myJson[0];
-  //    console.log(temparray)
-  // //  var id = this.route.params.id;
-  // //  this.articlex = this.myJson.find((x) => x.id === 1);
-  //   // currentArticle = search.filter(function (item) {
-  //   //   return item.id === id.value;
-  //   // });
-  // },
+  mounted() {
+    // // currentArticle = search.filter(function (item) {
+    // //   return item.id === id.value;
+    // // });
+
+    // console.log(this.article);
+
+  },
 };
 </script>

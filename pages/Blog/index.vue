@@ -44,12 +44,14 @@
         <button
           type="button"
           class="btn blogbtn btn-sm text-icon ms-2 mt-5 px-2"
+          @click="All"
         >
           All
         </button>
         <button
           type="button"
           class="btn blogbtn btn-sm text-icon ms-2 mt-5 px-2"
+          @click=""
         >
           API
         </button>
@@ -86,20 +88,16 @@
               class="mt-3 pb-2"
               style="max-width: 100%"
             />
-        
+            <div class="row gx-0">
+            <div v-for="tag in article.tags" class="col-1">
             <button
               type="button"
               class="btn blogbtn btn-sm text-icon mt-1 px-2"
             >
-              {{article.btn1Name}}
+              {{tag.name}}
             </button>
-            <button
-              type="button"
-              class="btn blogbtn btn-sm text-icon ms-2 mt-1 px-2"
-              
-            >
-              {{article.btn2Name}}
-            </button>
+            </div>
+            </div>
             <p class="fw-bold display-9 mt-3">
               {{ article.MainTitle }}
             </p>
@@ -129,15 +127,32 @@ console.log();
 
 
 export default {
+
+  setup() {
+    const route = useRoute();
+    const API = articles.find(x => x.name === "API");
+    
+    return  {
+
+    }
+  },
   components: { Downloadnow },
   data() {
     return {
         myJson: articles
     };
   },
-  mounted() {
-    
+  methods: {
+      All: function (event) {
+       var myJson = articles;
+      },
+     
+
+
+
   },
+ computed:{
+ }
 };
 </script>
 <style scoped></style>
