@@ -211,12 +211,6 @@ export default {
     };
   },
   mounted() {
-    // // currentArticle = search.filter(function (item) {
-    // //   return item.id === id.value;
-    // // });
-
-    // console.log(this.article);
-
   },
 };
 </script>

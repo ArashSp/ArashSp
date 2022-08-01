@@ -5,33 +5,31 @@
       style="background-color: #141b24"
     >
       <div class="col-2"></div>
-      <div class="col-8">
+      <div class="col-8" v-for="article in myJson.slice(0, 1)">
         <div class="row gx-0" style="background-color: #141b24">
-          <div class="col">
+          <div class="col" >
             <img
-              src="../../assets/images/Frame 266.svg"
+              :src="article.ArticlePic"
               class="mt-5 mb-3 pb-4 blogbox"
               style="max-width: 100%"
             />
           </div>
           <div class="col">
+          <div class="row">
+          <div v-for="tag in article.tags" class="col-2">
             <button
               type="button"
               class="btn blogbtn btn-sm text-icon ms-3 mt-5 px-2"
             >
-              API
+              {{tag.name}}
             </button>
-            <button
-              type="button"
-              class="btn blogbtn btn-sm text-icon ms-3 mt-5 px-2"
-            >
-              Use Case
-            </button>
+            </div>
+            </div>
 
             <p class="fw-bold display-9 ps-3 mt-3">
-              Webhook APIs are REST APIS perfect side kick!
+              {{article.MainTitle}}
             </p>
-            <p class="fw-lighter display-7">Liam Frode . February 2, 2022</p>
+            <p class="fw-lighter display-7 ps-3">   {{ article.Author }}  ,  {{ article.ArticleDate }}</p>
           </div>
         </div>
       </div>
@@ -44,32 +42,35 @@
         <button
           type="button"
           class="btn blogbtn btn-sm text-icon ms-2 mt-5 px-2"
-          @click="All"
+          @click="AllSORT()"
         >
           All
         </button>
         <button
           type="button"
           class="btn blogbtn btn-sm text-icon ms-2 mt-5 px-2"
-          @click=""
+          @click="APISORT()"
         >
           API
         </button>
         <button
           type="button"
           class="btn blogbtn btn-sm text-icon ms-2 mt-5 px-2"
+          @click="COMPANYSORT()"
         >
           Company
         </button>
         <button
           type="button"
           class="btn blogbtn btn-sm text-icon ms-2 mt-5 px-2"
+          @click=" UseSort()"
         >
           Use Case
         </button>
         <button
           type="button"
           class="btn blogbtn btn-sm text-icon ms-2 mt-5 px-2"
+          @click="SecuritySort()"
         >
           Security
         </button>
@@ -77,39 +78,37 @@
       <div class="col-1"></div>
     </div>
 
-    <div class="row gx-0" >
-    
-      <div class="col-4 my-3 " v-for="article in myJson">
-      <div :key="article.id">
-        <nuxt-link :to="'/Blog/' + article.id" class="nav-link link-white">
-          <div>
-            <img
-              :src="article.ArticlePic"
-              class="mt-3 pb-2"
-              style="max-width: 100%"
-            />
-            <div class="row gx-0">
-            <div v-for="tag in article.tags" class="col-1">
-            <button
-              type="button"
-              class="btn blogbtn btn-sm text-icon mt-1 px-2"
-            >
-              {{tag.name}}
-            </button>
+    <div class="row gx-0">
+      <div class="col-4 my-3" v-for="article in myJson">
+        <div :key="article.id">
+          <nuxt-link :to="'/Blog/' + article.id" class="nav-link link-white">
+            <div>
+              <img
+                :src="article.ArticlePic"
+                class="mt-3 pb-2"
+                style="max-width: 100%"
+              />
+              <div class="row gx-0">
+                <div v-for="tag in article.tags" class="col-2">
+                  <button
+                    type="button"
+                    class="btn blogbtn btn-sm text-icon mt-1 px-2"
+                  >
+                    {{ tag.name }}
+                  </button>
+                </div>
+              </div>
+              <p class="fw-bold display-9 mt-3">
+                {{ article.MainTitle }}
+              </p>
+              <p class="fw-lighter display-7">
+                {{ article.Author }} {{ article.ArticleDate }}
+              </p>
+              <p class="fw-lighter display-5">
+                {{ article.CardDescription }}
+              </p>
             </div>
-            </div>
-            <p class="fw-bold display-9 mt-3">
-              {{ article.MainTitle }}
-            </p>
-            <p class="fw-lighter display-7">
-              {{ article.Author }} {{ article.ArticleDate }}
-            </p>
-            <p class="fw-lighter display-5">
-              {{ article.CardDescription }}
-            </p>
-            
-          </div>
-        </nuxt-link>
+          </nuxt-link>
         </div>
       </div>
     </div>
@@ -119,40 +118,47 @@
 </template>
 <script>
 import Downloadnow from "~~/components/Downloadnow.vue";
-import articles from './article.json'
-
-
+import articles from "./article.json";
 
 console.log();
 
-
 export default {
-
   setup() {
     const route = useRoute();
-    const API = articles.find(x => x.name === "API");
-    
-    return  {
-
-    }
-  },
-  components: { Downloadnow },
-  data() {
+    const api = articles.find((x) => x.name === "API");
+    const company = articles.find((x) => x.name === "Company");
+    const UseCases = articles.find((x) => x.name === "useCases");
+    const Secutiry = articles.find((x) => x.name === "Security ");
     return {
-        myJson: articles
+      api , company , UseCases , Secutiry
     };
   },
   methods: {
-      All: function (event) {
-       var myJson = articles;
-      },
-     
-
-
-
+    AllSORT() {
+      SortedArray = this.articles
+    },
+    APISORT() {
+    SortedArray = this.api
+    },
+     COMPANYSORT() {
+    SortedArray = this.company
+    },
+      UseSort() {
+    SortedArray = this.UseCases
+    },
+      SecuritySort() {
+    SortedArray = this.SecuritySort
+    },
   },
- computed:{
- }
+  data() {
+    return {
+      myJson: articles,
+     
+    };
+  },
+   components: { Downloadnow },
+  omputed: {
+  },
 };
 </script>
 <style scoped></style>
