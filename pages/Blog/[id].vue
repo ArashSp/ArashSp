@@ -214,3 +214,17 @@ export default {
   },
 };
 </script>
+<style scoped>
+
+p:empty{
+  display: none;
+}
+
+ul:empty{
+  display: none;
+}
+
+li:empty{
+  display: none;
+}
+</style>

@@ -7,7 +7,7 @@
       <div class="col-2"></div>
       <div class="col-8" v-for="article in myJson.slice(0, 1)">
         <div class="row gx-0" style="background-color: #141b24">
-          <div class="col" >
+          <div class="col">
             <img
               :src="article.ArticlePic"
               class="mt-5 mb-3 pb-4 blogbox"
@@ -15,21 +15,23 @@
             />
           </div>
           <div class="col">
-          <div class="row">
-          <div v-for="tag in article.tags" class="col-2">
-            <button
-              type="button"
-              class="btn blogbtn btn-sm text-icon ms-3 mt-5 px-2"
-            >
-              {{tag.name}}
-            </button>
-            </div>
+            <div class="row">
+              <div v-for="tag in article.tags" class="col-2">
+                <button
+                  type="button"
+                  class="btn blogbtn btn-sm text-icon ms-3 mt-5 px-2"
+                >
+                  {{ tag.name }}
+                </button>
+              </div>
             </div>
 
             <p class="fw-bold display-9 ps-3 mt-3">
-              {{article.MainTitle}}
+              {{ article.MainTitle }}
             </p>
-            <p class="fw-lighter display-7 ps-3">   {{ article.Author }}  ,  {{ article.ArticleDate }}</p>
+            <p class="fw-lighter display-7 ps-3">
+              {{ article.Author }} , {{ article.ArticleDate }}
+            </p>
           </div>
         </div>
       </div>
@@ -63,7 +65,7 @@
         <button
           type="button"
           class="btn blogbtn btn-sm text-icon ms-2 mt-5 px-2"
-          @click=" UseSort()"
+          @click="UseSort()"
         >
           Use Case
         </button>
@@ -79,7 +81,7 @@
     </div>
 
     <div class="row gx-0">
-      <div class="col-4 my-3" v-for="article in myJson">
+      <div class="col-4 my-3" v-for="article in SortedArray">
         <div :key="article.id">
           <nuxt-link :to="'/Blog/' + article.id" class="nav-link link-white">
             <div>
@@ -125,40 +127,44 @@ console.log();
 export default {
   setup() {
     const route = useRoute();
-    const api = articles.find((x) => x.name === "API");
-    const company = articles.find((x) => x.name === "Company");
-    const UseCases = articles.find((x) => x.name === "useCases");
-    const Secutiry = articles.find((x) => x.name === "Security ");
+    const api = articles.filter((x) => x.tags.name === "API");
+    const company = articles.filter((x) => x.tags.name === "Company");
+    const UseCases = articles.filter((x) => x.tags.name === "useCases");
+    const Secutiry = articles.filter((x) => x.tags.name === "Security");
+    
     return {
-      api , company , UseCases , Secutiry
+    
+      api,
+      company,
+      UseCases,
+      Secutiry,
     };
   },
-  methods: {
+   computed: {
     AllSORT() {
-      SortedArray = this.articles
+    this.SortedArray = this.myJson
     },
     APISORT() {
-    SortedArray = this.api
+    this.SortedArray = this.api
     },
-     COMPANYSORT() {
-    SortedArray = this.company
+    COMPANYSORT() {
+    this.SortedArray = this.company
     },
-      UseSort() {
-    SortedArray = this.UseCases
+    UseSort() {
+    this.SortedArray = this.UseCases
     },
-      SecuritySort() {
-    SortedArray = this.SecuritySort
+    SecuritySort() {
+    this.SortedArray = this.SecuritySort
     },
   },
   data() {
     return {
       myJson: articles,
-     
+      SortedArray: articles,
     };
   },
-   components: { Downloadnow },
-  omputed: {
-  },
+  components: { Downloadnow },
+ 
 };
 </script>
 <style scoped></style>
