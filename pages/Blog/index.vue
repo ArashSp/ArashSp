@@ -94,7 +94,7 @@
                 <div v-for="tag in article.tags" class="col-2">
                   <button
                     type="button"
-                    class="btn blogbtn btn-sm text-icon mt-1 px-2"
+                    class="btn blogbtn btn-sm text-icon mt-1 mx-2"
                   >
                     {{ tag.name }}
                   </button>

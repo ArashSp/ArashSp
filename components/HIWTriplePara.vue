@@ -1,9 +1,9 @@
 <template>
-  <div>
+  <div class="container">
    
       <div class="row gx-0 d-lg-none d-xl-none py-5 mt-5">
         <div class="col-2"></div>
-        <div class="col-8">
+        <div class="col-lg-8 col-md-auto">
           <div class="row gx-0 pb-4">
             <div class="col-lg-5 col-md-auto">
               <p class="display-9 pb-3 fw-bold lh-base">
@@ -28,7 +28,7 @@
                 comparison to polling REST APIs for example).
               </p>
             </div>
-            <div class="col-lg-5 col-md-12">
+            <div class="col-lg-5 col-md-12 text-center">
               <img
                 src="../assets/images/Group417.svg"
                 class="mt-5 mb-5 pb-5 "
@@ -49,7 +49,7 @@
                 of centralizing integration within a specific integration team).
               </p>
             </div>
-            <div class="col-lg-5 col-md-12">
+            <div class="col-lg-5 col-md-12 text-center">
               <img
                 src="../assets/images/Frame437.svg"
                 class="mt-5 mb-5 pb-5"
@@ -82,7 +82,7 @@
                 architecture in minutes.
               </p>
             </div>
-            <div class="col-lg-5 col-md-12">
+            <div class="col-lg-5 col-md-12 text-center">
               <img
                 src="../assets/images/Group427.svg"
                 class="mt-5 mb-5 pb-5 pt-5"

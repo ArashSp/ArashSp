@@ -1,7 +1,7 @@
 <template>
   <div>
-    <div class="row d-lg-none d-xl-none">
-      <div class="row d-lg-none d-xl-none">
+   
+      <div class="row gx-0 d-lg-none d-xl-none">
         <div class="col-lg-6 col-md-auto ps-5">
           <div class="pb-5">
             <p class="fw-bold display-2 text-number pb-3">1</p>
@@ -30,7 +30,7 @@
           </div>
         </div>
 
-        <div class="col-lg-6 col-md-auto ps-3 ms-4">
+        <div class="col-lg-6 col-md-auto ps-5">
           <div class="pb-5">
             <p class="fw-bold display-2 text-number pb-3">3</p>
             <p class="fw-bold display-3 pb-2 lh-base">
@@ -59,6 +59,6 @@
           </div>
         </div>
       </div>
-    </div>
+
   </div>
 </template>

@@ -50,7 +50,7 @@
 
     <div class="container">
       <div class="row gx-0 pb-4 d-none d-lg-flex d-xl-flex">
-        <div class="col-6 ms-5 ps-5">
+        <div class="col-lg-6 col-md-auto   ms-5 ps-5">
           <img
             src="../../assets/images/Group417.svg"
             class="mt-5 mb-5 pb-5 ms-5"
@@ -144,8 +144,8 @@
 
 
     <div class="row gx-0">
-      <div class="col-2"></div>
-      <div class="col-8">
+      <div class="col-1"></div>
+      <div class="col-lg-10 col-md-auto">
         <div class="row">
           <p class="fw-bold display-1 text-center pb-5 lh-base">
             So how does it works?
@@ -231,7 +231,7 @@
             </div>
           </div>
         </div>
-        <div class="col-2"></div>
+        <div class="col-1"></div>
       </div>
     </div>
 
