@@ -1,8 +1,8 @@
 <template>
   <div>
     <div class="row mt-5 gx-0">
-      <div class="col-4"></div>
-      <div class="col-4">
+      <div class="col-3"></div>
+      <div class="col-lg-6 col-sm-auto">
         <p class="display-1 text-center mb-5 fw-bold">
           Real-time data via webhook APIs
         </p>
@@ -16,7 +16,7 @@
           However, in comparison very few digital products today have the
           capability to provide real-time access to their product's data.
         </p>
-        <div class="row">
+        <div class="row gx-0">
           <div class="col-4"></div>
           <div class="col-4 text-center">
             <button
@@ -29,7 +29,7 @@
           <div class="col-4"></div>
         </div>
       </div>
-      <div class="col-4"></div>
+      <div class="col-3"></div>
     </div>
 
     <div class="row gx-0">

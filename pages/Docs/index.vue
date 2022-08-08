@@ -6,7 +6,7 @@
         <SidebarLeft />
       </div>
 
-      <div class="col-6 mt-5">
+      <div class="col-6 mt-5 ">
         <div class="pt-4">
           <div class="row pb-3">
             <p class="fw-bold display-9">API Documentation</p>

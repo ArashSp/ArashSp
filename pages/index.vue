@@ -3,7 +3,7 @@
     <div class="container pt-5">
       <div class="row">
         <div class="col-3"></div>
-        <div class="col-6">
+        <div class="col-lg-6 col-md-auto">
           <p class="display-1 text-center mb-5 fw-bold">
             An open-source webhook API platform
           </p>
@@ -54,7 +54,7 @@
     <div class="container pt-5">
       <div class="row">
         <div class="col-3"></div>
-        <div class="col-6">
+        <div class="col-lg-6 col-md-auto">
           <p class="TitleFont text-center mb-5 display-1 fw-bold">
             Real-Time Data
           </p>
