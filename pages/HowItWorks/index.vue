@@ -1,8 +1,8 @@
 <template>
-  <div>
+  <div class="container">
     <div class="row mt-5 gx-0">
       <div class="col-3"></div>
-      <div class="col-lg-6 col-sm-auto">
+      <div class="col-lg-6 col-md-auto">
         <p class="display-1 text-center mb-5 fw-bold">
           Real-time data via webhook APIs
         </p>
@@ -34,7 +34,7 @@
 
     <div class="row gx-0">
       <div class="col-3"></div>
-      <div class="col-6">
+      <div class="col-lg-6 col-md-auto">
         <img
           src="../../assets/images/Group263.svg"
           class="mt-5 mb-5 pb-5"
@@ -48,7 +48,7 @@
 
 
 
-    <div class="">
+    <div class="container">
       <div class="row gx-0 pb-4 d-none d-lg-flex d-xl-flex">
         <div class="col-6 ms-5 ps-5">
           <img
@@ -57,7 +57,7 @@
             style="max-width: 100%"
           />
         </div>
-        <div class="col-4">
+        <div class="col-lg-4 col-md-auto">
           <p class="display-9 pb-3 fw-bold lh-base">
             Is it important to provide Real-Time data? Yes!
           </p>

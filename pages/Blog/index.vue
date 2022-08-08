@@ -126,12 +126,11 @@ console.log();
 
 export default {
   setup() {
-    
     const route = useRoute();
-    const api = tagsSearch.filter((x) => x.name === "API");
-    const company = tagsSearch.filter((x) => x.name === "Company");
-    const UseCases = tagsSearch.filter((x) => x.name === "useCases");
-    const Secutiry = tagsSearch.filter((x) => x.name === "Security");
+    const api = articles.filter((x) => x.tags.name === "API");
+    const company = articles.filter((x) => x.tags.name === "Company");
+    const UseCases = articles.filter((x) => x.tags.name === "useCases");
+    const Secutiry = articles.filter((x) => x.tags.name === "Security");
 
     return {
       api,
@@ -161,7 +160,7 @@ export default {
     return {
       myJson: articles,
       SortedArray: articles,
-      tagsSearch : articles.tags
+     
     };
   },
   components: { Downloadnow },
