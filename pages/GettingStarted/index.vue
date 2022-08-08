@@ -113,7 +113,7 @@
             when the server and its dependencies are up.
           </p>
           <img
-            src="../../assets/images/portal-home-page-1024x590 1.svg"
+            src="../../assets/images/portal-home-page.svg"
             class="mt-3 mb-3 pb-5"
             style="max-width: 100%"
           />
@@ -127,7 +127,7 @@
             Webhook API.
           </p>
           <img
-            src="../../assets/images/webhook-page-1024x589 1.svg"
+            src="../../assets/images/webhook-page.svg"
             class="mt-2 mb-3 pb-4"
             style="max-width: 100%"
           />
@@ -143,7 +143,7 @@
             publish the Pet Store Events API to get a feel for the product.
           </p>
           <img
-            src="../../assets/images/create-webhook-API-1024x589 1.svg"
+            src="../../assets/images/create-webhook-API.svg"
             class="mt-3 mb-3 pb-4"
             style="max-width: 100%"
           />
@@ -153,7 +153,7 @@
             you selected.
           </p>
           <img
-            src="../../assets/images/webhook-page-1024x589 1.svg"
+            src="../../assets/images/webhook-page.svg"
             class="mt-3 mb-3 pb-4"
             style="max-width: 100%"
           />
@@ -187,7 +187,7 @@
             you don’t have to lift a finger to help your subscribers integrate.
           </p>
           <img
-            src="../../assets/images/New-Subscription-UX-1024x499 1.svg"
+            src="../../assets/images/New-Subscription-UX.svg"
             class="mt-3 mb-3 pb-4"
             style="max-width: 100%"
           />
@@ -335,7 +335,7 @@
             see the traffic being sent to your subscription.
           </p>
           <img
-            src="../../assets/images/Traffic-1024x482 1.svg"
+            src="../../assets/images/Traffic.svg"
             class="mt-3 mb-3 pb-4"
             style="max-width: 100%"
           />

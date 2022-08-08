@@ -77,7 +77,7 @@
       <div class="col-2"></div>
       <div class="col-8">
         <img
-          src="../assets/images/Group 400.svg"
+          src="../assets/images/Group400.svg"
           class="mt-5 mb-3 pb-5"
           style="max-width: 100%"
         />
@@ -115,7 +115,7 @@
           <p class="display-1 text-center mb-5 fw-bold">Key Features</p>
           <div class="row">
             <div class="col-lg col-md-auto">
-              <img src="../assets/icons/Group 341.svg" class="IconStyle mb-3" />
+              <img src="../assets/icons/Group341.svg" class="IconStyle mb-3" />
               <p class="display-3 fw-bold">
                 An open-source webhook API platform
               </p>
@@ -128,7 +128,7 @@
               <p class="mb-5 display-7 fw-bold lh-lg">LEARN MORE</p>
             </div>
             <div class="col-lg col-md-auto">
-              <img src="../assets/icons/Group 342.svg" class="IconStyle mb-3" />
+              <img src="../assets/icons/Group342.svg" class="IconStyle mb-3" />
               <p class="display-3 fw-bold">Discovery</p>
               <p class="display-5 fw-lighter">
                 Provide your API consumers with a catalog of real-time data
@@ -138,7 +138,7 @@
               <p class="mb-5 display-7 fw-bold lh-lg">LEARN MORE</p>
             </div>
             <div class="col-lg col-md-auto">
-              <img src="../assets/icons/Group 343.svg" class="IconStyle mb-3" />
+              <img src="../assets/icons/Group343.svg" class="IconStyle mb-3" />
               <p class="display-3 fw-bold">Subscription Management</p>
               <p class="display-5 fw-lighter">
                 Allow your API consumers to set up and manage their own
@@ -151,7 +151,7 @@
           </div>
           <div class="row">
             <div class="col-lg col-md-auto">
-              <img src="../assets/icons/Group 344.svg" class="IconStyle mb-3" />
+              <img src="../assets/icons/Group344.svg" class="IconStyle mb-3" />
               <p class="display-3">Traffic visibility</p>
               <p class="display-5 fw-lighter">
                 Allow your API consumers to see the history of data sent to
@@ -161,7 +161,7 @@
               <p class="display-7 fw-bold lh-lg">LEARN MORE</p>
             </div>
             <div class="col-lg col-md-auto">
-              <img src="../assets/icons/Group 345.svg" class="IconStyle mb-3" />
+              <img src="../assets/icons/Group345.svg" class="IconStyle mb-3" />
               <p class="display-3">Guaranteed delivery</p>
               <p class="display-5 fw-lighter">
                 Using the power of your message brokers, a retry strategy that

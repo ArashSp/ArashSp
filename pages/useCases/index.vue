@@ -17,7 +17,7 @@
                 <div class="col text-center border-bottom-3">
                   <a href="#B2B" class="nav-link link-icon">
                     <img
-                      src=" ../../assets/icons/IconComp (1).svg"
+                      src=" ../../assets/icons/IconComp1.svg"
                       class="pb-4"
                     />
                     <p class="fw-bold display-7">B2B API Gateway</p>
@@ -26,7 +26,7 @@
                 <div class="col text-center border-bottom-3 gx-0">
                   <a href="#Data" class="nav-link link-icon">
                     <img
-                      src=" ../../assets/icons/IconComp (2).svg"
+                      src=" ../../assets/icons/IconComp2.svg"
                       class="pb-4"
                     />
                     <p class="fw-bold display-7">Data Synchronization</p>
@@ -35,7 +35,7 @@
                 <div class="col text-center border-bottom-3">
                   <a href="#Process" class="nav-link link-icon px-1">
                     <img
-                      src=" ../../assets/icons/IconComp (3).svg"
+                      src=" ../../assets/icons/IconComp3.svg"
                       class="pb-4"
                     />
                     <p class="fw-bold display-7">Event-Driven Data Easy</p>
@@ -44,7 +44,7 @@
                 <div class="col text-center border-bottom-3">
                   <a href="#Real" class="nav-link link-icon px-2">
                     <img
-                      src=" ../../assets/icons/IconComp (4).svg"
+                      src=" ../../assets/icons/IconComp4.svg"
                       class="pb-4"
                     />
                     <p class="fw-bold display-7">Real-Time Buisness IQ</p>
@@ -69,7 +69,7 @@
             <div class="col-1"></div>
             <div class="col-10">
               <img
-                src="../../assets/images/Group 263.svg    "
+                src="../../assets/images/Group263.svg    "
                 class="p-3"
                 style="max-width: 100%"
               />
@@ -113,7 +113,7 @@
             <div class="col-1"></div>
             <div class="col-10">
               <img
-                src="../../assets/images/Group 427.svg"
+                src="../../assets/images/Group427.svg"
                 class="p-3"
                 style="max-width: 100%"
               />
@@ -160,7 +160,7 @@
             <div class="col-1"></div>
             <div class="col-10">
               <img
-                src="../../assets/images/Group 451.svg"
+                src="../../assets/images/Group451.svg"
                 class="p-3"
                 style="max-width: 100%"
               />
@@ -205,7 +205,7 @@
             <div class="col-1"></div>
             <div class="col-10">
               <img
-                src="../../assets/images/Frame 384.svg"
+                src="../../assets/images/Frame384.svg"
                 class="p-3"
                 style="max-width: 100%"
               />
@@ -252,7 +252,7 @@
             <div class="col-1"></div>
             <div class="col-10">
               <img
-                src="../../assets/images/Frame 545.svg"
+                src="../../assets/images/Frame545.svg"
                 class="p-3"
                 style="max-width: 100%"
               />

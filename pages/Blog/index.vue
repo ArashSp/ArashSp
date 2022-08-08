@@ -126,45 +126,45 @@ console.log();
 
 export default {
   setup() {
+    
     const route = useRoute();
-    const api = articles.filter((x) => x.tags.name === "API");
-    const company = articles.filter((x) => x.tags.name === "Company");
-    const UseCases = articles.filter((x) => x.tags.name === "useCases");
-    const Secutiry = articles.filter((x) => x.tags.name === "Security");
-    
+    const api = tagsSearch.filter((x) => x.name === "API");
+    const company = tagsSearch.filter((x) => x.name === "Company");
+    const UseCases = tagsSearch.filter((x) => x.name === "useCases");
+    const Secutiry = tagsSearch.filter((x) => x.name === "Security");
+
     return {
-    
       api,
       company,
       UseCases,
       Secutiry,
     };
   },
-   computed: {
+  computed: {
     AllSORT() {
-    this.SortedArray = this.myJson
+      this.SortedArray = this.myJson;
     },
     APISORT() {
-    this.SortedArray = this.api
+      this.SortedArray = this.api;
     },
     COMPANYSORT() {
-    this.SortedArray = this.company
+      this.SortedArray = this.company;
     },
     UseSort() {
-    this.SortedArray = this.UseCases
+      this.SortedArray = this.UseCases;
     },
     SecuritySort() {
-    this.SortedArray = this.SecuritySort
+      this.SortedArray = this.SecuritySort;
     },
   },
   data() {
     return {
       myJson: articles,
       SortedArray: articles,
+      tagsSearch : articles.tags
     };
   },
   components: { Downloadnow },
- 
 };
 </script>
 <style scoped></style>

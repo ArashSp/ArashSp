@@ -11,7 +11,7 @@
                 <div class="col text-center border-bottom-3">
                   <a href="#Cost" class="nav-link link-icon">
                     <img
-                      src=" ../../assets/icons/IconComp (8).svg"
+                      src=" ../../assets/icons/IconComp8.svg"
                       class="pb-3"
                     />
                     <p class="fw-bold display-7">Integration Costs</p>
@@ -20,7 +20,7 @@
                 <div class="col text-center border-bottom-3">
                   <a href="#Unlock" class="nav-link link-icon">
                     <img
-                      src=" ../../assets/icons/IconComp (5).svg"
+                      src=" ../../assets/icons/IconComp5.svg"
                       class="pb-3"
                     />
                     <p class="fw-bold display-7">Unlock Your Data</p>
@@ -29,7 +29,7 @@
                 <div class="col text-center border-bottom-3">
                   <a href="#Event" class="nav-link link-icon">
                     <img
-                      src=" ../../assets/icons/IconComp (6).svg"
+                      src=" ../../assets/icons/IconComp6.svg"
                       class="pb-3"
                     />
                     <p class="fw-bold display-7">Event-Driven Data Easy</p>
@@ -38,7 +38,7 @@
                 <div class="col text-center border-bottom-3">
                   <a href="#Imagine" class="nav-link link-icon">
                     <img
-                      src=" ../../assets/icons/IconComp (7).svg"
+                      src=" ../../assets/icons/IconComp7.svg"
                       class="pb-3"
                     />
                     <p class="fw-bold display-7">Imagine The Possible</p>

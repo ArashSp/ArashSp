@@ -36,7 +36,7 @@
       <div class="col-3"></div>
       <div class="col-6">
         <img
-          src="../../assets/images/Group 263.svg"
+          src="../../assets/images/Group263.svg"
           class="mt-5 mb-5 pb-5"
           style="max-width: 100%"
         />
@@ -52,7 +52,7 @@
       <div class="row gx-0 pb-4 d-none d-lg-flex d-xl-flex">
         <div class="col-6 ms-5 ps-5">
           <img
-            src="../../assets/images/Group 417.svg"
+            src="../../assets/images/Group417.svg"
             class="mt-5 mb-5 pb-5 ms-5"
             style="max-width: 100%"
           />
@@ -95,7 +95,7 @@
         </div>
         <div class="col-5 ps-5">
           <img
-            src="../../assets/images/Frame 437.svg"
+            src="../../assets/images/Frame437.svg"
             class="mt-5 mb-5 pb-5"
             style="max-width: 100%"
           />
@@ -105,7 +105,7 @@
       <div class="row gx-0 pb-5 mb-5 d-none d-lg-flex d-xl-flex">
         <div class="col-6 ps-5 ms-5">
           <img
-            src="../../assets/images/Group 427.svg"
+            src="../../assets/images/Group427.svg"
             class="mt-5 mb-5 pb-5 pt-5"
             style="max-width: 100%"
           />
@@ -183,7 +183,7 @@
 
           <div class="col-2">
             <img
-              src="../../assets/images/Frame 470.svg"
+              src="../../assets/images/Frame470.svg"
               class="mt-3 mb-5 pb-5 ps-4"
               style="max-width: 100%"
             />

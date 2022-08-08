@@ -30,7 +30,7 @@
             </div>
             <div class="col-lg-5 col-md-12">
               <img
-                src="../assets/images/Group 417.svg"
+                src="../assets/images/Group417.svg"
                 class="mt-5 mb-5 pb-5 "
                 style="max-width: 100%"
               />
@@ -51,7 +51,7 @@
             </div>
             <div class="col-lg-5 col-md-12">
               <img
-                src="../assets/images/Frame 437.svg"
+                src="../assets/images/Frame437.svg"
                 class="mt-5 mb-5 pb-5"
                 style="max-width: 100%"
               />
@@ -84,7 +84,7 @@
             </div>
             <div class="col-lg-5 col-md-12">
               <img
-                src="../assets/images/Group 427.svg"
+                src="../assets/images/Group427.svg"
                 class="mt-5 mb-5 pb-5 pt-5"
                 style="max-width: 100%"
               />
