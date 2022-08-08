@@ -127,10 +127,16 @@ console.log();
 export default {
   setup() {
     const route = useRoute();
-    const api = articles.filter((x) => x.tags.name === "API");
-    const company = articles.filter((x) => x.tags.name === "Company");
-    const UseCases = articles.filter((x) => x.tags.name === "useCases");
-    const Secutiry = articles.filter((x) => x.tags.name === "Security");
+    const api = articles.filter((x) => x.tags.some((t) => t.name === "API"));
+    const company = articles.filter((x) =>
+      x.tags.some((t) => t.name === "Company")
+    );
+    const UseCases = articles.filter((x) =>
+      x.tags.some((t) => t.name === "useCases")
+    );
+    const Secutiry = articles.filter((x) =>
+      x.tags.some((t) => t.name === "Security")
+    );
 
     return {
       api,
@@ -139,7 +145,14 @@ export default {
       Secutiry,
     };
   },
-  computed: {
+  computed: {},
+  data() {
+    return {
+      myJson: articles,
+      SortedArray: articles,
+    };
+  },
+  methods: {
     AllSORT() {
       this.SortedArray = this.myJson;
     },
@@ -155,13 +168,6 @@ export default {
     SecuritySort() {
       this.SortedArray = this.SecuritySort;
     },
-  },
-  data() {
-    return {
-      myJson: articles,
-      SortedArray: articles,
-     
-    };
   },
   components: { Downloadnow },
 };
