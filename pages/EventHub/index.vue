@@ -1,8 +1,8 @@
 <template>
-  <div class="">
+  <div class="container">
     <div class="row gx-0 mb-5 pb-5 pt-5 gx-0">
       <div class="col-2"></div>
-      <div class="col-8">
+      <div class="col-lg-8 col-md-auto">
         <div class="pb-5">
           <div class="row">
             <div class="col-1"></div>
@@ -51,7 +51,7 @@
         </div>
 
         <div>
-          <div class="row" id="Cost">
+          <div class="row gx-0" id="Cost">
             <div class="col-1 pt-5 mb-4">
               <img src="../../assets/icons/Cost.svg" />
             </div>
@@ -61,7 +61,7 @@
               </p>
             </div>
           </div>
-          <div class="row">
+          <div class="row gx-0">
             <p class="fw-lighter display-5 pt-3 pb-3 lh-base">
               Integrating new tools, systems, processes, partners and businesses
               is part of the journey for any successful company.
@@ -111,7 +111,7 @@
         <div class="py-5 my-5"></div>
 
         <div>
-          <div class="row" id="Unlock">
+          <div class="row gx-0" id="Unlock">
             <div class="col-1 pt-5 mb-4">
               <img src="../../assets/icons/Icok.svg" />
             </div>
@@ -119,7 +119,7 @@
               <p class="fw-bold display-2">Unlock your data</p>
             </div>
           </div>
-          <div class="row">
+          <div class="row gx-0">
             <p class="fw-lighter display-5 pt-3 lh-base">
               Discoverable, self-service, event-driven, real-time APIs are
               essential for cutting down the cost and time to integrate.
@@ -149,7 +149,7 @@
         <div class="py-5 my-5"></div>
 
         <div>
-          <div class="row" id="Event">
+          <div class="row gx-0" id="Event">
             <div class="col-1 pt-5 mb-4">
               <img src="../../assets/icons/Settings.svg" />
             </div>
@@ -157,7 +157,7 @@
               <p class="fw-bold display-2">Event-driven data made easy</p>
             </div>
           </div>
-          <div class="row">
+          <div class="row gx-0">
             <p class="fw-lighter display-5 pt-3 lh-base">
               Webhookie’s Event Hub turns your business events into real-time,
               event-driven APIs that will provide your company with the agility
@@ -184,7 +184,7 @@
         <div class="py-5 my-5"></div>
 
         <div>
-          <div class="row" id="Imagine">
+          <div class="row gx-0" id="Imagine">
             <div class="col-1 pt-5 mb-4">
               <img src="../../assets/icons/Rocket.svg" />
             </div>
@@ -193,7 +193,7 @@
             </div>
           </div>
 
-          <div class="row pb-5">
+          <div class="row gx-0 pb-5">
             <p class="fw-lighter display-5 pt-3 lh-base">
               The webhookie Event Hub is built on top of webhookie’s popular
               open-source webhook API platform
@@ -204,13 +204,13 @@
             </p>
 
             <div class="BoxEventHub2 py-4 text-center">
-              <div class="row">
-                <div class="col-8">
+              <div class="row gx-0">
+                <div class="col-7">
                   <p class="fw-bold display-10 mt-1">
                     Get in touch for a demo today!
                   </p>
                 </div>
-                <div class="col-4">
+                <div class="col-5">
                   <button
                     type="button"
                     class="btn btn-white text-primary fw-bold display-7"

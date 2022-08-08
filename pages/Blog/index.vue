@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container">
     <div
       class="row gx-0 d-none d-lg-flex d-xl-flex"
       style="background-color: #141b24"
@@ -40,7 +40,7 @@
 
     <div class="row gx-0">
       <div class="col-1"></div>
-      <div class="col-10">
+      <div class="col-lg-10 col-md-auto">
         <button
           type="button"
           class="btn blogbtn btn-sm text-icon ms-2 mt-5 px-2"
@@ -81,7 +81,7 @@
     </div>
 
     <div class="row gx-0">
-      <div class="col-4 my-3" v-for="article in SortedArray">
+      <div class="col-lg-4 col-md-6 my-3" v-for="article in SortedArray">
         <div :key="article.id">
           <nuxt-link :to="'/Blog/' + article.id" class="nav-link link-white">
             <div>

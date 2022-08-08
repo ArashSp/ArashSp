@@ -1,17 +1,17 @@
 <template>
-  <div>
+  <div class=" container">
    
     <div class="row gx-0">
       <div class="col-3 ">
         <SidebarLeft />
       </div>
 
-      <div class="col-6 mt-5 ">
+      <div class="col-lg-6 col-md-auto mt-5 ">
         <div class="pt-4">
-          <div class="row pb-3">
+          <div class="row gx-0 pb-3">
             <p class="fw-bold display-9">API Documentation</p>
           </div>
-          <div class="row">
+          <div class="row gx-0">
             <p class="fw-lighter display-5 lh-base pb-3">
               We think we provide a pretty nice developer portal that can be
               used to administer, deploy and consume webhook APIs. However, we
@@ -21,7 +21,7 @@
               you see on our developer portal are utilizing our webhookie API.
             </p>
           </div>
-          <div class="row">
+          <div class="row gx-0">
             <p class="fw-lighter display-5 lh-base pb-3">
               The full and most up-to-date swagger API documentation can be
               found at
@@ -33,7 +33,7 @@
               after you install it.
             </p>
           </div>
-          <div class="row">
+          <div class="row gx-0">
             <p class="fw-lighter display-5 pb-5">
               Here we provide just an overview of the different APIs that come
               with the product.
@@ -42,17 +42,17 @@
         </div>
 
         <div class="pt-4 " id="API">
-          <div class="row pb-3">
+          <div class="row gx-0 pb-3">
             <p class="fw-bold display-9">API Documentation</p>
           </div>
-          <div class="row">
+          <div class="row gx-0">
             <p class="fw-lighter display-5 lh-base pb-3">
               With the Admin API, you can manage the consumer groups and
               provider groups on your webhookie instance. The API requires the
               WH_ADMIN role.
             </p>
           </div>
-          <div class="row">
+          <div class="row gx-0">
             <p class="fw-lighter display-5 lh-base pb-3">
               Check out the swagger API documentation at
               <a
@@ -63,7 +63,7 @@
               for a full list of endpoints.
             </p>
           </div>
-          <div class="row bg-codesample fw-light display-7">
+          <div class="row gx-0 bg-codesample fw-light display-7">
             <pre><code>
     # As an example here is the request to create a new provider group
     # this is how comments will be styled
@@ -88,17 +88,17 @@
         </div>
         <!-- API Documentation -->
         <div class="pt-4 mt-4" id="Group">
-          <div class="row pb-3">
+          <div class="row gx-0 pb-3">
             <p class="fw-bold display-9">Group API</p>
           </div>
-          <div class="row">
+          <div class="row gx-0">
             <p class="fw-lighter display-5 lh-base pb-3">
               The Group API has endpoints to return the list of consumer groups
               and provider groups that are applicable for the logged-in user
               when creating webhook APIs. The API requires the WH_PROVIDER role.
             </p>
           </div>
-          <div class="row">
+          <div class="row gx-0">
             <p class="fw-lighter display-5 lh-base pb-3">
               Check out the swagger API documentation at
               <a
@@ -109,7 +109,7 @@
               for a full list of endpoints.
             </p>
           </div>
-          <div class="row bg-codesample fw-light display-7">
+          <div class="row gx-0 bg-codesample fw-light display-7">
             <pre><code>
     # Returns the list of provider groups that the logged in user belongs to. 
 
@@ -121,10 +121,10 @@
         </div>
         <!-- Group API -->
         <div class="pt-4 mt-4" id="Public">
-          <div class="row pb-3">
+          <div class="row gx-0 pb-3">
             <p class="fw-bold display-9">Public API</p>
           </div>
-          <div class="row">
+          <div class="row gx-0">
             <p class="fw-lighter display-5 lh-base pb-3">
               The Public API has an endpoint to return configuration information
               to the front-end that is required to initialize webhookie. An
@@ -132,7 +132,7 @@
               such as client id etc.
             </p>
           </div>
-          <div class="row bg-codesample fw-light display-7">
+          <div class="row gx-0 bg-codesample fw-light display-7">
             <pre><code> 
       <p class="text-btnsearch ps-3"> GET /public/config</p>
     Host: localhost:8000
@@ -142,10 +142,10 @@
         </div>
         <!-- Public API -->
         <div class="pt-4 mt-4" id="Subscription">
-          <div class="row pb-3">
+          <div class="row gx-0 pb-3">
             <p class="fw-bold display-9">Subscription API</p>
           </div>
-          <div class="row">
+          <div class="row gx-0">
             <p class="fw-lighter display-5 lh-base pb-3">
               With the subscription API, you can set up and manage
               subscriptions, applications, and callbacks. It also contains some
@@ -154,7 +154,7 @@
               data.
             </p>
           </div>
-          <div class="row">
+          <div class="row gx-0">
             <p class="fw-lighter display-5 lh-base pb-3">
               Check out the swagger API documentation at
               <a
@@ -165,7 +165,7 @@
               for a full list of endpoints.
             </p>
           </div>
-          <div class="row bg-codesample fw-light display-7">
+          <div class="row gx-0 bg-codesample fw-light display-7">
             <pre><code>
     # create a subscription with a callback that has been previously created.
  <p class="text-btnsearch ps-3"> POST /subscriptions </p>
@@ -182,17 +182,17 @@
         </div>
         <!-- Subscription API -->
         <div class="pt-4 mt-4" id="Traffic ">
-          <div class="row pb-3">
+          <div class="row gx-0 pb-3">
             <p class="fw-bold display-9">Traffic API</p>
           </div>
-          <div class="row">
+          <div class="row gx-0">
             <p class="fw-lighter display-5 lh-base pb-3">
               With the Traffic API, you can inspect the traffic being sent to
               your callbacks as a WH_CONSUMER and inspect the traffic being sent
               through your API as a WH_PROVIDER.
             </p>
           </div>
-          <div class="row">
+          <div class="row gx-0">
             <p class="fw-lighter display-5 lh-base pb-3">
               Check out the swagger API documentation at
               <a
@@ -203,7 +203,7 @@
               for a full list of endpoints.
             </p>
           </div>
-          <div class="row bg-codesample fw-light display-7">
+          <div class="row gx-0 bg-codesample fw-light display-7">
             <pre><code>
     # retrieve the spans (events) that have been sent to your callback URL.
     <p class="text-btnsearch ps-3">GET /traffic/span</p>
@@ -214,17 +214,17 @@
         </div>
         <!-- Traffic API -->
         <div class="pt-4 mt-4" id="User">
-          <div class="row pb-3">
+          <div class="row gx-0 pb-3">
             <p class="fw-bold display-9">User API</p>
           </div>
-          <div class="row">
+          <div class="row gx-0">
             <p class="fw-lighter display-5 lh-base pb-3">
               With the User API, you can inspect the account details (e.g.
               consumer groups, provider groups, roles) of the logged-in user.
               This API requires the WH_CONSUMER role.
             </p>
           </div>
-          <div class="row">
+          <div class="row gx-0">
             <p class="fw-lighter display-5 lh-base pb-3">
               Check out the swagger API documentation at
               <a
@@ -235,7 +235,7 @@
               for a full list of endpoints.
             </p>
           </div>
-          <div class="row bg-codesample fw-light display-7">
+          <div class="row gx-0 bg-codesample fw-light display-7">
             <pre><code>
       <p class="text-btnsearch ps-3"> GET /user</p>   
     Host: localhost:8000
@@ -245,17 +245,17 @@
         </div>
         <!-- User API -->
         <div class="pt-4 mt-4 pb-5 mb-5" id="Webhook">
-          <div class="row pb-3">
+          <div class="row gx-0 pb-3">
             <p class="fw-bold display-9">Webhook API API</p>
           </div>
-          <div class="row">
+          <div class="row gx-0">
             <p class="fw-lighter display-5 lh-base pb-3">
               With the Webhook API API, you can manage the webhook APIs in
               webhookie. Creating the webhook APIs requires the WH_PROVIDER role
               while to retrieve webhook APIs requires the WH_CONSUMER role.
             </p>
           </div>
-          <div class="row">
+          <div class="row gx-0">
             <p class="fw-lighter display-5 lh-base pb-3">
               Check out the swagger API documentation at
               <a
@@ -266,7 +266,7 @@
               for a full list of endpoints.
             </p>
           </div>
-          <div class="row bg-codesample fw-light display-7">
+          <div class="row gx-0 bg-codesample fw-light display-7">
             <pre><code>
     # To retrieve the list of webhook APIs your user has permission to discover
         <p class="text-btnsearch ps-3">GET /webhookapis</p>
@@ -278,15 +278,15 @@
         </div>
         <!-- Webhook API  -->
 
-        <div class="row pb-5">
-          <div class="col-9">
+        <div class="row gx-0 pb-5">
+          <div class="col">
           <nuxt-link to="/GettingStarted">
             <button type="button" class="btn btn-outline-btnsearch px-4">
               Get started
             </button>
             </nuxt-link>
           </div>
-          <div class="col-3 text-right">
+          <div class="col text-right">
             <button type="button" class="btn btn-outline-btnsearch px-4 ms-4">
               Road map
             </button>

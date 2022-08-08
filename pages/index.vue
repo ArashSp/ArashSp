@@ -15,7 +15,7 @@
           </p>
           <div class="row">
             <div class="col-4"></div>
-            <div class="col-4 text-center">
+            <div class="col-lg-4 col-md-auto text-center">
               <button
                 type="button"
                 class="btn btn-primary mb-5 display-7 fw-bold"

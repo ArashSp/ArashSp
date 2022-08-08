@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container">
     <div class="row gx-0 mb-5">
       <div class="col-3 d-none d-lg-flex">
         <div class="ps-5 mt-5 pe-5">
@@ -28,7 +28,7 @@
           </nav>
         </div>
       </div>
-      <div class="col-lg-6 col-sm-auto col-xs-auto col-md-auto">
+      <div class="col-lg-6 col-md-auto">
         <div class="row gx-0">
           <div class="pt-5 row">
           <div v-for="tag in article.tags" class="col-3 ">
