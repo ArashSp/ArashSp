@@ -172,4 +172,3 @@ export default {
   components: { Downloadnow },
 };
 </script>
-<style scoped></style>

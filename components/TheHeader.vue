@@ -54,7 +54,7 @@
               >
             </li>
             <li>
-              <Nuxt-link class="dropdown-item display-7 pb-1" to="EventHub"
+              <Nuxt-link class="dropdown-item display-7 pb-1" to="/EventHub"
                 >EVENT HUB</Nuxt-link
               >
             </li>
