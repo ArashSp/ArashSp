@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-dark text-white">
+  <div class="bg-dark text-white" style="max-height:70px ; max-width: 1600px;">
     <nav class="navbar navbar-expand-lg navbar-dark bg-Navbar1 NavigationBar">
       <div class="container">
         <div class="">
@@ -74,24 +74,24 @@
           class="collapse navbar-collapse d-lg-none d-md-none d-inline-xl ms-5"
         >
           <div class="navbar-nav mt-1">
-            <a class="nav-link ms-1 display-7 fw-normal" href="#"> GITHUB</a>
-            <Nuxt-link class="nav-link ms-3 display-7 fw-normal" to="/Docs">
+            <a class="nav-link ms-1 display-7 fw-light" href="#"> GITHUB</a>
+            <Nuxt-link class="nav-link ms-3 display-7 fw-light lh-sm" to="/Docs">
               DOCS</Nuxt-link
             >
-            <a class="nav-link ms-3 display-7 fw-normal" href="#"> COMMUNITY</a>
+            <a class="nav-link ms-3 display-7 fw-light lh-sm" href="#"> COMMUNITY</a>
             <nuxt-link
-              class="nav-link ms-3 display-7 fw-normal"
+              class="nav-link ms-3 display-7 fw-light lh-sm"
               to="/HowItWorks"
             >
               HOW IT WORKS</nuxt-link
             >
-            <Nuxt-link class="nav-link ms-3 display-7 fw-normal" to="/EventHub"
+            <Nuxt-link class="nav-link ms-3 display-7 fw-light lh-sm" to="/EventHub"
               >EVENT HUB</Nuxt-link
             >
-            <Nuxt-link class="nav-link ms-3 display-7 fw-normal" to="/Blog">
+            <Nuxt-link class="nav-link ms-3 display-7 fw-light lh-sm" to="/Blog">
               BLOG</Nuxt-link
             >
-            <Nuxt-link class="nav-link mx-3 display-7 fw-normal" to="/useCases">
+            <Nuxt-link class="nav-link mx-3 display-7 fw-light lh-sm" to="/useCases">
               USE CASES</Nuxt-link
             >
 
@@ -112,6 +112,9 @@
 <style scoped>
 .NavigationBar {
   background: linear-gradient(104.08deg, #1b2433 39.98%, #2f4970 96.11%);
+}
+.BtnCustom{
+  padding: 26px 11px;
 }
 </style>
 
