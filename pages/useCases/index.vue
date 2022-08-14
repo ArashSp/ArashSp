@@ -1,20 +1,21 @@
 <template>
+<div>
   <div class="container">
     <div class="row gx-0">
       <div class="col-2"></div>
       <div class="col-lg-8 col-md-auto">
         <div>
           <div class="row pt-3 d-none d-lg-block">
-            <div class="col-1"></div>
-            <div class="col-10">
-              <div class="row pt-4 nav">
-                <div class="col text-center border-bottom-3">
+            
+            <div class="col">
+              <div class="row pt-4">
+                <div class="col text-center test" :style="newActive">
                   <a href="#EventHub" class="nav-link link-icon">
                     <img src=" ../../assets/icons/IconComp.svg" class="pb-4" />
                     <p class="fw-bold display-7">Event Hub</p>
                   </a>
                 </div>
-                <div class="col text-center border-bottom-3">
+                <div class="col text-center test">
                   <a href="#B2B" class="nav-link link-icon">
                     <img
                       src=" ../../assets/icons/IconComp1.svg"
@@ -23,7 +24,7 @@
                     <p class="fw-bold display-7">B2B API Gateway</p>
                   </a>
                 </div>
-                <div class="col text-center border-bottom-3 gx-0">
+                <div class="col text-center test">
                   <a href="#Data" class="nav-link link-icon">
                     <img
                       src=" ../../assets/icons/IconComp2.svg"
@@ -32,8 +33,8 @@
                     <p class="fw-bold display-7">Data Synchronization</p>
                   </a>
                 </div>
-                <div class="col text-center border-bottom-3">
-                  <a href="#Process" class="nav-link link-icon px-1">
+                <div class="col text-center test">
+                  <a href="#Process" class="nav-link link-icon test">
                     <img
                       src=" ../../assets/icons/IconComp3.svg"
                       class="pb-4"
@@ -41,8 +42,8 @@
                     <p class="fw-bold display-7">Event-Driven Data Easy</p>
                   </a>
                 </div>
-                <div class="col text-center border-bottom-3">
-                  <a href="#Real" class="nav-link link-icon px-2">
+                <div class="col text-center test">
+                  <a href="#Real" class="nav-link link-icon test">
                     <img
                       src=" ../../assets/icons/IconComp4.svg"
                       class="pb-4"
@@ -52,7 +53,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-1"></div>
+            
           </div>
         </div>
 
@@ -90,7 +91,7 @@
             <div>
               <button
                 type="button"
-                class="btn btn-primary fw-bold display-7 p-2 text-center"
+                class="btn btn-primary fw-bold display-7 p-2 text-center "
               >
                 LEARN MORE
               </button>
@@ -286,8 +287,8 @@
       </div>
       <div class="col-2"></div>
     </div>
-
-    <Downloadnow />
+  </div>
+  <Downloadnow  style="max-width: 100%;" />
   </div>
 </template>
 
@@ -296,5 +297,28 @@ import Downloadnow from "../../components/Downloadnow.vue";
 export default {
   Downloadnow,
   return: {},
+
+  
+
+
 };
+
+
 </script>
+
+
+
+<style scoped>
+div.test{
+  border-color: #8c8c8c;
+   color:#8c8c8c ;
+    border-bottom: 1px solid;
+}
+div.test:hover{
+border-color: #33a8d1;
+    color:#33a8d1 ;
+    border-bottom: 1px solid;
+    border-width: 4px ;
+}
+</style>
+

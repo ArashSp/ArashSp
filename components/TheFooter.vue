@@ -134,9 +134,9 @@
             </div>
           </div>
         </div>
-        <div class="border-bottom border-icon border-3 mx-3 pt-5"></div>
+        <div class="border-bottom border-icon border-3 mx-3 pt-5 opacity-25"></div>
       </div>
-      <p class="text-center py-5 display-6 fw-light">
+      <p class="text-center py-5 display-6 fw-light opacity-25">
         Copyright © 2022 Webhookie. All rights reserved
       </p>
       <div class="col-2"></div>

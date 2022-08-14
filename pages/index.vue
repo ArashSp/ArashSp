@@ -7,7 +7,7 @@
           <p class="display-1 text-center mb-5 fw-bold">
             An open-source webhook API platform
           </p>
-          <p class="display-4 text-center mb-5 fw-light">
+          <p class="display-4 text-center mb-5 fw-light lh-base ">
             With webhookie you can add powerful event-driven API (aka webhook
             API) capability to your platform, product, or integration
             architecture. Webhookie integrates with any message broker to
@@ -18,7 +18,7 @@
             <div class="col-lg-4 col-md-auto text-center">
               <button
                 type="button"
-                class="btn btn-primary mb-5 display-7 fw-bold"
+                class="btn btn-primary mb-5 display-7 fw-bold lh-base   buttonsCustom"
               >
                 LEARN MORE
               </button>
@@ -43,12 +43,14 @@
 
     <div class="my-5 py-5"></div>
     <div class="bg-primary p-5 my-5 text-center spacer">
+    <div class="Notrotate">
       <p class="display-2 fw-normal">
         Requirement for doing business in digital age
       </p>
-      <button type="button" class="btn btn-primary rounded-2 h7 my-3 fw-bold">
+      <button type="button" class="btn btn-primary rounded-2 h7 my-3 fw-bold buttonsCustom">
         DOWNLOAD NOW
       </button>
+      </div>
     </div>
 
     <div class="container pt-5">
@@ -73,23 +75,27 @@
       </div>
     </div>
 
-    <div class="row gx-0">
-      <div class="col-2"></div>
-      <div class="col-8">
+
+
+<div class="container">
+    <div class="row gx-0">    
+      <div class="col-12 text-center">
         <img
-          src="../assets/images/Group400.svg"
+          src="../assets/images/microservice.svg"
           class="mt-5 mb-3 pb-5"
           style="max-width: 100%"
         />
+
+        <!-- i tried picking the image up from the figma but its the same as before -->
       </div>
-      <div class="col-2 px-0"></div>
+    </div>
     </div>
 
-    <div class="mb-5">
+    <div class="mb-5 container">
       <div class="row gx-0">
         <div class="col-2"></div>
-        <div class="col-8 RTDBox text-center">
-          <p class="py-5 px-3 display-5 fw-lighter">
+        <div class="col-8 RTDBox text-center CusBox">
+          <p class="py-5 px-3 display-4 fw-light">
             Webhookie can give your product, platform or enterprise the edge
             with the ability to provide real-time data as a webhook API.
           </p>
@@ -99,96 +105,97 @@
     </div>
 
     <div class="bg-primary p-5 my-5 text-center spacer display-2">
+    <div class="Notrotate">
       <p class="display-2 fw-normal">An open-source webhook API platform</p>
       <button
         type="button"
-        class="btn btn-primary rounded-2 my-3 display-7 fw-bold"
+        class="btn btn-primary rounded-2 my-3 display-7 fw-bold buttonsCustom"
       >
         DOWNLOAD NOW
       </button>
+      </div>
+
     </div>
 
     <div class="container pt-5">
-      <div class="row">
-        <div class="col-1"></div>
-        <div class="col-10">
+      <div class="row gx-0">
+        <div class="col-12">
           <p class="display-1 text-center mb-5 fw-bold">Key Features</p>
           <div class="row">
             <div class="col-lg col-md-auto">
-              <img src="../assets/icons/Group341.svg" class="IconStyle mb-3" />
-              <p class="display-3 fw-bold">
+              <img src="../assets/icons/Group341.svg" class="IconStyle mb-3 mt-5" />
+              <p class="display-3 fw-bold lhtitle">
                 An open-source webhook API platform
               </p>
-              <p class="display-5 fw-lighter">
+              <p class="display-5 fw-lighter lhBody">
                 Using the ASYNC API specification design your webhook APIs in
                 webhookies design console. Control who can discover, subscribe
                 and manage your webhook APIs.
               </p>
-
-              <p class="mb-5 display-7 fw-bold lh-lg">LEARN MORE</p>
+                  <nuxt-link class="mb-5 display-7 fw-bold LearnCss link-white text-decoration-none " to="#">LEARN MORE</nuxt-link>
             </div>
             <div class="col-lg col-md-auto">
-              <img src="../assets/icons/Group342.svg" class="IconStyle mb-3" />
-              <p class="display-3 fw-bold">Discovery</p>
-              <p class="display-5 fw-lighter">
+              <img src="../assets/icons/Group342.svg" class="IconStyle mb-3 mt-5" />
+              <p class="display-3 fw-bold lhtitle">Discovery</p>
+              <p class="display-5 fw-lighter lhBody">
                 Provide your API consumers with a catalog of real-time data
                 streams using webhookies white-labeled developer portal or build
                 your own developer experience using webhookies powerful API.
               </p>
-              <p class="mb-5 display-7 fw-bold lh-lg">LEARN MORE</p>
+                <nuxt-link class="mb-5 display-7 fw-bold LearnCss link-white text-decoration-none " to="#">LEARN MORE</nuxt-link>
             </div>
             <div class="col-lg col-md-auto">
-              <img src="../assets/icons/Group343.svg" class="IconStyle mb-3" />
-              <p class="display-3 fw-bold">Subscription Management</p>
-              <p class="display-5 fw-lighter">
+              <img src="../assets/icons/Group343.svg" class="IconStyle mb-3 mt-5" />
+              <p class="display-3 fw-bold lhtitle">Subscription Management</p>
+              <p class="display-5 fw-lighter lhBody">
                 Allow your API consumers to set up and manage their own
                 subscriptions. With powerful options to validate, prove and
                 reject subscriptions you have full control over who gets your
                 data.
               </p>
-              <p class="mb-5 display-7 fw-bold lh-lg">LEARN MORE</p>
+              <nuxt-link class="mb-5 display-7 fw-bold LearnCss link-white text-decoration-none " to="#">LEARN MORE</nuxt-link>
             </div>
           </div>
-          <div class="row">
+          <div class="row mb-5">
             <div class="col-lg col-md-auto">
-              <img src="../assets/icons/Group344.svg" class="IconStyle mb-3" />
-              <p class="display-3">Traffic visibility</p>
-              <p class="display-5 fw-lighter">
+              <img src="../assets/icons/Group344.svg" class="IconStyle mb-3 mt-5" />
+              <p class="display-3 fw-bold lhtitle">Traffic visibility</p>
+              <p class="display-5 fw-lighter lhBody">
                 Allow your API consumers to see the history of data sent to
                 their system with the capability to re-send data if required
                 reducing operational support requests on your team.
               </p>
-              <p class="display-7 fw-bold lh-lg">LEARN MORE</p>
+                <nuxt-link class="mb-5 display-7 fw-bold LearnCss link-white text-decoration-none " to="#">LEARN MORE</nuxt-link>
             </div>
             <div class="col-lg col-md-auto">
-              <img src="../assets/icons/Group345.svg" class="IconStyle mb-3" />
-              <p class="display-3">Guaranteed delivery</p>
-              <p class="display-5 fw-lighter">
+              <img src="../assets/icons/Group345.svg" class="IconStyle mb-3 mt-5" />
+              <p class="display-3 fw-bold lhtitle">Guaranteed delivery</p>
+              <p class="display-5 fw-lighter lhBody">
                 Using the power of your message brokers, a retry strategy that
                 backs off and a resend capability for longer outages webhookie
                 can guarantee delivery of the messages to your API consumers.
               </p>
-              <p class="display-7 fw-bold lh-lg">LEARN MORE</p>
+              <nuxt-link class="mb-5 display-7 fw-bold LearnCss link-white text-decoration-none " to="#">LEARN MORE</nuxt-link>
             </div>
             <div class="col-lg col-md-auto">
-              <img src="../assets/icons/Vector.svg" class="IconStyle mb-3" />
-              <p class="display-3">Security</p>
-              <p class="display-5 fw-lighter">
+              <img src="../assets/icons/Vector.svg" class="IconStyle mb-3 mt-5" />
+              <p class="display-3 fw-bold lhtitle">Security</p>
+              <p class="display-5 fw-lighter lhBody">
                 With more security options than any other webhook solution out
                 there, you can implement webhookie to meet the requirements of
                 your security team
               </p>
-              <p class="mb-5 display-7 fw-bold lh-lg">LEARN MORE</p>
+                 <nuxt-link class="mb-5 display-7 fw-bold LearnCss link-white text-decoration-none " to="#">LEARN MORE</nuxt-link>
             </div>
           </div>
         </div>
 
   
-        <div class="col-1 pe-0"></div>
+      
       </div>
     </div>
 
-    <downloadnow />
+    <downloadnow  />
   </div>
 </template>
 
@@ -197,34 +204,22 @@
 // const {data: videos} = await useFetch('http://localhost:1337/api/videos')
 </script>
 <style scoped>
-.spacer {
-  background: linear-gradient(
-    90.77deg,
-    #083577 26.33%,
-    #0846a2 68.39%,
-    #2674e7 99.68%
-  );
-  box-shadow: 0px -20px 248px rgba(4, 67, 189, 0.3);
-}
-.RTDBox {
-  background: linear-gradient(
-    149.48deg,
-    rgba(35, 43, 55, 0.45) 9.15%,
-    rgba(0, 77, 191, 0.32) 81.46%
-  );
-}
-.RTDBox2 {
-  background: linear-gradient(
-    149.48deg,
-    rgba(35, 43, 55, 0.45) 9.15%,
-    rgba(0, 77, 191, 0.32) 81.46%
-  );
-}
-.IconStyle {
-  height: 27.97476577758789px;
-  width: 40px;
-  left: 0px;
-  top: 6.140625px;
-  border-radius: 0px;
-}
+  .CusBox{
+    max-width: 750px;
+    line-height: 32px;
+
+  }
+  .lhtitle{
+line-height: 29px;
+margin-bottom: 20px;
+  }
+  .lhBody{
+    line-height:30px;
+    margin-bottom: 30px;
+  }
+  .LearnCss{
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    padding: 2px;
+  }
 </style>

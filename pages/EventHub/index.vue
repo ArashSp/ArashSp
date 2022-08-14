@@ -1,13 +1,14 @@
 <template>
+<div>
   <div class="container">
     <div class="row gx-0 mb-5 pb-5 pt-5 gx-0">
       <div class="col-2"></div>
       <div class="col-lg-8 col-md-auto">
         <div class="pb-5">
           <div class="row">
-            <div class="col-1"></div>
-            <div class="col-10 d-none d-lg-block">
-              <div class="row nav">
+            <div class="col-2"></div>
+            <div class="col-8 d-none d-lg-block">
+              <div class="row ">
                 <div class="col text-center border-bottom-3">
                   <a href="#Cost" class="nav-link link-icon">
                     <img
@@ -46,7 +47,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-1"></div>
+            <div class="col-2"></div>
           </div>
         </div>
 
@@ -226,6 +227,8 @@
       <div class="col-2"></div>
     </div>
 
+  
+  </div>
     <Downloadnow />
   </div>
 </template>
@@ -253,5 +256,16 @@ export default {
     #004dbf 96.56%
   );
   border-radius: 6px;
+}
+a{
+  border-color: #8c8c8c;
+   color:#8c8c8c ;
+    border-bottom: 1px solid;
+}
+a:hover{
+border-color: #33a8d1;
+    color:#33a8d1 ;
+    border-bottom: 1px solid;
+    border-width: 4px solid;
 }
 </style>

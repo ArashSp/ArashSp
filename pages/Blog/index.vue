@@ -1,4 +1,5 @@
 <template>
+<div>
   <div class="container">
     <div
       class="row gx-0 d-none d-lg-flex d-xl-flex"
@@ -113,6 +114,7 @@
           </nuxt-link>
         </div>
       </div>
+    </div>
     </div>
 
     <Downloadnow />

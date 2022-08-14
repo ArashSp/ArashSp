@@ -51,6 +51,52 @@ $custom-theme-colors: (
     url(.jpg);
   background-blend-mode: hue, normal;
 }
+.buttonsCustom{
+  border-radius: 4px;
+  letter-spacing: 1.5px;
+  line-height: 32px;
+
+  padding: 13px 30px 13px 30px;
+
+  margin-top: 16px;
+  margin-left: 16px;
+
+}
+.IconStyle {
+  height: 48px;
+  width: 40px;
+  left: 0px;
+  top: 6.140625px;
+  border-radius: 0px;
+}
+.spacer {
+  background: linear-gradient(
+    90.77deg,
+    #083577 26.33%,
+    #0846a2 68.39%,
+    #2674e7 99.68%
+  );
+  box-shadow: 0px -20px 248px rgba(4, 67, 189, 0.3);
+  transform: rotate(-0.5deg);
+}
+.Notrotate{
+  transform:rotate(0.5deg);
+}
+.RTDBox {
+  background: linear-gradient(
+    149.48deg,
+    rgba(35, 43, 55, 0.45) 9.15%,
+    rgba(0, 77, 191, 0.32) 81.46%
+  );
+}
+.RTDBox2 {
+  background: linear-gradient(
+    149.48deg,
+    rgba(35, 43, 55, 0.45) 9.15%,
+    rgba(0, 77, 191, 0.32) 81.46%
+  );
+}
+
 
 // fix for bootstrap 5.1 transposing colors
 $theme-colors: map-merge($theme-colors, $custom-theme-colors);
@@ -85,6 +131,12 @@ $display-font-sizes: (
   9: 35px,
   10: 28px,
 );
+$position-values: (
+  0: 0,
+  30:10%,
+  50: 50%,
+  100: 100%
+);
 // $display-font-weight: (
 //   1: 700,
 //   2: 600,
@@ -103,9 +155,12 @@ $font-weight-normal: 600;
 $font-weight-bold: 700;
 $font-weight-lighter: 400;
 
-// $line-height-base: 105%;
+// $line-height-base: 32px;
 $line-height-sm:16px ;
 $line-height-lg: 120%;
+
+
+
 
 // Finally load bootstrap
 @import "node_modules/bootstrap/scss/bootstrap";

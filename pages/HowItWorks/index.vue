@@ -1,4 +1,5 @@
 <template>
+<div>
   <div class="container">
     <div class="row mt-5 gx-0">
       <div class="col-3"></div>
@@ -21,7 +22,7 @@
           <div class="col-lg-4 col-md-auto text-center">
             <button
               type="button"
-              class="btn btn-primary mb-5 display-7 fw-bold"
+              class="btn btn-primary mb-5 display-7 fw-bold buttonsCustom"
             >
               LEARN MORE
             </button>
@@ -233,6 +234,7 @@
         </div>
         <div class="col-1"></div>
       </div>
+    </div>
     </div>
 
     <Downloadnow />
