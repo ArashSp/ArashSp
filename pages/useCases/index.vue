@@ -9,14 +9,14 @@
             
             <div class="col">
               <div class="row pt-4">
-                <div class="col text-center test" :style="newActive">
-                  <a href="#EventHub" class="nav-link link-icon">
+                <div class="col text-center test border-bottom-3" >
+                  <a href="#EventHub" class="nav-link link-icon pb-4">
                     <img src=" ../../assets/icons/IconComp.svg" class="pb-4" />
                     <p class="fw-bold display-7">Event Hub</p>
                   </a>
                 </div>
-                <div class="col text-center test">
-                  <a href="#B2B" class="nav-link link-icon">
+                <div class="col text-center test border-bottom-3 ">
+                  <a href="#B2B" class="nav-link link-icon pb-4">
                     <img
                       src=" ../../assets/icons/IconComp1.svg"
                       class="pb-4"
@@ -24,7 +24,7 @@
                     <p class="fw-bold display-7">B2B API Gateway</p>
                   </a>
                 </div>
-                <div class="col text-center test">
+                <div class="col text-center test border-bottom-3">
                   <a href="#Data" class="nav-link link-icon">
                     <img
                       src=" ../../assets/icons/IconComp2.svg"
@@ -33,7 +33,7 @@
                     <p class="fw-bold display-7">Data Synchronization</p>
                   </a>
                 </div>
-                <div class="col text-center test">
+                <div class="col text-center test border-bottom-3">
                   <a href="#Process" class="nav-link link-icon test">
                     <img
                       src=" ../../assets/icons/IconComp3.svg"
@@ -42,7 +42,7 @@
                     <p class="fw-bold display-7">Event-Driven Data Easy</p>
                   </a>
                 </div>
-                <div class="col text-center test">
+                <div class="col text-center test border-bottom-3">
                   <a href="#Real" class="nav-link link-icon test">
                     <img
                       src=" ../../assets/icons/IconComp4.svg"
@@ -309,16 +309,18 @@ export default {
 
 
 <style scoped>
-div.test{
+a{
   border-color: #8c8c8c;
    color:#8c8c8c ;
     border-bottom: 1px solid;
 }
-div.test:hover{
-border-color: #33a8d1;
-    color:#33a8d1 ;
+a:hover{
+color:#33a8d1;
+  border-color: #33a8d1;
     border-bottom: 1px solid;
-    border-width: 4px ;
+    border-width: 4px solid ;
 }
+
+
 </style>
 

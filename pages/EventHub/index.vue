@@ -1,7 +1,7 @@
 <template>
 <div>
   <div class="container">
-    <div class="row gx-0 mb-5 pb-5 pt-5 gx-0">
+    <div class="row gx-0 mb-5 pb-5 pt-5">
       <div class="col-2"></div>
       <div class="col-lg-8 col-md-auto">
         <div class="pb-5">
