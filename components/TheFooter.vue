@@ -7,7 +7,7 @@
           <div class="col-lg-4 col-md-auto mb-5">
             <div class="col">
               <nuxt-link to="/">
-                <img src="../assets/images/Logo2.svg" class="me-5 mb-4" />
+                <img src="../assets/images/logo2.svg" class="me-5 mb-4" />
               </nuxt-link>
               <nav class="nav">
                 <nuxt-link class="nav-link link-icon px-1" to="">
