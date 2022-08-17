@@ -17,12 +17,7 @@
 </template>
 
 <style scoped>
-.rotate {
-  transform: rotate(-0.5deg);
-}
-.RotateBack{
-  transform: rotate(0.5deg);
-}
+
 
 
 .spacer {
