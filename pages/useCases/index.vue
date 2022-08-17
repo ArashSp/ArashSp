@@ -7,7 +7,7 @@
         <div>
           <div class="row pt-3 d-none d-lg-block">
             
-            <div class="col">
+            <div class="col UsecasesNAV">
               <div class="row pt-4">
                 <div class="col text-center test border-bottom-3" >
                   <a href="#EventHub" class="nav-link link-icon pb-4">
@@ -309,12 +309,12 @@ export default {
 
 
 <style scoped>
-a{
+ .UsecasesNAV a{
   border-color: #8c8c8c;
    color:#8c8c8c ;
     border-bottom: 1px solid;
 }
-a:hover{
+ .UsecasesNAV a:hover{
 color:#33a8d1;
   border-color: #33a8d1;
     border-bottom: 1px solid;
