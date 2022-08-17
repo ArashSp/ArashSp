@@ -1,7 +1,7 @@
 <template>
   <div class="bg-dark text-white" style="height:70px ;">
   <!-- max-width1600px will break the page and will be shorter than the page  -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-Navbar1 NavigationBar">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-Navbar1 NavigationBar " style=" position: fixed; width: 100%;">
       <div class="container">
         <div class="">
           <Nuxt-link class="navbar-brand ps-5" to="/">

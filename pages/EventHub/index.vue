@@ -1,13 +1,12 @@
 <template>
 <div>
   <div class="container">
-    <div class="row gx-0 mb-5 pb-5 pt-5">
-      <div class="col-2"></div>
-      <div class="col-lg-8 col-md-auto">
-        <div class="pb-5">
-          <div class="row">
-            <div class="col-2"></div>
-            <div class="col-8 d-none d-lg-block">
+  <div class="row">
+   <div class="">
+        <div class="">
+          <div class="row fixedNavBar py-3">
+            <div class="col-4"></div>
+            <div class="col-4 d-none d-lg-block">
               <div class="row navigation">
                 <div class="col text-center border-bottom-3">
                   <a href="#Cost" class="nav-link link-icon">
@@ -47,16 +46,24 @@
                 </div>
               </div>
             </div>
-            <div class="col-2"></div>
+            <div class="col-4"></div>
           </div>
-        </div>
+          </div>
+        </div></div>
+    <div class="row gx-0 mb-5  pt-5">
+      <div class="col-2"></div>
+      <div class="col-lg-8 col-md-auto">
+      <div id="Cost"></div>
+
+
+        <div class="my-5 py-5"   ></div>
 
         <div>
-          <div class="row gx-0" id="Cost">
-            <div class="col-1 pt-5 mb-4">
+          <div class="row gx-0">
+            <div class="col-1  mb-4">
               <img src="../../assets/icons/Cost.svg" />
             </div>
-            <div class="col-9 ps-2 pt-5 ms-5">
+            <div class="col-9 ps-2 ms-5">
               <p class="fw-bold display-2">
                 Is the cost of integration too high?
               </p>
@@ -109,10 +116,10 @@
           </div>
         </div>
 
-        <div class="py-5 my-5"></div>
+        <div class="py-5 my-5"  id="Unlock"></div>
 
         <div>
-          <div class="row gx-0" id="Unlock">
+          <div class="row gx-0">
             <div class="col-1 pt-5 mb-4">
               <img src="../../assets/icons/Icok.svg" />
             </div>
@@ -147,10 +154,10 @@
           </div>
         </div>
 
-        <div class="py-5 my-5"></div>
+        <div class="py-5 my-5"  id="Event"></div>
 
         <div>
-          <div class="row gx-0" id="Event">
+          <div class="row gx-0">
             <div class="col-1 pt-5 mb-4">
               <img src="../../assets/icons/Settings.svg" />
             </div>
@@ -182,10 +189,10 @@
           </div>
         </div>
 
-        <div class="py-5 my-5"></div>
+        <div class="py-5 my-5"  id="Imagine"></div>
 
         <div>
-          <div class="row gx-0" id="Imagine">
+          <div class="row gx-0">
             <div class="col-1 pt-5 mb-4">
               <img src="../../assets/icons/Rocket.svg" />
             </div>
@@ -226,8 +233,6 @@
       </div>
       <div class="col-2"></div>
     </div>
-
-  
   </div>
     <Downloadnow />
   </div>
@@ -267,5 +272,13 @@ border-color: #33a8d1;
     color:#33a8d1 ;
     border-bottom: 1px solid;
     border-width: 4px solid;
+}
+
+.fixedNavBar {
+  position: fixed;
+  top:50px;
+  right: 0;
+  left: 0 ;
+  background-color: #11171f;
 }
 </style>

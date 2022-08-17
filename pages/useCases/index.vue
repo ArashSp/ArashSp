@@ -5,10 +5,11 @@
       <div class="col-2"></div>
       <div class="col-lg-8 col-md-auto">
         <div>
-          <div class="row pt-3 d-none d-lg-block">
+          <div class="row pt-3 d-none d-lg-block UsecasesNAV fixedNavBar">
             
-            <div class="col UsecasesNAV">
+            <div class="col ">
               <div class="row pt-4">
+              <div class="col-3"></div>
                 <div class="col text-center test border-bottom-3" >
                   <a href="#EventHub" class="nav-link link-icon pb-4">
                     <img src=" ../../assets/icons/IconComp.svg" class="pb-4" />
@@ -51,14 +52,17 @@
                     <p class="fw-bold display-7">Real-Time Buisness IQ</p>
                   </a>
                 </div>
+                <div class="col-3"></div>
               </div>
             </div>
-            
+        
           </div>
         </div>
 
+<div class="pb-3" id="EventHub"></div>
+  <div class="py-5 my-5"></div>
         <div>
-          <div class="row pb-5" id="EventHub">
+          <div class="row pb-5" >
             <div class="col-1 pt-5  mb-4">
               <img src="../../assets/icons/Hub.svg" />
             </div>
@@ -98,11 +102,11 @@
             </div>
           </div>
         </div>
-
-        <div class="py-5 my-5"></div>
+        <div class="pb-2" id="B2B"></div>
+        <div class="py-5 my-5" ></div>
 
         <div>
-          <div class="row pb-5" id="B2B">
+          <div class="row pb-5" >
             <div class="col-1 pt-5 mb-4">
               <img src="../../assets/icons/Api.svg" />
             </div>
@@ -145,11 +149,11 @@
             </p>
           </div>
         </div>
-
+ <div class="pb-2" id="Data"></div>
         <div class="py-5 my-5"></div>
 
         <div>
-          <div class="row pb-5" id="Data">
+          <div class="row pb-5" >
             <div class="col-1 pt-5 mb-4">
               <img src="../../assets/icons/Cloud.svg" />
             </div>
@@ -190,11 +194,11 @@
             </p>
           </div>
         </div>
-
+ <div class="pb-2" id="Process"></div>
         <div class="py-5 my-5"></div>
 
         <div>
-          <div class="row pb-5" id="Process">
+          <div class="row pb-5" >
             <div class="col-1 pt-5 mb-4">
               <img src="../../assets/icons/Settings.svg" />
             </div>
@@ -237,10 +241,10 @@
             </p>
           </div>
         </div>
-
+ <div class="pb-2" id="Real"></div>
         <div class="py-5 my-5"></div>
 
-        <div class="pb-5" id="Real">
+        <div class="pb-5" >
           <div class="row pb-5">
             <div class="col-1 pt-5 mb-4">
               <img src="../../assets/icons/Brain.svg" />
@@ -319,6 +323,13 @@ color:#33a8d1;
   border-color: #33a8d1;
     border-bottom: 1px solid;
     border-width: 4px solid ;
+}
+.fixedNavBar {
+  position: fixed;
+  top:50px;
+  right: 0;
+  left: 0 ;
+  background-color: #11171f;
 }
 
 
