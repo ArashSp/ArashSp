@@ -74,7 +74,7 @@
         <div
           class="collapse navbar-collapse d-lg-none d-md-none d-inline-xl ms-5"
         >
-          <div class="navbar-nav mt-1">
+          <div class="navbar-nav mt-1 text-center">
             <a class="nav-link ms-1 display-7 fw-light" href="#"> GITHUB</a>
             <Nuxt-link class="nav-link ms-3 display-7 fw-light lh-sm" to="/Docs">
               DOCS</Nuxt-link

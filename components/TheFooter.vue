@@ -1,8 +1,8 @@
 <template>
-  <div class="pt-3">
+  <div class="pt-3 container">
     <div class="row gx-0">
-      <div class="col-2"></div>
-      <div class="col-8">
+      <div class="col-1"></div>
+      <div class="col-lg-10 col-md-auto">
         <div class="row px-0">
           <div class="col-lg-4 col-md-auto mb-5">
             <div class="col">
@@ -139,7 +139,7 @@
       <p class="text-center py-5 display-6 fw-light opacity-25">
         Copyright © 2022 Webhookie. All rights reserved
       </p>
-      <div class="col-2"></div>
+      <div class="col-1"></div>
     </div>
   </div>
 </template>
