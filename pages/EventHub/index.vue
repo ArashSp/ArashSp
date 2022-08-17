@@ -8,7 +8,7 @@
           <div class="row">
             <div class="col-2"></div>
             <div class="col-8 d-none d-lg-block">
-              <div class="row ">
+              <div class="row navigation">
                 <div class="col text-center border-bottom-3">
                   <a href="#Cost" class="nav-link link-icon">
                     <img
@@ -257,12 +257,12 @@ export default {
   );
   border-radius: 6px;
 }
-a{
+ .navigation a{
   border-color: #8c8c8c;
    color:#8c8c8c ;
     border-bottom: 1px solid;
 }
-a:hover{
+.navigation a:hover{
 border-color: #33a8d1;
     color:#33a8d1 ;
     border-bottom: 1px solid;

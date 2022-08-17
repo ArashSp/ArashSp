@@ -96,6 +96,13 @@ $custom-theme-colors: (
     rgba(0, 77, 191, 0.32) 81.46%
   );
 }
+.rotate {
+  transform: rotate(-0.5deg);
+ 
+}
+.RotateBack{
+  transform: rotate(0.5deg);
+}
 
 
 // fix for bootstrap 5.1 transposing colors
