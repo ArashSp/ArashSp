@@ -1,5 +1,6 @@
 <template>
 <div>
+<div>
   <div class="container">
     <div class="row mt-5 gx-0">
       <div class="col-3"></div>
@@ -237,8 +238,10 @@
     </div>
     </div>
 
-    <Downloadnow />
+ 
   </div>
+     <Downloadnow />
+     </div>
 </template>
 <script>
 import Downloadnow from "../../components/Downloadnow.vue";

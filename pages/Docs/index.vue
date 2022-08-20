@@ -1,4 +1,5 @@
 <template>
+<div>
   <div class=" container">
    
     <div class="row gx-0">
@@ -297,9 +298,11 @@
       <div class="col-3">
         <SidebarRight />
       </div>
-      <Downloadnow />
+    
     </div>
   </div>
+    <Downloadnow />
+    </div>
 </template>
 
 <script>

@@ -1,4 +1,6 @@
 <template>
+<div>
+
   <div>
     <div class="row gx-0">
       <div class="col-3"></div>
@@ -374,8 +376,10 @@
         <SidebarRight />
       </div>
     </div>
-    <Downloadnow />
+
   </div>
+      <Downloadnow />
+      </div>
 </template>
 
 <script>

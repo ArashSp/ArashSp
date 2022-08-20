@@ -292,7 +292,7 @@
       <div class="col-2"></div>
     </div>
   </div>
-  <Downloadnow  style="max-width: 100%;" />
+  <Downloadnow   />
   </div>
 </template>
 
