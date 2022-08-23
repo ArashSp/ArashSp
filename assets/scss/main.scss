@@ -51,17 +51,7 @@ $custom-theme-colors: (
     url(.jpg);
   background-blend-mode: hue, normal;
 }
-.buttonsCustom{
-  border-radius: 4px;
-  letter-spacing: 1.5px;
-  line-height: 32px;
 
-  padding: 13px 30px 13px 30px;
-
-  margin-top: 16px;
-  margin-left: 16px;
-
-}
 .IconStyle {
   height: 48px;
   width: 40px;
@@ -121,6 +111,17 @@ $utilities-bg-colors: map-loop($utilities-colors, rgba-css-var, "$key", "bg");
 
 
 // Overwrite bootstrap sass variables (check _variables for all options)
+$grid-gutter-width: 1.5rem;
+$gutters: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 7,
+);
+
 $enable-negative-margins: true;
 $navbar-light-color: $dark;
 $font-family-base: "Inter", sans-serif;
@@ -165,9 +166,19 @@ $font-weight-normal: 600;
 $font-weight-bold: 700;
 $font-weight-lighter: 400;
 
-// $line-height-base: 32px;
 $line-height-sm:16px ;
 $line-height-lg: 120%;
+
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 20,
+);
 
 
 

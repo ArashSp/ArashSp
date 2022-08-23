@@ -95,7 +95,7 @@
             <div>
               <button
                 type="button"
-                class="btn btn-primary fw-bold display-7 p-2 text-center "
+                class="btn btn-primary fw-bold display-7 p-2 text-center buttonsCustom "
               >
                 LEARN MORE
               </button>
@@ -301,10 +301,6 @@ import Downloadnow from "../../components/Downloadnow.vue";
 export default {
   Downloadnow,
   return: {},
-
-  
-
-
 };
 
 
@@ -326,12 +322,18 @@ color:#33a8d1;
 }
 .fixedNavBar {
   position: fixed;
-  top:50px;
+  top:60px;
   right: 0;
   left: 0 ;
   background-color: #11171f;
 }
 
+.buttonsCustom{
+  border-radius: 4px;
+  line-height: 32px;
+  padding: 12px 30px;
+  letter-spacing: 1px;
+}
 
 </style>
 

@@ -1,10 +1,10 @@
 <template>
-  <div class="bg-dark text-white" style="height:70px ;">
+  <div class="bg-dark text-white" style="height:70px ; z-index: 32;">
   <!-- max-width1600px will break the page and will be shorter than the page  -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-Navbar1 NavigationBar " style=" position: fixed; width: 100%;">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-Navbar1 NavigationBar" style=" position: fixed; width: 100%; padding: 12px 0px;">
       <div class="container">
         <div class="">
-          <Nuxt-link class="navbar-brand ps-5" to="/">
+          <Nuxt-link class="navbar-brand ps-5 navbarLogo" to="/" >
             <img src="../assets/images/Group.svg" style=""
           /></Nuxt-link>
         </div>
@@ -114,8 +114,16 @@
 .NavigationBar {
   background: linear-gradient(104.08deg, #1b2433 39.98%, #2f4970 96.11%);
 }
-.BtnCustom{
-  padding: 26px 11px;
+
+</style>
+<style>
+Nuxt-link {
+  Padding: 6px 22px 8px 22px;
+ Letter-spacing: 1px
+}
+Nuxt-link .navbarLogo {
+  height: 32px !important;
+   width:auto !important ;
 }
 </style>
 

@@ -262,4 +262,12 @@ export default {
     rgba(0, 77, 191, 0.32) 81.46%
   );
 }
+.buttonsCustom{
+  border-radius: 4px;
+  line-height: 32px;
+  margin-top: 16px;
+  margin-left: 16px;
+  padding: 12px 30px;
+  letter-spacing: 1px;
+}
 </style>

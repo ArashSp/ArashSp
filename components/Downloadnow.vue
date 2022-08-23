@@ -17,9 +17,6 @@
 </template>
 
 <style scoped>
-
-
-
 .spacer {
   background: linear-gradient(
     90.77deg,
@@ -28,6 +25,13 @@
     #2674e7 99.68%
   );
   box-shadow: 0px -20px 248px rgba(4, 67, 189, 0.3);
-
+}
+.buttonsCustom{
+  border-radius: 4px;
+  line-height: 32px;
+  margin-top: 16px;
+  margin-left: 16px;
+  padding: 12px 30px;
+  letter-spacing: 1px;
 }
 </style>

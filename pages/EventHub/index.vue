@@ -214,14 +214,14 @@
             <div class="BoxEventHub2 py-4 text-center">
               <div class="row gx-0">
                 <div class="col-7">
-                  <p class="fw-bold display-10 mt-1">
+                  <p class="fw-bold display-10 mt-2">
                     Get in touch for a demo today!
                   </p>
                 </div>
                 <div class="col-5">
                   <button
                     type="button"
-                    class="btn btn-white text-primary fw-bold display-7"
+                    class="btn btn-white text-primary fw-bold display-7 mt-n1 buttonsCustom "
                   >
                     Contact us
                   </button>
@@ -245,6 +245,12 @@ export default {
 };
 </script>
 <style scoped>
+.buttonsCustom{
+  border-radius: 4px;
+  line-height: 32px;
+  padding: 12px 30px;
+  letter-spacing: 1px;
+}
 .BoxEventHub {
   background: radial-gradient(
     62.82% 79.28% at 50.85% -12.39%,
@@ -276,7 +282,7 @@ border-color: #33a8d1;
 
 .fixedNavBar {
   position: fixed;
-  top:50px;
+  top:60px;
   right: 0;
   left: 0 ;
   background-color: #11171f;
