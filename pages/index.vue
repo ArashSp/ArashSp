@@ -94,11 +94,11 @@
     </div>
     </div>
 
-    <div class="mb-5 container">
-      <div class=" row justify-content-center"> 
-      <div class="col RTDBOX3" style="max-width:810px">  
+    <div class="mb-5">
+      <div class=" row gx-0 justify-content-center"> 
+      <div class="col-6 RTDBOX3 text-center">  
         </div> 
-         <div class="col text-center RTDBox NM align-items-start d-flex">   
+         <div class="col-6 text-center RTDBox NM ">   
           <p class="display-4 fw-light" style="line-height: 30px;">
             Webhookie can give your product, platform or enterprise the edge
             with the ability to provide real-time data as a webhook API.
@@ -239,7 +239,7 @@ margin-bottom: 20px;
     rgba(35, 43, 55, 0.45) 9.15%,
     rgba(0, 77, 191, 0.32) 81.46%
   ); 
-  max-width: 810px;
+  max-width:57%;
   padding: 32px;
 }
 
@@ -251,7 +251,8 @@ margin-bottom: 20px;
   ); 
   }
   .NM{
-    margin-left: -820px;
+      max-width:57%;
+    margin-left: -51%;
     margin-bottom: 15px;
     margin-top:-15px ;
   }
