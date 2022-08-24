@@ -99,7 +99,7 @@
       <div class="col-6 RTDBOX3 text-center">  
         </div> 
          <div class="col-6 text-center RTDBox NM ">   
-          <p class="display-4 fw-light" style="line-height: 30px;">
+          <p class="display-5 fw-light" style="line-height: 30px;">
             Webhookie can give your product, platform or enterprise the edge
             with the ability to provide real-time data as a webhook API.
           </p>     
@@ -121,10 +121,10 @@
     </div>
 
     <div class="container pt-5">
-      <div class="row">
+      <div class="row gx-0">
         <div class="">
           <p class="display-1 text-center mb-5 fw-bold">Key Features</p>
-          <div class="row gx-6">
+          <div class="row gx-lg-6 margindown">
             <div class="col-lg col-md-auto">
               <img src="../assets/icons/Group341.svg" class="IconStyle mb-5 mt-5" />
               <p class="display-3 fw-bold lhtitle">
@@ -135,7 +135,7 @@
                 webhookies design console. Control who can discover, subscribe
                 and manage your webhook APIs.
               </p>
-                  <nuxt-link class="mb-5 display-7 fw-bold LearnCss link-white text-decoration-none " to="#">LEARN MORE</nuxt-link>
+                  <nuxt-link class="mb-5 display-7 fw-bold LearnCss link-white text-decoration-underline " to="#">LEARN MORE</nuxt-link>
             </div>
             <div class="col-lg col-md-auto">
               <img src="../assets/icons/Group342.svg" class="IconStyle mb-5 mt-5" />
@@ -145,7 +145,7 @@
                 streams using webhookies white-labeled developer portal or build
                 your own developer experience using webhookies powerful API.
               </p>
-                <nuxt-link class="mb-5 display-7 fw-bold LearnCss link-white text-decoration-none " to="#">LEARN MORE</nuxt-link>
+                <nuxt-link class="mb-5 display-7 fw-bold LearnCss link-white text-decoration-underline " to="#">LEARN MORE</nuxt-link>
             </div>
             <div class="col-lg col-md-auto">
               <img src="../assets/icons/Group343.svg" class="IconStyle mb-5 mt-5" />
@@ -156,10 +156,10 @@
                 reject subscriptions you have full control over who gets your
                 data.
               </p>
-              <nuxt-link class="mb-5 display-7 fw-bold LearnCss link-white text-decoration-none " to="#">LEARN MORE</nuxt-link>
+              <nuxt-link class="mb-5 display-7 fw-bold LearnCss link-white text-decoration-underline " to="#">LEARN MORE</nuxt-link>
             </div>
           </div>
-          <div class="row gx-6 mb-5 mt-5">
+          <div class="row gx-lg-6 mb-5 mt-5">
             <div class="col-lg col-md-auto">
               <img src="../assets/icons/Group344.svg" class="IconStyle mb-5 mt-5" />
               <p class="display-3 fw-bold lhtitle">Traffic visibility</p>
@@ -168,7 +168,7 @@
                 their system with the capability to re-send data if required
                 reducing operational support requests on your team.
               </p>
-                <nuxt-link class="mb-5 display-7 fw-bold LearnCss link-white text-decoration-none " to="#">LEARN MORE</nuxt-link>
+                <nuxt-link class="mb-5 display-7 fw-bold LearnCss link-white text-decoration-underline " to="#">LEARN MORE</nuxt-link>
             </div>
             <div class="col-lg col-md-auto">
               <img src="../assets/icons/Group345.svg" class="IconStyle mb-5 mt-5" />
@@ -178,7 +178,7 @@
                 backs off and a resend capability for longer outages webhookie
                 can guarantee delivery of the messages to your API consumers.
               </p>
-              <nuxt-link class="mb-5 display-7 fw-bold LearnCss link-white text-decoration-none " to="#">LEARN MORE</nuxt-link>
+              <nuxt-link class="mb-5 display-7 fw-bold LearnCss link-white text-decoration-underline " to="#">LEARN MORE</nuxt-link>
             </div>
             <div class="col-lg col-md-auto">
               <img src="../assets/icons/Vector.svg" class="IconStyle mb-5 mt-5" />
@@ -188,7 +188,7 @@
                 there, you can implement webhookie to meet the requirements of
                 your security team
               </p>
-                 <nuxt-link class="mb-5 display-7 fw-bold LearnCss link-white text-decoration-none " to="#">LEARN MORE</nuxt-link>
+                 <nuxt-link class="mb-5 display-7 fw-bold LearnCss link-white text-decoration-underline " to="#">LEARN MORE</nuxt-link>
             </div>
           </div>
         </div>
@@ -224,6 +224,9 @@ margin-bottom: 20px;
   }
 </style>
 <style scoped>
+.margindown{
+  margin-bottom: 80px;
+}
 .buttonsCustom{
   border-radius: 4px;
   line-height: 32px;

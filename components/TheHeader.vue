@@ -1,11 +1,11 @@
 <template>
   <div class="bg-dark text-white" style="height:70px ; z-index: 32;">
   <!-- max-width1600px will break the page and will be shorter than the page  -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-Navbar1 NavigationBar" style=" position: fixed; width: 100%; padding: 12px 0px;">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-Navbar1 NavigationBar justify-content-center" style=" position: fixed; width: 100%; padding: 12px 0px;">
       <div class="container">
         <div class="">
-          <Nuxt-link class="navbar-brand ps-5 navbarLogo" to="/" >
-            <img src="../assets/images/Group.svg" style=""
+          <Nuxt-link class="navbar-brand ps-5" to="/" >
+            <img src="../assets/images/Group.svg" class=" navbarLogo"
           /></Nuxt-link>
         </div>
         <div class="dropstart d-xl-none d-lg-none d-block-md">
@@ -74,25 +74,25 @@
         <div
           class="collapse navbar-collapse d-lg-none d-md-none d-inline-xl ms-5"
         >
-          <div class="navbar-nav mt-1 text-center">
-            <a class="nav-link ms-1 display-7 fw-light" href="#"> GITHUB</a>
-            <Nuxt-link class="nav-link ms-3 display-7 fw-light lh-sm" to="/Docs">
+          <div class="navbar-nav mt-1 text-center ">
+            <a class="nav-link ms-1 display-7 fw-light navtop" href="#"> GITHUB</a>
+            <Nuxt-link class="nav-link ms-3 display-7 fw-light lh-sm navtop" to="/Docs">
               DOCS</Nuxt-link
             >
-            <a class="nav-link ms-3 display-7 fw-light lh-sm" href="#"> COMMUNITY</a>
+            <a class="nav-link ms-3 display-7 fw-light lh-sm navtop" href="#"> COMMUNITY</a>
             <nuxt-link
-              class="nav-link ms-3 display-7 fw-light lh-sm"
+              class="nav-link ms-3 display-7 fw-light lh-sm navtop "
               to="/HowItWorks"
             >
               HOW IT WORKS</nuxt-link
             >
-            <Nuxt-link class="nav-link ms-3 display-7 fw-light lh-sm" to="/EventHub"
+            <Nuxt-link class="nav-link ms-3 display-7 fw-light lh-sm navtop" to="/EventHub"
               >EVENT HUB</Nuxt-link
             >
-            <Nuxt-link class="nav-link ms-3 display-7 fw-light lh-sm" to="/Blog">
+            <Nuxt-link class="nav-link ms-3 display-7 fw-light lh-sm navtop" to="/Blog">
               BLOG</Nuxt-link
             >
-            <Nuxt-link class="nav-link mx-3 display-7 fw-light lh-sm" to="/useCases">
+            <Nuxt-link class="nav-link mx-3 display-7 fw-light lh-sm navtop" to="/useCases">
               USE CASES</Nuxt-link
             >
 
@@ -116,14 +116,14 @@
 }
 
 </style>
-<style>
-Nuxt-link {
+<style scoped>
+.navtop {
   Padding: 6px 22px 8px 22px;
- Letter-spacing: 1px
+ Letter-spacing: 1px;
 }
-Nuxt-link .navbarLogo {
-  height: 32px !important;
-   width:auto !important ;
+.navbarLogo {
+  height: 32px ;
+   width:auto ;
 }
 </style>
 
