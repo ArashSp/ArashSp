@@ -99,7 +99,7 @@
       <div class="col-6 RTDBOX3 text-center">  
         </div> 
          <div class="col-6 text-center RTDBox NM ">   
-          <p class="display-5 fw-light" style="line-height: 30px;">
+          <p class="display-5 fw-lighter" style="line-height: 30px;">
             Webhookie can give your product, platform or enterprise the edge
             with the ability to provide real-time data as a webhook API.
           </p>     
