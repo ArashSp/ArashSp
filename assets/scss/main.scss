@@ -106,9 +106,8 @@ $utilities-text-colors: map-loop(
   "$key",
   "text"
 );
+
 $utilities-bg-colors: map-loop($utilities-colors, rgba-css-var, "$key", "bg");
-
-
 
 // Overwrite bootstrap sass variables (check _variables for all options)
 $grid-gutter-width: 1.5rem;
@@ -119,7 +118,7 @@ $gutters: (
   3: $spacer,
   4: $spacer * 1.5,
   5: $spacer * 3,
-  6: $spacer * 7,
+  6: $spacer * 4,
 );
 
 $enable-negative-margins: true;

@@ -18,7 +18,7 @@
             <div class="col-lg-4 col-md-auto text-center">
               <button
                 type="button"
-                class="btn btn-primary mb-5 display-7 fw-bold lh-base buttonsCustom"
+                class="btn btn-primary mb-5 display-7 fw-bold buttonsCustom"
               >
                 LEARN MORE
               </button>
@@ -45,7 +45,8 @@
     </div>
 
     <div class="my-5 py-5"></div>
-    <div class="bg-primary p-5 my-5 text-center spacer">
+
+    <div class="bg-primary text-center spacer mb-5" style=" padding-top:80px ; padding-bottom:80px ;">
     <div class="Notrotate">
       <p class="display-2 fw-normal">
         Requirement for doing business in digital age
@@ -56,7 +57,9 @@
       </div>
     </div>
 
-    <div class="container pt-5">
+     <div class="py-5"></div>
+
+    <div class="container mt-5">
       <div class="row">
         <div class="col-3"></div>
         <div class="col-lg-6 col-md-auto">
@@ -85,7 +88,7 @@
       <div class="col-12 text-center">
         <img
           src="../assets/images/microservice.svg"
-          class="mt-5 mb-3 pb-5"
+          class=" mb-3 pb-5"
           style="max-width: 100%"
         />
 
@@ -94,12 +97,12 @@
     </div>
     </div>
 
-    <div class="mb-5">
+    <div class="pb-5 mb-5">
       <div class=" row gx-0 justify-content-center"> 
       <div class="col-6 RTDBOX3 text-center">  
         </div> 
          <div class="col-6 text-center RTDBox NM ">   
-          <p class="display-5 fw-lighter" style="line-height: 30px;">
+          <p class="display-5 fw-lighter" style="line-height: 30px; margin-bottom: 0;">
             Webhookie can give your product, platform or enterprise the edge
             with the ability to provide real-time data as a webhook API.
           </p>     
@@ -107,7 +110,7 @@
     </div>
     </div>
 
-    <div class="bg-primary p-5 my-5 text-center spacer display-2">
+    <div class="bg-primary text-center spacer display-2"  style=" padding-top:80px ; padding-bottom:80px ;">
     <div class="Notrotate">
       <p class="display-2 fw-normal">An open-source webhook API platform</p>
       <button
@@ -120,7 +123,7 @@
 
     </div>
 
-    <div class="container pt-5">
+    <div class="container mt-5 pt-5">
       <div class="row gx-0">
         <div class="">
           <p class="display-1 text-center mb-5 fw-bold">Key Features</p>
@@ -135,7 +138,9 @@
                 webhookies design console. Control who can discover, subscribe
                 and manage your webhook APIs.
               </p>
-                  <nuxt-link class="mb-5 display-7 fw-bold LearnCss link-white text-decoration-underline " to="#">LEARN MORE</nuxt-link>
+                  <nuxt-link class="mb-5 display-7 fw-bold LearnCss link-white text-decoration-none " to="#"><p class="border-bottom border-white border-2" style="width: 122px ;">LEARN MORE <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="white" class="bi bi-arrow-right arrow" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+</svg> </p></nuxt-link>
             </div>
             <div class="col-lg col-md-auto">
               <img src="../assets/icons/Group342.svg" class="IconStyle mb-5 mt-5" />
@@ -145,7 +150,9 @@
                 streams using webhookies white-labeled developer portal or build
                 your own developer experience using webhookies powerful API.
               </p>
-                <nuxt-link class="mb-5 display-7 fw-bold LearnCss link-white text-decoration-underline " to="#">LEARN MORE</nuxt-link>
+                <nuxt-link class="mb-5 display-7 fw-bold LearnCss link-white text-decoration-none " to="#"><p class="border-bottom border-white border-2" style="width: 122px ;">LEARN MORE <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="white" class="bi bi-arrow-right arrow" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+</svg> </p></nuxt-link>
             </div>
             <div class="col-lg col-md-auto">
               <img src="../assets/icons/Group343.svg" class="IconStyle mb-5 mt-5" />
@@ -156,7 +163,9 @@
                 reject subscriptions you have full control over who gets your
                 data.
               </p>
-              <nuxt-link class="mb-5 display-7 fw-bold LearnCss link-white text-decoration-underline " to="#">LEARN MORE</nuxt-link>
+              <nuxt-link class="mb-5 display-7 fw-bold LearnCss link-white text-decoration-none " to="#"><p class="border-bottom border-white border-2" style="width: 122px ;">LEARN MORE <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="white" class="bi bi-arrow-right arrow" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+</svg> </p></nuxt-link>
             </div>
           </div>
           <div class="row gx-lg-6 mb-5 mt-5">
@@ -168,7 +177,9 @@
                 their system with the capability to re-send data if required
                 reducing operational support requests on your team.
               </p>
-                <nuxt-link class="mb-5 display-7 fw-bold LearnCss link-white text-decoration-underline " to="#">LEARN MORE</nuxt-link>
+                <nuxt-link class="mb-5 display-7 fw-bold LearnCss link-white  text-decoration-none" to="#"><p class="border-bottom border-white border-2" style="width: 122px ;">LEARN MORE <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="white" class="bi bi-arrow-right arrow" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+</svg> </p></nuxt-link>
             </div>
             <div class="col-lg col-md-auto">
               <img src="../assets/icons/Group345.svg" class="IconStyle mb-5 mt-5" />
@@ -178,7 +189,9 @@
                 backs off and a resend capability for longer outages webhookie
                 can guarantee delivery of the messages to your API consumers.
               </p>
-              <nuxt-link class="mb-5 display-7 fw-bold LearnCss link-white text-decoration-underline " to="#">LEARN MORE</nuxt-link>
+              <nuxt-link class="mb-5 display-7 fw-bold LearnCss link-white  text-decoration-none" to="#"><p class="border-bottom border-white border-2" style="width: 122px ;">LEARN MORE <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="white" class="bi bi-arrow-right arrow" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+</svg> </p></nuxt-link>
             </div>
             <div class="col-lg col-md-auto">
               <img src="../assets/icons/Vector.svg" class="IconStyle mb-5 mt-5" />
@@ -188,7 +201,9 @@
                 there, you can implement webhookie to meet the requirements of
                 your security team
               </p>
-                 <nuxt-link class="mb-5 display-7 fw-bold LearnCss link-white text-decoration-underline " to="#">LEARN MORE</nuxt-link>
+                 <nuxt-link class="mb-5 display-7 fw-bold LearnCss link-white  text-decoration-none" to="#"><p class="border-bottom border-white border-2" style="width: 122px ;">LEARN MORE <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="white" class="bi bi-arrow-right arrow" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+</svg> </p></nuxt-link>
             </div>
           </div>
         </div>
@@ -198,7 +213,7 @@
       </div>
     </div>
 
-    <downloadnow  />
+    <downloadnow  class="my-5 "/>
   </div>
 </template>
 
@@ -224,15 +239,20 @@ margin-bottom: 20px;
   }
 </style>
 <style scoped>
+
+.arrow :hover{
+  transform: translateX(4px);
+  transition-delay: 300ms;
+}
 .margindown{
-  margin-bottom: 80px;
+  margin-bottom: 20px;
 }
 .buttonsCustom{
   border-radius: 4px;
   line-height: 32px;
   margin-top: 16px;
   margin-left: 16px;
-  padding: 12px 30px;
+  padding: 10px 30px;
   letter-spacing: 1px;
 }
 

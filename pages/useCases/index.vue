@@ -292,7 +292,7 @@
       <div class="col-2"></div>
     </div>
   </div>
-  <Downloadnow   />
+  <Downloadnow  class="my-5 " />
   </div>
 </template>
 
@@ -322,7 +322,7 @@ color:#33a8d1;
 }
 .fixedNavBar {
   position: fixed;
-  top:60px;
+  top:58px;
   right: 0;
   left: 0 ;
   background-color: #11171f;

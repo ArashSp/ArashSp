@@ -1,6 +1,6 @@
 <template>
   <div class="bg-dark text-white">
-    <TheHeader />
+    <TheHeader  />
     <div class="">
       <NuxtPage />
     </div>

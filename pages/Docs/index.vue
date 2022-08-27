@@ -301,7 +301,7 @@
     
     </div>
   </div>
-    <Downloadnow />
+    <Downloadnow  class="my-5 "/>
     </div>
 </template>
 

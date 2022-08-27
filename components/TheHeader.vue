@@ -1,9 +1,9 @@
 <template>
-  <div class="bg-dark text-white" style="height:70px ; z-index: 32;">
+  <div class="bg-dark text-white" style="height:70px ;">
   <!-- max-width1600px will break the page and will be shorter than the page  -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-Navbar1 NavigationBar justify-content-center" style=" position: fixed; width: 100%; padding: 12px 0px;">
-      <div class="container">
-        <div class="">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-Navbar1 NavigationBar row gx-0 " style=" position: fixed; width: 100%; padding: 12px 0px; z-index: 1;">
+      <div class="row container">
+        <div class="col-4 justify-content-center">
           <Nuxt-link class="navbar-brand ps-5" to="/" >
             <img src="../assets/images/Group.svg" class=" navbarLogo"
           /></Nuxt-link>
@@ -72,9 +72,9 @@
           </ul>
         </div>
         <div
-          class="collapse navbar-collapse d-lg-none d-md-none d-inline-xl ms-5"
+          class="collapse navbar-collapse d-lg-none d-md-none d-inline-xl col-8 ms-n5"
         >
-          <div class="navbar-nav mt-1 text-center ">
+          <div class="navbar-nav mt-1 text-center">
             <a class="nav-link ms-1 display-7 fw-light navtop" href="#"> GITHUB</a>
             <Nuxt-link class="nav-link ms-3 display-7 fw-light lh-sm navtop" to="/Docs">
               DOCS</Nuxt-link

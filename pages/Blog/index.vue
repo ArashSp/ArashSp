@@ -3,7 +3,7 @@
   <div class="container">
     <div
       class="row gx-0 d-none d-lg-flex d-xl-flex"
-      style="background-color: #141b24"
+      style="background-color: #141b24; width: 100%;"
     >
       <div class="col-2"></div>
       <div class="col-8" v-for="article in myJson.slice(0, 1)">
@@ -117,7 +117,7 @@
     </div>
     </div>
 
-    <Downloadnow />
+    <Downloadnow  class="my-5 "/>
   </div>
 </template>
 <script>

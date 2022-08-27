@@ -1,7 +1,6 @@
 <template>
 
-  <div class="bg-primary p-5 my-5 text-center spacer display-2 rotate">
-  
+  <div class="bg-primary m7-5 text-center spacer display-2 rotate" style=" padding-top:80px ; padding-bottom:80px ;">
   <div class="RotateBack" >
     <p class="display-2 fw-normal">
       Start adding elegant event-driven integration

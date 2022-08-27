@@ -50,16 +50,16 @@
           </div>
           </div>
         </div></div>
-    <div class="row gx-0 mb-5  pt-5">
+    <div class="row gx-0 mb-5 pt-5">
       <div class="col-2"></div>
       <div class="col-lg-8 col-md-auto">
-      <div id="Cost"></div>
+      <div id="Cost" class="mb-5"></div>
 
 
         <div class="my-5 py-5"   ></div>
 
-        <div>
-          <div class="row gx-0">
+        <div class="pt-3">
+          <div class="row gx-0 ">
             <div class="col-1  mb-4">
               <img src="../../assets/icons/Cost.svg" />
             </div>
@@ -118,7 +118,7 @@
 
         <div class="py-5 my-5"  id="Unlock"></div>
 
-        <div>
+        <div class="pt-3">
           <div class="row gx-0">
             <div class="col-1 pt-5 mb-4">
               <img src="../../assets/icons/Icok.svg" />
@@ -156,7 +156,7 @@
 
         <div class="py-5 my-5"  id="Event"></div>
 
-        <div>
+        <div class="pt-3">
           <div class="row gx-0">
             <div class="col-1 pt-5 mb-4">
               <img src="../../assets/icons/Settings.svg" />
@@ -191,7 +191,7 @@
 
         <div class="py-5 my-5"  id="Imagine"></div>
 
-        <div>
+        <div class="pt-3">
           <div class="row gx-0">
             <div class="col-1 pt-5 mb-4">
               <img src="../../assets/icons/Rocket.svg" />
@@ -234,7 +234,7 @@
       <div class="col-2"></div>
     </div>
   </div>
-    <Downloadnow />
+    <Downloadnow   class="my-5 "/>
   </div>
 </template>
 <script>
@@ -282,7 +282,7 @@ border-color: #33a8d1;
 
 .fixedNavBar {
   position: fixed;
-  top:60px;
+  top:58px;
   right: 0;
   left: 0 ;
   background-color: #11171f;

@@ -191,7 +191,7 @@
       </div>
     </div>
   </div>
-    <Downloadnow />
+    <Downloadnow   class="my-5 "/>
 </div>
 </template>
 <script>
