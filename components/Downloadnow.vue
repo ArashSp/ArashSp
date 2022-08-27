@@ -27,7 +27,7 @@
 }
 .buttonsCustom{
   border-radius: 4px;
-  line-height: 32px;
+  line-height: 100%;
   margin-top: 16px;
   margin-left: 16px;
   padding: 12px 30px;

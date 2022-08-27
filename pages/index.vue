@@ -18,7 +18,7 @@
             <div class="col-lg-4 col-md-auto text-center">
               <button
                 type="button"
-                class="btn btn-primary mb-5 display-7 fw-bold buttonsCustom"
+                class="btn btn-primary mb-5 display-7 fw-bold buttonsCustom" style="line-height: 100%;"
               >
                 LEARN MORE
               </button>
@@ -249,10 +249,10 @@ margin-bottom: 20px;
 }
 .buttonsCustom{
   border-radius: 4px;
-  line-height: 32px;
+  line-height: 100%;
   margin-top: 16px;
   margin-left: 16px;
-  padding: 10px 30px;
+  padding: 12px 30px;
   letter-spacing: 1px;
 }
 

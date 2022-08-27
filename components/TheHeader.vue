@@ -8,7 +8,7 @@
             <img src="../assets/images/Group.svg" class=" navbarLogo"
           /></Nuxt-link>
         </div>
-        <div class="dropstart d-xl-none d-lg-none d-block-md">
+        <div class="dropstart d-xl-none d-lg-none d-inline-md  justify-content-start" style=" max-width:50px;">
           <button
             class="btn dropdown-toggle text-icon"
             type="button"
