@@ -15,11 +15,12 @@ steps:
       versionSpec: "16.17.0"
     displayName: "Install Node.js"
 
-  - script: |
+  - script: 
       npm install
-      npm run build
+      npm run generate
       # mv ./dist/static/web.config ./dist/
     displayName: "npm install and build"
+
   - task: PublishBuildArtifacts@1
     inputs:
       artifactName: dist
