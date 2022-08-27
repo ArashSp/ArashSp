@@ -20,10 +20,7 @@ steps:
       npm run generate
       # mv ./dist/static/web.config ./dist/
     displayName: "npm install and build"
-
-  - task: PublishBuildArtifacts@1
-    displayName: "Upload Artifacts"
+  - task: PublishBuildArtifacts@1 
     inputs:
-        PathtoPublish: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
-        artifactName: $(artifactName)
-        publishLocation: 'Container'
+     pathToPublish: '$(Build.ArtifactStagingDirectory)'
+     artifactName: drop
