@@ -23,5 +23,5 @@ steps:
   - task: PublishBuildArtifacts@1
     displayName: 'Publish pipeline artifact'
     inputs:
-      pathtoPublish: '$(Build.ArtifactStagingDirectory)'
-      artifactName: 'dist'
+      artifactName: dist
+      pathtoPublish: 'dist'
