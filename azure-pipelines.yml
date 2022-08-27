@@ -20,8 +20,10 @@ steps:
       npm run generate
       # mv ./dist/static/web.config ./dist/
     displayName: "npm install and build"
-  - task: PublishPipelineArtifact@0
-    displayName: 'Publish pipeline artifact'
+
+  - task: PublishBuildArtifacts@1
+    displayName: "Upload Artifacts"
     inputs:
-      artifactName: dist
-      targetPath: '$(Build.ArtifactStagingDirectory)'
+        PathtoPublish: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
+        artifactName: $(artifactName)
+        publishLocation: 'Container'
