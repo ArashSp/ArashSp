@@ -138,7 +138,7 @@
                 webhookies design console. Control who can discover, subscribe
                 and manage your webhook APIs.
               </p>
-                  <nuxt-link class="mb-5 display-7 fw-bold LearnCss link-white text-decoration-none " to="#"><p class="border-bottom border-white border-2" style="width: 122px ;">LEARN MORE <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="white" class="bi bi-arrow-right arrow" viewBox="0 0 16 16">
+                  <nuxt-link class="mb-5 display-7 fw-bold LearnCss link-white text-decoration-none " to="#"><p class="border-bottom border-white border-2" style="display: inline-block;">LEARN MORE <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="white" class="bi bi-arrow-right arrow" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
 </svg> </p></nuxt-link>
             </div>
@@ -150,7 +150,7 @@
                 streams using webhookies white-labeled developer portal or build
                 your own developer experience using webhookies powerful API.
               </p>
-                <nuxt-link class="mb-5 display-7 fw-bold LearnCss link-white text-decoration-none " to="#"><p class="border-bottom border-white border-2" style="width: 122px ;">LEARN MORE <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="white" class="bi bi-arrow-right arrow" viewBox="0 0 16 16">
+                <nuxt-link class="mb-5 display-7 fw-bold LearnCss link-white text-decoration-none " to="#"><p class="border-bottom border-white border-2" style="display: inline-block ;">LEARN MORE <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="white" class="bi bi-arrow-right arrow" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
 </svg> </p></nuxt-link>
             </div>
@@ -163,7 +163,7 @@
                 reject subscriptions you have full control over who gets your
                 data.
               </p>
-              <nuxt-link class="mb-5 display-7 fw-bold LearnCss link-white text-decoration-none " to="#"><p class="border-bottom border-white border-2" style="width: 122px ;">LEARN MORE <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="white" class="bi bi-arrow-right arrow" viewBox="0 0 16 16">
+              <nuxt-link class="mb-5 display-7 fw-bold LearnCss link-white text-decoration-none " to="#"><p class="border-bottom border-white border-2" style="display: inline-block;">LEARN MORE <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="white" class="bi bi-arrow-right arrow" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
 </svg> </p></nuxt-link>
             </div>
@@ -177,7 +177,7 @@
                 their system with the capability to re-send data if required
                 reducing operational support requests on your team.
               </p>
-                <nuxt-link class="mb-5 display-7 fw-bold LearnCss link-white  text-decoration-none" to="#"><p class="border-bottom border-white border-2" style="width: 122px ;">LEARN MORE <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="white" class="bi bi-arrow-right arrow" viewBox="0 0 16 16">
+                <nuxt-link class="mb-5 display-7 fw-bold LearnCss link-white  text-decoration-none" to="#"><p class="border-bottom border-white border-2" style="display: inline-block;">LEARN MORE <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="white" class="bi bi-arrow-right arrow" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
 </svg> </p></nuxt-link>
             </div>
@@ -189,7 +189,7 @@
                 backs off and a resend capability for longer outages webhookie
                 can guarantee delivery of the messages to your API consumers.
               </p>
-              <nuxt-link class="mb-5 display-7 fw-bold LearnCss link-white  text-decoration-none" to="#"><p class="border-bottom border-white border-2" style="width: 122px ;">LEARN MORE <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="white" class="bi bi-arrow-right arrow" viewBox="0 0 16 16">
+              <nuxt-link class="mb-5 display-7 fw-bold LearnCss link-white  text-decoration-none" to="#"><p class="border-bottom border-white border-2" style="display: inline-block ;">LEARN MORE <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="white" class="bi bi-arrow-right arrow" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
 </svg> </p></nuxt-link>
             </div>
@@ -201,7 +201,7 @@
                 there, you can implement webhookie to meet the requirements of
                 your security team
               </p>
-                 <nuxt-link class="mb-5 display-7 fw-bold LearnCss link-white  text-decoration-none" to="#"><p class="border-bottom border-white border-2" style="width: 122px ;">LEARN MORE <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="white" class="bi bi-arrow-right arrow" viewBox="0 0 16 16">
+                 <nuxt-link class="mb-5 display-7 fw-bold LearnCss link-white  text-decoration-none" to="#"><p class="border-bottom border-white border-2" style="display: inline-block;">LEARN MORE <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="white" class="bi bi-arrow-right arrow" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
 </svg> </p></nuxt-link>
             </div>
