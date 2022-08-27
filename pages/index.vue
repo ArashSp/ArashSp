@@ -14,8 +14,8 @@
             provide robust asynchronous message delivery to your API consumers.
           </p>
           <div class="row">
-            <div class="col-4"></div>
-            <div class="col-lg-4 col-md-auto text-center">
+            <div class="col-lg-3 col-md-2"></div>
+            <div class="col-lg-6 col-md-auto text-center">
               <button
                 type="button"
                 class="btn btn-primary mb-5 display-7 fw-bold buttonsCustom" style="line-height: 100%;"
@@ -23,7 +23,7 @@
                 LEARN MORE
               </button>
             </div>
-            <div class="col-4"></div>
+            <div class="col-lg-3 col-md-2"></div>
           </div>
         </div>
         <div class="col-3 pe-0"></div>
