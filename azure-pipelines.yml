@@ -24,4 +24,4 @@ steps:
     displayName: 'Publish pipeline artifact'
     inputs:
       artifactName: dist
-      pathtoPublish: 'dist'
+      pathtoPublish: $(Build.ArtifactStagingDirectory)
