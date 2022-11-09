@@ -23,6 +23,6 @@ jobs:
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
-        with:
+        with: |
           name: dist
-          path: dist
+          path: ./dist
