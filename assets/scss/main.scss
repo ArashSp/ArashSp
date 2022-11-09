@@ -1,3 +1,7 @@
+@import "node_modules/bootstrap/scss/_functions";
+@import "node_modules/bootstrap/scss/_variables";
+@import "node_modules/bootstrap/scss/_mixins";
+
 // set theme colors
 $primary: #0061f1;
 $dark: #11171f;
@@ -12,10 +16,6 @@ $SideList: #ffffff80;
 $listtext: #747474;
 $rightsidetext: #8c8c8c;
 $codesample: #1d2633;
-
-@import "node_modules/bootstrap/scss/_functions";
-@import "node_modules/bootstrap/scss/_variables";
-@import "node_modules/bootstrap/scss/_mixins";
 
 // add custom colors to the bootstrap theme
 $custom-theme-colors:map-merge($theme-colors, (
