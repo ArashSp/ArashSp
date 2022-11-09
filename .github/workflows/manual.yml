@@ -19,9 +19,11 @@ jobs:
       - name: npm install, build, and test
         run: |
           npm install
-          npm run generate
-
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+          npm run generate 
+      - name: Zip artifact for deployment
+        run: zip release.zip ./* -qr
+      - name: Upload artifact for deployment job
+        uses: actions/upload-artifact@v2
         with:
-          publish_dir: ./dist
+           name: node-app
+           path: release.zip
