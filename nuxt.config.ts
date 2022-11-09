@@ -10,7 +10,7 @@ export default defineNuxtConfig({
         '@': path.resolve(__dirname, './')
       }
     },
-    ssr: false,
+    },
     css : { 
         preprocessorOptions : { 
             scss : { 
@@ -26,5 +26,4 @@ export default defineNuxtConfig({
             } , 
         } , 
     } ,  
- } ,
-);
+});
