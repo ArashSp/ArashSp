@@ -10,7 +10,7 @@ export default defineNuxtConfig({
             preprocessorOptions: {
                 scss: {
                     sourceMap: true,
-                    additionalData: `@import "~/assets/scss/main.scss";`,
+                    additionalData: `@import "@/assets/scss/main.scss";`,
                 },
             },
         }, 
