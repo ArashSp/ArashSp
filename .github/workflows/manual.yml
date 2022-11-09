@@ -24,5 +24,5 @@ jobs:
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
         with:
-          name: node-app
-          path: ./dist
+          name: dist
+          path: dist
