@@ -1,6 +1,4 @@
-# Nuxt 3 Minimal Starter
-
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+# Webhookie Starter
 
 ## Setup
 
@@ -39,4 +37,14 @@ Locally preview production build:
 npm run preview
 ```
 
-Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
+# Download Artifact
+After push code on main branch, you can go to action tab, first workflow run, and download from artifact section
+
+# Add article to blog
+For creating a blog article
+- pull repo (vs-code recommended)
+- go to pages/Blog/article.json
+- add item to json array
+- upload pictures anywhere and copy picture URL to ArticlePics
+- push repo
+- download artifact
