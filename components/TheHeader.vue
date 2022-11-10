@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-dark text-white" style="height:70px ;">
+  <div class="bg-blackBg text-white" style="height:70px ;">
   <!-- max-width1600px will break the page and will be shorter than the page  -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-Navbar1 NavigationBar row gx-0 " style=" position: fixed; width: 100%; padding: 12px 0px; z-index: 1;">
       <div class="row container">

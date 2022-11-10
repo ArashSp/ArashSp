@@ -14,12 +14,10 @@
     "nuxt3": "latest",
     "postcss": "^8.4.5",
     "postcss-loader": "^6.2.1",
-    "sass": "~1.32.0",
-    "sass-loader": "^10.0.0"
+    "sass": "~1.32.0"
   },
   "dependencies": {
-    "bootstrap": "^5.1.0",
-    "bootstrap-vue": "^2.22.0",
+    "bootstrap": "^5.2.0",
     "vue": "^3.2.37",
     "vue-router": "^4.1.1"
   }

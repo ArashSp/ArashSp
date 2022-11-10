@@ -14,7 +14,7 @@
                       src=" ../../assets/icons/IconComp8.svg"
                       class="pb-3"
                     />
-                    <p class="fw-bold display-7">Integration Costs</p>
+                    <p class="fw-bold display-7 pb-3">Integration Costs</p>
                   </a>
                 </div>
                 <div class="col text-center border-bottom-3">
@@ -23,7 +23,7 @@
                       src=" ../../assets/icons/IconComp5.svg"
                       class="pb-3"
                     />
-                    <p class="fw-bold display-7">Unlock Your Data</p>
+                    <p class="fw-bold display-7 pb-3">Unlock Your Data</p>
                   </a>
                 </div>
                 <div class="col text-center border-bottom-3">

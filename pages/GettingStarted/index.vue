@@ -7,7 +7,7 @@
       <div class="col-6">
         <form class="d-flex pt-4">
           <input
-            class="form-control bg-dark text-white py-2 px-4"
+            class="form-control bg-blackBg text-white py-2 px-4"
             type="search"
             placeholder="Search..."
             aria-label="Search"
@@ -62,11 +62,11 @@
               image inside the docker-compose (docker-compose.yml) file with
             </p>
             <p class="fw-lighter display-5">
-              <code class="text-white bg-dark display-7 fw-light"
+              <code class="text-white bg-blackBg display-7 fw-light"
                 >wizzn/keycloak:14</code
               >
               (instead of :
-              <code class="text-white bg-dark display-7 fw-light"
+              <code class="text-white bg-blackBg display-7 fw-light"
                 >quay.io/keycloak/keycloak:14.0.0</code
               >
               )

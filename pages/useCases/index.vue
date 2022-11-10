@@ -31,7 +31,7 @@
                       src=" ../../assets/icons/IconComp2.svg"
                       class="pb-4"
                     />
-                    <p class="fw-bold display-7">Data Synchronization</p>
+                    <p class="fw-bold display-7 pb-4">Data Synchronization</p>
                   </a>
                 </div>
                 <div class="col text-center test border-bottom-3">
@@ -40,7 +40,7 @@
                       src=" ../../assets/icons/IconComp3.svg"
                       class="pb-4"
                     />
-                    <p class="fw-bold display-7">Event-Driven Data Easy</p>
+                    <p class="fw-bold display-7 pb-4">Event-Driven Data Easy</p>
                   </a>
                 </div>
                 <div class="col text-center test border-bottom-3">
@@ -49,7 +49,7 @@
                       src=" ../../assets/icons/IconComp4.svg"
                       class="pb-4"
                     />
-                    <p class="fw-bold display-7">Real-Time Buisness IQ</p>
+                    <p class="fw-bold display-7 pb-4">Real-Time Buisness IQ</p>
                   </a>
                 </div>
                 <div class="col-3"></div>
