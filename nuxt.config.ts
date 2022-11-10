@@ -1,15 +1,15 @@
 import { defineNuxtConfig } from "nuxt";
-import path from "path";
+// import path from "path";
 
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
   // css: ["@/assets/scss/main.scss"],
-  vite: {
-    resolve: {
-      alias: {
-        "@": path.resolve(__dirname, "./"),
-      },
-    },
+  // vite: {
+  //   resolve: {
+  //     alias: {
+  //       "@": path.resolve(__dirname, "./"),
+  //     },
+  //   },
 
     css: ["~/assets/scss/main.scss"],
     // css: {
