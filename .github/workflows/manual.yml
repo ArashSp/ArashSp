@@ -1,3 +1,4 @@
+name: Build website
 on:
   push:
     branches:
