@@ -15,7 +15,7 @@ export default defineNuxtConfig({
       preprocessorOptions: {
         scss: {
           sourceMap: false,
-          additionalData: `@import "@/assets/scss/main.scss";`,
+          // additionalData: `@import "@/assets/scss/main.scss";`,
           //                 additionalData (source, fp) {
           //                   // All scss files ending with imports.scss
           //                   // will not re-import additionalData
