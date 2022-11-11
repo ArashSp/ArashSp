@@ -7,7 +7,7 @@
           <div class="col-lg-4 col-md-auto mb-5">
             <div class="col">
               <nuxt-link to="/">
-                <img src="../assets/images/logo2.svg" class="me-5 mb-4" />
+                <img src="/images/logo2.svg" class="me-5 mb-4" />
               </nuxt-link>
               <nav class="nav">
                 <nuxt-link class="nav-link link-icon px-1" to="">
@@ -134,7 +134,9 @@
             </div>
           </div>
         </div>
-        <div class="border-bottom border-icon border-3 mx-3 pt-5 opacity-75"></div>
+        <div
+          class="border-bottom border-icon border-3 mx-3 pt-5 opacity-75"
+        ></div>
       </div>
       <p class="text-center py-5 display-6 fw-light opacity-75">
         Copyright © 2022 Webhookie. All rights reserved
@@ -143,6 +145,3 @@
     </div>
   </div>
 </template>
-
-
-

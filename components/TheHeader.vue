@@ -1,14 +1,20 @@
 <template>
-  <div class="bg-blackBg text-white" style="height:70px ;">
-  <!-- max-width1600px will break the page and will be shorter than the page  -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-Navbar1 NavigationBar row gx-0 " style=" position: fixed; width: 100%; padding: 12px 0px; z-index: 1;">
+  <div class="bg-blackBg text-white" style="height: 70px">
+    <!-- max-width1600px will break the page and will be shorter than the page  -->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-Navbar1 NavigationBar row gx-0"
+      style="position: fixed; width: 100%; padding: 12px 0px; z-index: 1"
+    >
       <div class="row container">
         <div class="col-4 justify-content-center">
-          <Nuxt-link class="navbar-brand ps-5" to="/" >
-            <img src="../assets/images/Group.svg" class=" navbarLogo"
+          <Nuxt-link class="navbar-brand ps-5" to="/">
+            <img src="/images/Group.svg" class="navbarLogo"
           /></Nuxt-link>
         </div>
-        <div class="dropstart d-xl-none d-lg-none d-inline-md  justify-content-start" style=" max-width:50px;">
+        <div
+          class="dropstart d-xl-none d-lg-none d-inline-md justify-content-start"
+          style="max-width: 50px"
+        >
           <button
             class="btn dropdown-toggle text-icon"
             type="button"
@@ -75,24 +81,39 @@
           class="collapse navbar-collapse d-lg-none d-md-none d-inline-xl col-8 ms-n5"
         >
           <div class="navbar-nav mt-1 text-center">
-            <a class="nav-link ms-1 display-7 fw-light navtop" href="#"> GITHUB</a>
-            <Nuxt-link class="nav-link ms-3 display-7 fw-light lh-sm navtop" to="/Docs">
+            <a class="nav-link ms-1 display-7 fw-light navtop" href="#">
+              GITHUB</a
+            >
+            <Nuxt-link
+              class="nav-link ms-3 display-7 fw-light lh-sm navtop"
+              to="/Docs"
+            >
               DOCS</Nuxt-link
             >
-            <a class="nav-link ms-3 display-7 fw-light lh-sm navtop" href="#"> COMMUNITY</a>
+            <a class="nav-link ms-3 display-7 fw-light lh-sm navtop" href="#">
+              COMMUNITY</a
+            >
             <nuxt-link
-              class="nav-link ms-3 display-7 fw-light lh-sm navtop "
+              class="nav-link ms-3 display-7 fw-light lh-sm navtop"
               to="/HowItWorks"
             >
               HOW IT WORKS</nuxt-link
             >
-            <Nuxt-link class="nav-link ms-3 display-7 fw-light lh-sm navtop" to="/EventHub"
+            <Nuxt-link
+              class="nav-link ms-3 display-7 fw-light lh-sm navtop"
+              to="/EventHub"
               >EVENT HUB</Nuxt-link
             >
-            <Nuxt-link class="nav-link ms-3 display-7 fw-light lh-sm navtop" to="/Blog">
+            <Nuxt-link
+              class="nav-link ms-3 display-7 fw-light lh-sm navtop"
+              to="/Blog"
+            >
               BLOG</Nuxt-link
             >
-            <Nuxt-link class="nav-link mx-3 display-7 fw-light lh-sm navtop" to="/useCases">
+            <Nuxt-link
+              class="nav-link mx-3 display-7 fw-light lh-sm navtop"
+              to="/useCases"
+            >
               USE CASES</Nuxt-link
             >
 
@@ -114,16 +135,15 @@
 .NavigationBar {
   background: linear-gradient(104.08deg, #1b2433 39.98%, #2f4970 96.11%);
 }
-
 </style>
 <style scoped>
 .navtop {
-  Padding: 6px 22px 8px 22px;
- Letter-spacing: 1px;
+  padding: 6px 22px 8px 22px;
+  letter-spacing: 1px;
 }
 .navbarLogo {
-  height: 32px ;
-   width:auto ;
+  height: 32px;
+  width: auto;
 }
 </style>
 
