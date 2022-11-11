@@ -1,11 +1,10 @@
 <template>
   <div class="bg-blackBg text-white">
-    <TheHeader  />
+    <TheHeader />
     <div class="">
       <NuxtPage />
     </div>
     <TheFooter />
-  
   </div>
 </template>
 
@@ -14,10 +13,6 @@ export default {
   head() {
     return {
       title: "Webhookie",
-      link : {
-        rel :"icon",
-        href : "./assets/images/favicon.svg"
-      },
       script: [
         {
           src: "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js",
