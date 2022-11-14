@@ -1,9 +1,9 @@
 <template>
   <div>
-    <div>
+    <div class="container">
       <div class="row gx-0">
         <div class="col-3"></div>
-        <div class="col-6">
+        <div class="col-lg-6 col-md-auto">
           <form class="d-flex pt-4">
             <input
               class="form-control bg-blackBg text-white py-2 px-4"
@@ -25,7 +25,7 @@
         <div class="col-3">
           <SidebarLeft />
         </div>
-        <div class="col-6">
+        <div class="col-lg-6 col-md-auto">
           <div class="row">
             <p class="fw-bold display-10 pt-4">Get started fast</p>
             <p class="fw-lighter display-5 py-3">
@@ -47,8 +47,7 @@
 
             <button
               type="button"
-              class="btn btn-primary fw-normal display-5 px-3 py-3"
-              style="max-width: 60%"
+              class="btn btn-primary fw-normal display-5 px-3 py-3 col-lg-7 col-md-auto"
             >
               Download webhookie-w-mongodb-keycloak.zip
             </button>
@@ -328,8 +327,8 @@
             </p>
             <button
               type="button"
-              class="btn btn-primary fw-normal display-5 px-3 py-2 mt-1 mb-5"
-              style="max-width: 60%"
+              class="btn btn-primary fw-normal display-5 px-3 py-2 mt-1 mb-5 col-lg-7 col-md-auto "
+             
             >
               Download webhookie-w-mongodb-keycloak.zip
             </button>
@@ -349,7 +348,7 @@
             />
           </div>
 
-          <div class="row">
+          <div class="row container">
             <p class="fw-bold display-3 mt-4">What’s next?</p>
 
             <ul class="fw-lighter display-5 list-unstyled pt-3">

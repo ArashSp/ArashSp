@@ -7,9 +7,9 @@
           <div>
             <div class="row pt-3 d-none d-lg-block UsecasesNAV fixedNavBar">
               <div class="col">
-                <div class="row pt-4">
+                <div class="row pt-1">
                   <div class="col-3"></div>
-                  <div class="col text-center test border-bottom-3">
+                  <div class="col text-center border-bottom-3">
                     <a href="#EventHub" class="nav-link link-icon pb-4">
                       <img
                         src=" ../../assets/icons/IconComp.svg"
@@ -18,7 +18,7 @@
                       <p class="fw-bold display-7">Event Hub</p>
                     </a>
                   </div>
-                  <div class="col text-center test border-bottom-3">
+                  <div class="col text-center border-bottom-3">
                     <a href="#B2B" class="nav-link link-icon pb-4">
                       <img
                         src=" ../../assets/icons/IconComp1.svg"
@@ -27,7 +27,7 @@
                       <p class="fw-bold display-7">B2B API Gateway</p>
                     </a>
                   </div>
-                  <div class="col text-center test border-bottom-3">
+                  <div class="col text-center border-bottom-3">
                     <a href="#Data" class="nav-link link-icon">
                       <img
                         src=" ../../assets/icons/IconComp2.svg"
@@ -36,7 +36,7 @@
                       <p class="fw-bold display-7 pb-4">Data Synchronization</p>
                     </a>
                   </div>
-                  <div class="col text-center test border-bottom-3">
+                  <div class="col text-center border-bottom-3">
                     <a href="#Process" class="nav-link link-icon test">
                       <img
                         src=" ../../assets/icons/IconComp3.svg"
@@ -47,7 +47,7 @@
                       </p>
                     </a>
                   </div>
-                  <div class="col text-center test border-bottom-3">
+                  <div class="col text-center border-bottom-3">
                     <a href="#Real" class="nav-link link-icon test">
                       <img
                         src=" ../../assets/icons/IconComp4.svg"
@@ -65,7 +65,7 @@
           </div>
 
           <div class="pb-3" id="EventHub"></div>
-          <div class="py-5 my-5"></div>
+          <div class="py-4 my-5 d-none d-lg-flex"></div>
           <div>
             <div class="row pb-5">
               <div class="col-1 pt-5 mb-4">
@@ -108,7 +108,7 @@
             </div>
           </div>
           <div class="pb-2" id="B2B"></div>
-          <div class="py-5 my-5"></div>
+          <div class="py-4 my-5 d-none d-lg-flex"></div>
 
           <div>
             <div class="row pb-5">
@@ -156,7 +156,7 @@
             </div>
           </div>
           <div class="pb-2" id="Data"></div>
-          <div class="py-5 my-5"></div>
+          <div class="py-4 my-5 d-none d-lg-flex"></div>
 
           <div>
             <div class="row pb-5">
@@ -202,7 +202,7 @@
             </div>
           </div>
           <div class="pb-2" id="Process"></div>
-          <div class="py-5 my-5"></div>
+          <div class="py-4 my-5 d-none d-lg-flex"></div>
 
           <div>
             <div class="row pb-5">
@@ -249,7 +249,7 @@
             </div>
           </div>
           <div class="pb-2" id="Real"></div>
-          <div class="py-5 my-5"></div>
+          <div class="py-4 my-5 d-none d-lg-flex"></div>
 
           <div class="pb-5">
             <div class="row pb-5">
