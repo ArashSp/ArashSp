@@ -23,6 +23,5 @@ steps:
 
   - task: PublishBuildArtifacts@1
     inputs:
-      PathtoPublish: '.output/public'
-      ArtifactName: 'dist'
-      publishLocation: 'Container'
+      artifactName: dist
+      pathtoPublish: "dist"
