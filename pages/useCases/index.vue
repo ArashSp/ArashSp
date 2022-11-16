@@ -7,10 +7,9 @@
           <div>
             <div class="row pt-3 d-none d-lg-block UsecasesNAV fixedNavBar">
               <div class="col">
-                <div class="row pt-1">
-                  <div class="col-3"></div>
-                  <div class="col text-center border-bottom-3">
-                    <a href="#EventHub" class="nav-link link-icon pb-4">
+                <div class="row pt-1 justify-content-center">  
+                  <div class="col-2 text-center ">
+                    <a href="#EventHub" class="nav-link link-icon pb-2">
                       <img
                         src=" ../../assets/icons/IconComp.svg"
                         class="pb-4"
@@ -18,8 +17,8 @@
                       <p class="fw-bold display-7">Event Hub</p>
                     </a>
                   </div>
-                  <div class="col text-center border-bottom-3">
-                    <a href="#B2B" class="nav-link link-icon pb-4">
+                  <div class="col-2 text-center ">
+                    <a href="#B2B" class="nav-link link-icon pb-2">
                       <img
                         src=" ../../assets/icons/IconComp1.svg"
                         class="pb-4"
@@ -27,38 +26,37 @@
                       <p class="fw-bold display-7">B2B API Gateway</p>
                     </a>
                   </div>
-                  <div class="col text-center border-bottom-3">
-                    <a href="#Data" class="nav-link link-icon">
+                  <div class="col-2 text-center">
+                    <a href="#Data" class="nav-link link-icon pb-2">
                       <img
                         src=" ../../assets/icons/IconComp2.svg"
                         class="pb-4"
                       />
-                      <p class="fw-bold display-7 pb-4">Data Synchronization</p>
+                      <p class="fw-bold display-7 ">Data Synchronization</p>
                     </a>
                   </div>
-                  <div class="col text-center border-bottom-3">
-                    <a href="#Process" class="nav-link link-icon test">
+                  <div class="col-2 text-center ">
+                    <a href="#Process" class="nav-link link-icon pb-2">
                       <img
                         src=" ../../assets/icons/IconComp3.svg"
                         class="pb-4"
                       />
-                      <p class="fw-bold display-7 pb-4">
+                      <p class="fw-bold display-7 ">
                         Event-Driven Data Easy
                       </p>
                     </a>
                   </div>
-                  <div class="col text-center border-bottom-3">
-                    <a href="#Real" class="nav-link link-icon test">
+                  <div class="col-2 text-center ">
+                    <a href="#Real" class="nav-link link-icon pb-2">
                       <img
                         src=" ../../assets/icons/IconComp4.svg"
                         class="pb-4"
                       />
-                      <p class="fw-bold display-7 pb-4">
+                      <p class="fw-bold display-7">
                         Real-Time Buisness IQ
                       </p>
                     </a>
                   </div>
-                  <div class="col-3"></div>
                 </div>
               </div>
             </div>

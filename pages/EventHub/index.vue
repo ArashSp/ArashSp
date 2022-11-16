@@ -2,29 +2,28 @@
   <div>
     <div class="container">
       <div class="row">
-        <div class="row fixedNavBar pt-3">
-          <div class="col-4"></div>
-          <div class="col-4 d-none d-lg-block">
-            <div class="row navigation">
-              <div class="col text-center border-bottom-3">
+        <div class="row fixedNavBar justify-content-center pt-3">
+          <div class=" col-9 d-none d-lg-block">
+            <div class="row navigation justify-content-center">
+              <div class="col text-center">
                 <a href="#Cost" class="nav-link link-icon">
                   <img src=" ../../assets/icons/IconComp8.svg" class="pb-3" />
-                  <p class="fw-bold display-7 pb-3">Integration Costs</p>
+                  <p class="fw-bold display-7">Integration Costs</p>
                 </a>
               </div>
-              <div class="col text-center border-bottom-3">
+              <div class="col text-center">
                 <a href="#Unlock" class="nav-link link-icon">
                   <img src=" ../../assets/icons/IconComp5.svg" class="pb-3" />
-                  <p class="fw-bold display-7 pb-3">Unlock Your Data</p>
+                  <p class="fw-bold display-7 ">Unlock Your Data</p>
                 </a>
               </div>
-              <div class="col text-center border-bottom-3">
+              <div class="col text-center">
                 <a href="#Event" class="nav-link link-icon">
                   <img src=" ../../assets/icons/IconComp6.svg" class="pb-3" />
                   <p class="fw-bold display-7">Event-Driven Data Easy</p>
                 </a>
               </div>
-              <div class="col text-center border-bottom-3">
+              <div class="col text-center">
                 <a href="#Imagine" class="nav-link link-icon">
                   <img src=" ../../assets/icons/IconComp7.svg" class="pb-3" />
                   <p class="fw-bold display-7">Imagine The Possible</p>
@@ -32,17 +31,14 @@
               </div>
             </div>
           </div>
-          <div class="col-4"></div>
         </div>
       </div>
       <div id="Cost" class="mb-4"></div>
 
       <div class="row gx-0 mb-5">
-
         <div class="col-2"></div>
         <div class="col-lg-8 col-md-auto">
-
-          <div class="my-4 py-5 d-none d-lg-flex" ></div>
+          <div class="my-4 py-5 d-none d-lg-flex"></div>
 
           <div class="">
             <div class="row gx-0">
