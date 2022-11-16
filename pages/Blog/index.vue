@@ -81,7 +81,7 @@
       <div class="col-1"></div>
     </div>
 
-    <div class="row gx-0">
+    <div class="row ">
       <div class="col-lg-4 col-md-6 my-3" v-for="article in SortedArray">
         <div :key="article.id">
           <nuxt-link :to="'/Blog/' + article.id" class="nav-link link-white">
