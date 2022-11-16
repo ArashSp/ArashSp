@@ -15,7 +15,7 @@ steps:
       versionSpec: "18.x"
     displayName: "Install Node.js"
 
-  - script: 
+  - script:
       npm install
       npm run generate
       # mv ./dist/static/web.config ./dist/
@@ -23,5 +23,5 @@ steps:
 
   - task: PublishBuildArtifacts@1
     inputs:
-      artifactName: dist
+      artifactName: .output/public
       pathtoPublish: "dist"
