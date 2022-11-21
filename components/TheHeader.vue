@@ -41,7 +41,7 @@
             aria-labelledby="Menu"
           >
             <li>
-              <Nuxt-link class="dropdown-item display-7 pb-1" to="https://github.com/webhookie/webhookie-website" target="_blank"
+              <Nuxt-link class="dropdown-item display-7 pb-1" to="https://github.com/webhookie" target="_blank"
                 >GITHUB</Nuxt-link
               >
             </li>
@@ -51,7 +51,7 @@
               >
             </li>
             <li>
-              <Nuxt-link class="dropdown-item display-7 pb-1" to=""
+              <Nuxt-link class="dropdown-item display-7 pb-1" to="https://community.webhookie.com"
                 >COMMUNITY</Nuxt-link
               >
             </li>
