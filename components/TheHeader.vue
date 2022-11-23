@@ -41,7 +41,7 @@
             aria-labelledby="Menu"
           >
             <li>
-              <Nuxt-link class="dropdown-item display-7 pb-1" to="https://github.com/webhookie" target="_blank"
+              <Nuxt-link class="dropdown-item display-7 pb-1" to="https://github.com/webhookie"
                 >GITHUB</Nuxt-link
               >
             </li>
@@ -81,7 +81,7 @@
           class="collapse navbar-collapse d-lg-none d-md-none d-inline-xl col-8 ms-n5"
         >
           <div class="navbar-nav mt-1 text-center">
-            <a class="nav-link ms-1 display-7 fw-light navtop" href="https://github.com/webhookie/webhookie-website" target="_blank">
+            <a class="nav-link ms-1 display-7 fw-light navtop" href="https://github.com/webhookie/webhookie">
               GITHUB</a
             >
             <Nuxt-link
@@ -90,7 +90,7 @@
             >
               DOCS</Nuxt-link
             >
-            <a class="nav-link ms-3 display-7 fw-light lh-sm navtop" href="#">
+            <a class="nav-link ms-3 display-7 fw-light lh-sm navtop" href="https://community.webhookie.com">
               COMMUNITY</a
             >
             <nuxt-link
