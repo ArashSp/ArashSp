@@ -81,7 +81,7 @@
           class="collapse navbar-collapse d-lg-none d-md-none d-inline-xl col-8 ms-n5"
         >
           <div class="navbar-nav mt-1 text-center">
-            <a class="nav-link ms-1 display-7 fw-light navtop" href="https://github.com/webhookie/webhookie">
+            <a class="nav-link ms-1 display-7 fw-light navtop" href="https://github.com/webhookie">
               GITHUB</a
             >
             <Nuxt-link
