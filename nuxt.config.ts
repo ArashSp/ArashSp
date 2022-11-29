@@ -1,4 +1,3 @@
-import { defineNuxtConfig } from "nuxt";
 import path from "path";
 
 export default defineNuxtConfig({
@@ -10,12 +9,12 @@ export default defineNuxtConfig({
       },
     },
 
-    css: {
-      preprocessorOptions: {
-        scss: {
-          sourceMap: false,
-        },
-      },
-    },
+    // css: {
+    //   preprocessorOptions: {
+    //     scss: {
+    //       additionalData: '@import "~/assets/scss/main.scss";',
+    //     },
+    //   },
+    // },
   },
 });

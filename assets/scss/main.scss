@@ -52,8 +52,8 @@ $theme-colors: map-merge(
       36.77% 60.75% at 50% 65.32%,
       #0061f1 0%,
       #181818 100%
-    ),
-    url(.jpg);
+    );
+
   background-blend-mode: hue, normal;
 }
 

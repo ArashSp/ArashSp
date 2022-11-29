@@ -7,8 +7,8 @@
           <div>
             <div class="row pt-3 d-none d-lg-block UsecasesNAV fixedNavBar">
               <div class="col">
-                <div class="row pt-1 justify-content-center">  
-                  <div class="col-2 text-center ">
+                <div class="row pt-1 justify-content-center">
+                  <div class="col-2 text-center">
                     <a href="#EventHub" class="nav-link link-icon pb-2">
                       <img
                         src=" ../../assets/icons/IconComp.svg"
@@ -17,7 +17,7 @@
                       <p class="fw-bold display-7">Event Hub</p>
                     </a>
                   </div>
-                  <div class="col-2 text-center ">
+                  <div class="col-2 text-center">
                     <a href="#B2B" class="nav-link link-icon pb-2">
                       <img
                         src=" ../../assets/icons/IconComp1.svg"
@@ -32,29 +32,25 @@
                         src=" ../../assets/icons/IconComp2.svg"
                         class="pb-4"
                       />
-                      <p class="fw-bold display-7 ">Data Synchronization</p>
+                      <p class="fw-bold display-7">Data Synchronization</p>
                     </a>
                   </div>
-                  <div class="col-2 text-center ">
+                  <div class="col-2 text-center">
                     <a href="#Process" class="nav-link link-icon pb-2">
                       <img
                         src=" ../../assets/icons/IconComp3.svg"
                         class="pb-4"
                       />
-                      <p class="fw-bold display-7 ">
-                        Event-Driven Data Easy
-                      </p>
+                      <p class="fw-bold display-7">Event-Driven Data Easy</p>
                     </a>
                   </div>
-                  <div class="col-2 text-center ">
+                  <div class="col-2 text-center">
                     <a href="#Real" class="nav-link link-icon pb-2">
                       <img
                         src=" ../../assets/icons/IconComp4.svg"
                         class="pb-4"
                       />
-                      <p class="fw-bold display-7">
-                        Real-Time Buisness IQ
-                      </p>
+                      <p class="fw-bold display-7">Real-Time Buisness IQ</p>
                     </a>
                   </div>
                 </div>
