@@ -1,0 +1,183 @@
+@import "node_modules/bootstrap/scss/_functions";
+@import "node_modules/bootstrap/scss/_variables";
+@import "node_modules/bootstrap/scss/_mixins";
+
+// set theme colors
+$primary: #0061f1;
+$dark: #11171f;
+$theme1: #33a8d1;
+$navbar1: #1b2433;
+$active: #0061f1;
+$background: #11171f;
+$icon: #a8aebc;
+$number: #004dbf;
+$btnsearch: #66a3ff;
+$SideList: #ffffff80;
+$listtext: #747474;
+$rightsidetext: #8c8c8c;
+$codesample: #1d2633;
+$blackBg:#11171f;
+
+// add custom colors to the bootstrap theme
+$theme-colors: map-merge(
+  $theme-colors,
+  (
+    "theme1": $theme1,
+    "white": $white,
+    "Navbar1": $navbar1,
+    "icon": $icon,
+    "number": $number,
+    "btnsearch": $btnsearch,
+    "listtext": $listtext,
+    "rightsidetext": $rightsidetext,
+    "codesample": $codesample,
+    "blackBg":$blackBg
+  )
+);
+
+.transparent {
+  background-color: #ffffff;
+  opacity: 0.4;
+}
+.blogbtn {
+  background: linear-gradient(
+    149.48deg,
+    #1d2838 9.15%,
+    rgba(29, 40, 56, 0.5) 81.46%
+  );
+  border-radius: 3.99529px;
+}
+.blogbox {
+  background: radial-gradient(
+      36.77% 60.75% at 50% 65.32%,
+      #0061f1 0%,
+      #181818 100%
+    );
+
+  background-blend-mode: hue, normal;
+}
+
+.IconStyle {
+  height: 48px;
+  width: 40px;
+  left: 0px;
+  top: 6.140625px;
+  border-radius: 0px;
+}
+.spacer {
+  background: linear-gradient(
+    90.77deg,
+    #083577 26.33%,
+    #0846a2 68.39%,
+    #2674e7 99.68%
+  );
+  box-shadow: 0px -20px 248px rgba(4, 67, 189, 0.3);
+  transform: rotate(-0.5deg);
+}
+.Notrotate {
+  transform: rotate(0.5deg);
+}
+.RTDBox {
+  background: linear-gradient(
+    149.48deg,
+    rgba(35, 43, 55, 0.45) 9.15%,
+    rgba(0, 77, 191, 0.32) 81.46%
+  );
+}
+.RTDBox2 {
+  background: linear-gradient(
+    149.48deg,
+    rgba(35, 43, 55, 0.45) 9.15%,
+    rgba(0, 77, 191, 0.32) 81.46%
+  );
+}
+.rotate {
+  transform: rotate(-0.5deg);
+  max-width: 100%;
+}
+.RotateBack {
+  transform: rotate(0.5deg);
+}
+
+// Overwrite bootstrap sass variables (check _variables for all options)
+$grid-gutter-width: 1.5rem;
+$gutters: (
+  0: 0,
+  1: $spacer * 0.25,
+  2: $spacer * 0.5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 4,
+);
+
+$enable-negative-margins: true;
+$navbar-light-color: $dark;
+$font-family-base: "Inter", sans-serif;
+$font-size-base: 0.85rem;
+$enable-negative-margins: true;
+$input-btn-padding-x: 1rem;
+$border-radius: 2px;
+$link-color: $theme1;
+$display-font-sizes: (
+  1: 54px,
+  2: 44px,
+  3: 24px,
+  4: 20px,
+  5: 18px,
+  6: 16px,
+  7: 14px,
+  8: 12px,
+  9: 35px,
+  10: 28px,
+);
+$position-values: (
+  0: 0,
+  30: 10%,
+  50: 50%,
+  100: 100%,
+);
+// $display-font-weight: (
+//   1: 700,
+//   2: 600,
+//   3: 500,
+// );
+// $display-line-height: (
+//   1: 115%,
+//   2: 120%,
+//   3: 105%,
+//   4: 30px,
+//   5: 16px,
+//   6: 0.05em,
+// );
+$font-weight-light: 500;
+$font-weight-normal: 600;
+$font-weight-bold: 700;
+$font-weight-lighter: 400;
+
+$line-height-sm: 16px;
+$line-height-lg: 120%;
+
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * 0.25,
+  2: $spacer * 0.5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 4,
+  7: 80px,
+);
+
+// Finally load bootstrap
+@import "node_modules/bootstrap/scss/bootstrap";
+
+// Load a custom font
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@font-face {
+  font-family: "Inter";
+  src: url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+}
