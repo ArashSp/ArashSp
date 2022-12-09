@@ -8,10 +8,8 @@
             An open-source webhook API platform
           </p>
           <p class="display-4 text-center mb-5 fw-light lh-base">
-            With webhookie you can add powerful event-driven API (aka webhook
-            API) capability to your platform, product, or integration
-            architecture. Webhookie integrates with any message broker to
-            provide robust asynchronous message delivery to your API consumers.
+            With webhookie you can add powerful event-driven API capability
+            to your platform, product, or integration architecture.
           </p>
           <div class="row">
             <div class="col-lg-3 col-md-2"></div>
@@ -53,7 +51,7 @@
     >
       <div class="Notrotate">
         <p class="display-2 fw-normal">
-          Requirement for doing business in digital age
+          Create Real-time, event-driven APIs now
         </p>
         <button
           type="button"
