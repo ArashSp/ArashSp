@@ -51,7 +51,7 @@
     >
       <div class="Notrotate">
         <p class="display-2 fw-normal">
-          Requirement for doing business in digital age
+          Create Real-time, event-driven APIs now
         </p>
         <button
           type="button"
