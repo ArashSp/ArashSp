@@ -30,6 +30,7 @@ Build the application for production:
 ```bash
 npm run build
 ```
+the built source will be in .output/public
 
 Locally preview production build:
 
