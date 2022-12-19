@@ -2,41 +2,26 @@
   <div>
     <div class="container">
       <div class="row gx-0">
-        <div class="col-3"></div>
+        <div class="col-3">
+          <SidebarLeft class="sticky-top sticky-top-fix" />
+        </div>
         <div class="col-lg-6 col-md-auto">
-          <form class="d-flex pt-4">
-            <input
-              class="form-control bg-blackBg text-white py-2 px-4"
-              type="search"
-              placeholder="Search..."
-              aria-label="Search"
-            />
-            <button
-              class="btn btn-btnsearch text-white px-4 py-2"
-              type="submit"
-            >
+          <!-- <form class="d-flex pt-4">
+            <input class="form-control bg-blackBg text-white py-2 px-4" type="search" placeholder="Search..."
+              aria-label="Search" />
+            <button class="btn btn-btnsearch text-white px-4 py-2" type="submit">
               Search
             </button>
-          </form>
-        </div>
-        <div class="col-3"></div>
-      </div>
-      <div class="row gx-0">
-        <div class="col-3">
-          <SidebarLeft />
-        </div>
-        <div class="col-lg-6 col-md-auto">
+          </form> -->
           <div class="row">
-            <p class="fw-bold display-10 pt-4">Get started fast</p>
+            <p class="fw-bold display-10 pt-4" id="Get">Get started fast</p>
             <p class="fw-lighter display-5 py-3">
               The easiest way to evaluate webhookie is using docker.
             </p>
 
             <p class="fw-lighter display-5 py-3">
               Make sure you have
-              <a href="" class="text-decoration-none link-btnsearch"
-                >docker</a
-              >
+              <a href="" class=" ">docker</a>
               installed on your system.
             </p>
 
@@ -45,10 +30,7 @@
               this zip file.
             </p>
 
-            <button
-              type="button"
-              class="btn btn-primary fw-normal display-5 px-3 py-3 col-lg-7 col-md-auto"
-            >
+            <button type="button" class="btn btn-primary fw-normal display-5 px-3 py-3 col-lg-7 col-md-auto">
               Download webhookie-w-mongodb-keycloak.zip
             </button>
             <p class="fw-lighter display-5 py-4">
@@ -64,13 +46,9 @@
                 file with
               </p>
               <p class="fw-lighter display-5">
-                <code class="text-white bg-blackBg display-7 fw-light"
-                  >wizzn/keycloak:14</code
-                >
+                <code class="text-white bg-blackBg display-7 fw-light">wizzn/keycloak:14</code>
                 (instead of :
-                <code class="text-white bg-blackBg display-7 fw-light"
-                  >quay.io/keycloak/keycloak:14.0.0</code
-                >
+                <code class="text-white bg-blackBg display-7 fw-light">quay.io/keycloak/keycloak:14.0.0</code>
                 )
               </p>
             </div>
@@ -83,8 +61,7 @@
             </p>
             <div class="bg-codesample py-4 px-2 my-3">
               <code class="text-white fw-light display-7 px-5">
-                docker compose up</code
-              >
+                docker compose up</code>
             </div>
             <p class="fw-lighter display-5 mt-4 mb-5">
               This will start the necessary containers to evaluate the product.
@@ -92,15 +69,11 @@
           </div>
 
           <div class="row">
-            <p class="fw-bold display-10 my-4">Using webhookie</p>
+            <p class="fw-bold display-10 my-4" id="webhook">Using webhookie</p>
 
             <p class="fw-lighter display-5 pt-3 pb-1">
               In your browser go to the webhookie developer portal .
-              <a
-                href="http://localhost:4300"
-                class="text-decoration-none link-btnsearch"
-                >http://localhost:4300</a
-              >
+              <a href="http://localhost:4300" class=" ">http://localhost:4300</a>
             </p>
 
             <ul class="fw-lighter display-5 pt-3 pb-4 list-unstyled">
@@ -116,75 +89,52 @@
               health indicator is the dot next to login. This will become green
               when the server and its dependencies are up.
             </p>
-            <img
-              src="/images/portal-home-page.svg"
-              class="mt-3 mb-3 pb-5"
-              style="max-width: 100%"
-            />
+            <img src="/images/portal-home-page.svg" class="mt-3 mb-3 pb-5" style="max-width: 100%" />
           </div>
 
           <div class="row">
-            <p class="fw-bold display-3 pb-3">Create a webhook API</p>
+            <p class="fw-bold display-3 pb-3" id="createWebhook">Create a webhook API</p>
 
             <p class="fw-lighter display-5">
               In the <strong>Webhooks</strong> section, you can create a new
               Webhook API.
             </p>
-            <img
-              src="/images/webhook-page.svg"
-              class="mt-2 mb-3 pb-4"
-              style="max-width: 100%"
-            />
+            <img src="/images/webhook-page.svg" class="mt-2 mb-3 pb-4" style="max-width: 100%" />
             <p class="fw-lighter display-5 lh-base">
               When you create a new Webhook API you will see a preloaded
-              <a
-                href="http://localhost:4300"
-                class="text-decoration-none link-btnsearch"
-                >ASYNC API specification</a
-              >
+              <a href="http://localhost:4300" class=" ">ASYNC API specification</a>
               called the Pet Store Events API. You can replace this or edit it
               to reflect your own Webhook API details. Alternatively, you can
               just publish the Pet Store Events API to get a feel for the
               product.
             </p>
-            <img
-              src="/images/create-webhook-API.svg"
-              class="mt-3 mb-3 pb-4"
-              style="max-width: 100%"
-            />
+            <img src="/images/create-webhook-API.svg" class="mt-3 mb-3 pb-4" style="max-width: 100%" />
             <p class="fw-lighter display-5 lh-base">
               When you click <strong>Publish</strong> , the API will be
               available, to discover and subscribe, to any users within the
               consumer groups you selected.
             </p>
-            <img
-              src="/images/webhook-page.svg"
-              class="mt-3 mb-3 pb-4"
-              style="max-width: 100%"
-            />
+            <img src="/images/webhook-page.svg" class="mt-3 mb-3 pb-4" style="max-width: 100%" />
 
             <ul class="fw-lighter display-5 mt-3 list-unstyled">
               For more informaion:
               <li class="pt-3 ps-5">
-                <a href="" class="text-decoration-none link-btnsearch">
+                <a href="" class=" ">
                   Webhook APIs
                 </a>
               </li>
               <li class="pt-3 ps-5">
-                <a href="" class="text-decoration-none link-btnsearch"
-                  >Consumer Groups
+                <a href="" class=" ">Consumer Groups
                 </a>
               </li>
               <li class="pt-3 ps-5 pb-5">
-                <a href="" class="text-decoration-none link-btnsearch"
-                  >Provider Groups</a
-                >
+                <a href="" class=" ">Provider Groups</a>
               </li>
             </ul>
           </div>
 
           <div class="row">
-            <p class="fw-bold display-3">Setup a subscription</p>
+            <p class="fw-bold display-3" id="sub">Setup a subscription</p>
 
             <p class="fw-lighter display-5 lh-base">
               Subscriptions are set up by your webhook consumers. They are
@@ -192,11 +142,7 @@
               you don’t have to lift a finger to help your subscribers
               integrate.
             </p>
-            <img
-              src="/images/New-Subscription-UX.svg"
-              class="mt-3 mb-3 pb-4"
-              style="max-width: 100%"
-            />
+            <img src="/images/New-Subscription-UX.svg" class="mt-3 mb-3 pb-4" style="max-width: 100%" />
             <ul class="fw-lighter display-5 list-unstyled">
               A subscription is created with the following steps
 
@@ -233,25 +179,22 @@
             <ul class="fw-lighter display-5 list-unstyled">
               For more informaion:
               <li class="pt-3 ps-5">
-                <a href="" class="text-decoration-none link-btnsearch">
+                <a href="" class=" ">
                   Subscriptions
                 </a>
               </li>
               <li class="pt-3 ps-5">
-                <a href="" class="text-decoration-none link-btnsearch"
-                  >Applications
+                <a href="" class=" ">Applications
                 </a>
               </li>
               <li class="pt-3 ps-5 pb-5">
-                <a href="" class="text-decoration-none link-btnsearch"
-                  >Callbacks</a
-                >
+                <a href="" class=" ">Callbacks</a>
               </li>
             </ul>
           </div>
 
           <div class="row">
-            <p class="fw-bold display-3 pb-4">Publish an event</p>
+            <p class="fw-bold display-3 pb-4" id="event">Publish an event</p>
 
             <ul class="fw-lighter display-5 list-unstyled">
               There are two options to integrate your product or system with
@@ -260,19 +203,14 @@
                 <strong>AMQP</strong> – If you have RabbitMQ or any other
                 message bus within your architecture you can use it to send
                 events to webhookie.
-                <a href="" class="text-decoration-none link-btnsearch">
-                  See AMQP Setup</a
-                >.
+                <a href="" class=" ">
+                  See AMQP Setup</a>.
               </li>
               <li class="pt-3 ps-5 pb-4 lh-base">
                 <strong>API</strong> – If you don’t have a message bus within
                 your architecture then we have a simple REST API to post events
-                to webhookie.<a
-                  href=""
-                  class="text-decoration-none link-btnsearch"
-                >
-                  See API integration</a
-                >.
+                to webhookie.<a href="" class=" ">
+                  See API integration</a>.
               </li>
             </ul>
 
@@ -296,8 +234,7 @@
     Content-Type: application/x-www-form-urlencoded
 
     username=webhookie_admin&password=passwd1&grant_type=password
-            </pre
-                  >
+            </pre>
                 </div>
               </li>
               <li class="pt-3 ps-5">
@@ -315,8 +252,7 @@
     Authorization: Bearer
 
     Your test message
-            </pre
-                  >
+            </pre>
                 </div>
               </li>
             </ul>
@@ -325,38 +261,30 @@
               below (note: you must extract the json file from the zip file
               before you import it into Postman).
             </p>
-            <button
-              type="button"
-              class="btn btn-primary fw-normal display-5 px-3 py-2 mt-1 mb-5 col-lg-7 col-md-auto "
-             
-            >
+            <button type="button" class="btn btn-primary fw-normal display-5 px-3 py-2 mt-1 mb-5 col-lg-7 col-md-auto ">
               Download webhookie-w-mongodb-keycloak.zip
             </button>
           </div>
 
           <div class="row">
-            <p class="fw-bold display-3 mt-5">View Traffic</p>
+            <p class="fw-bold display-3 mt-5" id="traffic">View Traffic</p>
 
             <p class="fw-lighter display-5 lh-base">
               If you navigate to Traffic in the webhookie developer portal you
               can see the traffic being sent to your subscription.
             </p>
-            <img
-              src="/images/Traffic.svg"
-              class="mt-3 mb-3 pb-4"
-              style="max-width: 100%"
-            />
+            <img src="/images/Traffic.svg" class="mt-3 mb-3 pb-4" style="max-width: 100%" />
           </div>
 
           <div class="row container">
-            <p class="fw-bold display-3 mt-4">What’s next?</p>
+            <p class="fw-bold display-3 mt-4" id="next">What’s next?</p>
 
             <ul class="fw-lighter display-5 list-unstyled pt-3">
               For more informaion:
               <li class="pt-3 ps-5">
                 Understand the
 
-                <a href="" class="text-decoration-none link-btnsearch">
+                <a href="" class=" ">
                   architecture and deployment
                 </a>
                 options we support.
@@ -364,21 +292,18 @@
               <li class="pt-3 ps-5">
                 Learn how to .
 
-                <a href="" class="text-decoration-none link-btnsearch"
-                  >white label the developer portal
+                <a href="" class=" ">white label the developer portal
                 </a>
               </li>
               <li class="pt-3 ps-5">
                 Learn how to Integrate webhookie with your own .
-                <a href="" class="text-decoration-none link-btnsearch"
-                  >identity platform</a
-                >
+                <a href="" class=" ">identity platform</a>
               </li>
             </ul>
           </div>
         </div>
         <div class="col-3">
-          <SidebarRight />
+          <SidebarRight class="sticky-top sticky-top-fix"/>
         </div>
       </div>
     </div>
@@ -388,7 +313,7 @@
 
 <script>
 import SidebarLeft from "../../components/SidebarLeft.vue";
-import SidebarRight from "../../components/SidebarRight.vue";
+import SidebarRight from "../../components/SidebarGettingStarted.vue";
 import Downloadnow from "../../components/Downloadnow.vue";
 
 export default {
@@ -400,5 +325,13 @@ export default {
 .warningBox {
   background: #3e412c;
   box-shadow: inset 5px 0px 0px #ffed51;
+}
+
+.sticky-top-fix {
+  padding-top: 70px !important;
+}
+a{
+  text-decoration: none !important;
+  color: #66a3ff !important;
 }
 </style>

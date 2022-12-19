@@ -3,13 +3,13 @@
     <div class="container">
       <div class="row gx-0">
 
-        <SideBarLeftMobile class="d-xl-none d-lg-none d-inline-md" />
+        <SideBarLeftMobile class="d-xl-none d-lg-none d-inline-md " />
 
         <div class="col-3">
-          <SidebarLeft />
+          <SidebarLeft class="sticky-top sticky-top-fix" />
         </div>
 
-        <div class="col-lg-6 col-md-auto mt-5">
+        <div class="col-lg-6 col-md-auto pt-5">
           <div class="container">
             <SideBarLeftMobile class="d-lg-none" />
           </div>
@@ -234,7 +234,7 @@
           <!-- User API -->
           <div class="pt-4 mt-4 pb-5 mb-5" id="Webhook">
             <div class="row gx-0 pb-3">
-              <p class="fw-bold display-9">Webhook API API</p>
+              <p class="fw-bold display-9">Webhook API</p>
             </div>
             <div class="row gx-0">
               <p class="fw-lighter display-5 lh-base pb-3">
@@ -264,15 +264,15 @@
           </div>
           <!-- Webhook API  -->
 
-          <div class="row gx-0 pb-5">
-            <div class="col">
+          <div class="d-flex justify-content-between gx-0 pb-5">
+            <div >
               <a href="/GettingStarted">
                 <button type="button" class="btn btn-outline-btnsearch px-4">
                   Get started
                 </button>
               </a>
             </div>
-            <div class="col text-right">
+            <div >
               <button type="button" class="btn btn-outline-btnsearch px-4 ms-4">
                 Road map
               </button>
@@ -280,8 +280,8 @@
           </div>
         </div>
 
-        <div class="col-3">
-          <SidebarRight />
+        <div class="col-3 ">
+          <SidebarRight class="sticky-top sticky-top-fix" />
         </div>
       </div>
     </div>
@@ -300,3 +300,9 @@ export default {
   components: { SidebarLeft, SidebarRight, Downloadnow, SideBarLeftMobile },
 };
 </script>
+
+<style>
+.sticky-top-fix{
+  padding-top:80px !important ;
+}
+</style>

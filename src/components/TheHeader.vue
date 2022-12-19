@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-blackBg text-white" style="height: 70px">
+  <div class="bg-blackBg text-white" style="height: 70px;">
     <!-- max-width1600px will break the page and will be shorter than the page  -->
     <nav
       class="navbar navbar-expand-lg navbar-dark bg-Navbar1 NavigationBar row gx-0"
@@ -134,6 +134,7 @@
 <style scoped>
 .NavigationBar {
   background: linear-gradient(104.08deg, #1b2433 39.98%, #2f4970 96.11%);
+  z-index: 99999 !important;
 }
 </style>
 <style scoped>

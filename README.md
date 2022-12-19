@@ -28,6 +28,8 @@ npm run dev
 npm run build
 ```
 
+the built source will be in the dist folder
+
 ### Run Unit Tests with [Vitest](https://vitest.dev/)
 
 ```sh
@@ -38,4 +40,35 @@ npm run test:unit
 
 ```sh
 npm run lint
+```
+
+### How to add to Document Menu
+
+if you are Adding to an existing category just simply add
+
+```
+  <li class="pb-3">
+     <a href="{{your link}}">
+            {{your header here}}
+     </a>
+  </li>
+```
+
+if u want to add a new category u should add the code below 
+
+```
+  <li>
+    <details class="btn btn-transparent rounded text-white fw-normal display-6">
+      <summary>
+         {{Your category Name}}
+      </summary>
+        <ul class="pb-1 fw-lighter display-7 noStyle text-listtext">
+          <li class="py-2">
+            <a href="{{your link here}}">
+               {{your header here}}
+            </a>
+          </li>
+        </ul>
+    </details>
+  </li>
 ```
