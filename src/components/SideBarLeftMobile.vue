@@ -3,9 +3,8 @@
     <button
       class="btn btn-outline-btnsearch dropdown-toggle fixedNavBar py-3"
       id="NavigationDocs"
-      data-bs-toggle="collapse"
+      data-bs-toggle="dropdown"
       data-bs-auto-close="outside"
-      data-bs-target=".dropdown-menu"
       style="width: 100%"
     >
       Navigation
@@ -13,9 +12,8 @@
 
     <ul
       class="bg-codesample noStyle dropdown-menu persistant shadow"
-      aria-labelledby="dropdown" 
-      style="width: 100%; "
-      id="dropdown"
+      aria-labelledby="NavigationDocs" 
+      style="width: 100%;"
     >
       <li>
         <button
@@ -135,7 +133,6 @@
       </li>
     </ul>
   </div>
-  
 </template>
 <script>
 export default {};
