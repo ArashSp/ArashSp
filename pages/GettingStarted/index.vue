@@ -103,7 +103,7 @@
               >
             </p>
 
-            <ul class="fw-lighter display-5 pt-3 pb-4 list-unstyled">
+            <ul class="fw-lighter display-5 pt-3 pb-4 ">
               An admin user has been set up for you with the following details:
               <li class="pt-3 ps-5">
                 <strong>username:</strong> webhookie_admin
@@ -163,7 +163,7 @@
               style="max-width: 100%"
             />
 
-            <ul class="fw-lighter display-5 mt-3 list-unstyled">
+            <ul class="fw-lighter display-5 mt-3">
               For more informaion:
               <li class="pt-3 ps-5">
                 <nuxt-link to="" class="text-decoration-none link-btnsearch">
@@ -197,7 +197,7 @@
               class="mt-3 mb-3 pb-4"
               style="max-width: 100%"
             />
-            <ul class="fw-lighter display-5 list-unstyled">
+            <ol type="1" class="fw-lighter display-5">
               A subscription is created with the following steps
 
               <li class="pt-3 ps-5 lh-base">
@@ -228,9 +228,9 @@
                 6.<strong>Activate</strong> the Subscription – your callback
                 will now start receiving traffic when the events occur.
               </li>
-            </ul>
+            </ol>
 
-            <ul class="fw-lighter display-5 list-unstyled">
+            <ul class="fw-lighter display-5">
               For more informaion:
               <li class="pt-3 ps-5">
                 <nuxt-link to="" class="text-decoration-none link-btnsearch">
@@ -253,7 +253,7 @@
           <div class="row">
             <p class="fw-bold display-3 pb-4">Publish an event</p>
 
-            <ul class="fw-lighter display-5 list-unstyled">
+            <ul class="fw-lighter display-5">
               There are two options to integrate your product or system with
               webhookie. These are:
               <li class="pt-3 ps-5 lh-base">
@@ -281,7 +281,7 @@
               you can use an API client like Postman to publish events to
               webhookie.
             </p>
-            <ul class="fw-lighter display-5 list-unstyled lh-base">
+            <ul class="fw-lighter display-5  lh-base">
               To publish an event to webhookie requires two steps. The first to
               get an access token and the second to post the event.
 
@@ -351,7 +351,7 @@
           <div class="row container">
             <p class="fw-bold display-3 mt-4">What’s next?</p>
 
-            <ul class="fw-lighter display-5 list-unstyled pt-3">
+            <ul class="fw-lighter display-5  pt-3">
               For more informaion:
               <li class="pt-3 ps-5">
                 Understand the
