@@ -75,7 +75,7 @@
         </button>
       </div>
     </div>
-    <div class="row gx-0">
+    <div class="row gx-4">
       <div class="col-lg-4 col-md-6 my-3" v-for="article in SortedArray">
         <div :key="article.id">
           <a :href="'/Blog/' + article.id" class="nav-link link-white">
