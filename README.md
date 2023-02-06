@@ -44,8 +44,8 @@ After push code on main branch, you can go to action tab, first workflow run, an
 # Add article to blog
 For creating a blog article
 - pull repo (vs-code recommended)
-- go to pages/Blog/article.json
+- go to views/BlogDescription/newArticle.json
 - add item to json array
-- upload pictures anywhere and copy picture URL to ArticlePics
+- upload pictures anywhere and copy picture URL to ImageName
 - push repo
 - download artifact
