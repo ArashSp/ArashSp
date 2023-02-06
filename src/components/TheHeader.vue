@@ -121,7 +121,7 @@
                 href="/Docs/GettingStarted"
                 class="text-decoration-none text-white display-8 fw-bold"
             >
-              <button class="btn btn-primary btn-sm ms-4" type="button">
+              <button class="btn btn-primary btn-sm ms-4 display-5 fw-light" type="button">
 
                   GET STARTED
 
