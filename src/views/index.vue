@@ -299,7 +299,7 @@
 </template>
 
 <script>
-import DownloadNow from '../components/Downloadnow.vue';
+import DownloadNow from '../components/layout/Downloadnow.vue';
 export default {
   components: { DownloadNow },
   return: {},

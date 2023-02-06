@@ -298,7 +298,7 @@
 </template>
 
 <script>
-import Downloadnow from "../../components/Downloadnow.vue";
+import Downloadnow from "../../components/layout/Downloadnow.vue";
 export default {
   components: { Downloadnow },
 };

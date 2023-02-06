@@ -299,8 +299,8 @@
 
 <script>
 
-import SidebarRight from "../../components/SidebarRight.vue";
-import Downloadnow from "../../components/Downloadnow.vue";
+import SidebarRight from "../../components/Docs/SidebarRight.vue";
+import Downloadnow from "../../components/layout/Downloadnow.vue";
 
 export default {
   return: {},

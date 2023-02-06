@@ -1,123 +1,38 @@
 <template>
-<div>
-  <div class="container bg-blackBg text-white">
-    <div
-      class="row gx-0 d-none d-lg-flex d-xl-flex justify-content-center"
-      style="background-color: #141b24; width: 100%;"
-    >
-      <div class="col-8" v-for="article in myJson.slice(0, 1)">
-        <div class="row gx-0" style="background-color: #141b24">
-          <div class="col">
-            <img
-              :src="article.ArticlePic"
-              class="mt-5 mb-3 pb-4 blogbox"
-              style="max-width: 100%"
-            />
-          </div>
-          <div class="col">
-            <div class="row">
-              <div v-for="tag in article.tags" class="col-2">
-                <button
-                  type="button"
-                  class="btn blogbtn btn-sm text-icon ms-3 mt-5 px-2"
-                >
-                  {{ tag.name }}
-                </button>
-              </div>
-            </div>
-
-            <p class="fw-bold display-9 ps-3 mt-3">
-              {{ article.MainTitle }}
-            </p>
-            <p class="fw-lighter display-7 ps-3">
-              {{ article.Author }} , {{ article.ArticleDate }}
-            </p>
-          </div>
+  <div>
+    <div class="container bg-blackBg text-white">
+      <hero :DataArray="myJson" />
+      <div class="row gx-0 justify-content-center">
+        <div class="col-lg-10 col-md-auto">
+          <button type="button" class="btn blogbtn btn-sm text-icon ms-2 mt-5 px-2" @click="AllSORT()">
+            All
+          </button>
+          <button type="button" class="btn blogbtn btn-sm text-icon ms-2 mt-5 px-2" @click="APISORT()">
+            API
+          </button>
+          <button type="button" class="btn blogbtn btn-sm text-icon ms-2 mt-5 px-2" @click="COMPANYSORT()">
+            Company
+          </button>
+          <button type="button" class="btn blogbtn btn-sm text-icon ms-2 mt-5 px-2" @click="UseSort()">
+            Use Case
+          </button>
+          <button type="button" class="btn blogbtn btn-sm text-icon ms-2 mt-5 px-2" @click="SecuritySort()">
+            Security
+          </button>
         </div>
+        <BlogCard :DataArray="SortedArray" />
       </div>
-    </div>
-    <div class="row gx-0 justify-content-center">
-      <div class="col-lg-10 col-md-auto">
-        <button
-          type="button"
-          class="btn blogbtn btn-sm text-icon ms-2 mt-5 px-2"
-          @click="AllSORT()"
-        >
-          All
-        </button>
-        <button
-          type="button"
-          class="btn blogbtn btn-sm text-icon ms-2 mt-5 px-2"
-          @click="APISORT()"
-        >
-          API
-        </button>
-        <button
-          type="button"
-          class="btn blogbtn btn-sm text-icon ms-2 mt-5 px-2"
-          @click="COMPANYSORT()"
-        >
-          Company
-        </button>
-        <button
-          type="button"
-          class="btn blogbtn btn-sm text-icon ms-2 mt-5 px-2"
-          @click="UseSort()"
-        >
-          Use Case
-        </button>
-        <button
-          type="button"
-          class="btn blogbtn btn-sm text-icon ms-2 mt-5 px-2"
-          @click="SecuritySort()"
-        >
-          Security
-        </button>
-      </div>
-    </div>
-    <div class="row gx-0">
-      <div class="col-lg-4 col-md-6 my-3" v-for="article in SortedArray">
-        <div :key="article.id">
-          <a :href="'/Blog/' + article.id" class="nav-link link-white">
-            <div>
-              <img
-                :src="article.ArticlePic"
-                class="mt-3 pb-2"
-                style="max-width: 100%"
-              />
-              <div class="row gx-0">
-                <div v-for="tag in article.tags" class="col-2">
-                  <button
-                    type="button"
-                    class="btn blogbtn btn-sm text-icon mt-1 mx-2"
-                  >
-                    {{ tag.name }}
-                  </button>
-                </div>
-              </div>
-              <p class="fw-bold display-9 mt-3">
-                {{ article.MainTitle }}
-              </p>
-              <p class="fw-lighter display-7">
-                {{ article.Author }} {{ article.ArticleDate }}
-              </p>
-              <p class="fw-lighter display-5">
-                {{ article.ArticleDescription }}
-              </p>
-            </div>
-          </a>
-        </div>
-      </div>
-    </div>
     </div>
 
-    <Downloadnow  class="my-5 "/>
+    <Downloadnow class="my-5 " />
   </div>
 </template>
 <script>
-import Downloadnow from "../../components/Downloadnow.vue";
-import articles from "../BlogDescription/newArticle.json";
+import Downloadnow from "../../components/layout/Downloadnow.vue";
+import articles from "../BlogDescription/articles.json";
+import BlogCard from "../../components/blog/BlogCard.vue";
 import { useRouter } from "vue-router";
+import hero from "../../components/blog/hero.vue";
 
 export default {
   setup() {
@@ -139,7 +54,6 @@ export default {
       Secutiry,
     };
   },
-  computed: {},
   data() {
     return {
       myJson: articles,
@@ -163,6 +77,6 @@ export default {
       this.SortedArray = this.SecuritySort;
     },
   },
-  components: { Downloadnow },
+  components: { Downloadnow, BlogCard,hero },
 };
 </script>

@@ -50,10 +50,10 @@
 </template>
 
 <script>
-import SidebarLeft from "../../../components/SidebarLeft.vue";
-import SidebarRight from "../../../components/SidebarRight.vue";
-import Downloadnow from "../../../components/Downloadnow.vue";
-import SideBarLeftMobile from "../../../components/SideBarLeftMobile.vue";
+import SidebarLeft from "../../../components/Docs/SidebarLeft.vue";
+import SidebarRight from "../../../components/Docs/SidebarRight.vue";
+import Downloadnow from "../../../components/layout/Downloadnow.vue";
+import SideBarLeftMobile from "../../../components/Docs/SideBarLeftMobile.vue";
 
 export default {
   return: {},

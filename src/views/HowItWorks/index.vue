@@ -230,9 +230,9 @@
   </div>
 </template>
 <script>
-import Downloadnow from "../../components/Downloadnow.vue";
-import HIW from "../../components/HIW.vue";
-import HIWTriplePara from "../../components/HIWTriplePara.vue";
+import Downloadnow from "../../components/layout/Downloadnow.vue";
+import HIW from "../../components/HowItWorks/HIW.vue";
+import HIWTriplePara from "../../components/HowItWorks/HIWTriplePara.vue";
 export default {
   components:{Downloadnow , HIW , HIWTriplePara},
   return: {},

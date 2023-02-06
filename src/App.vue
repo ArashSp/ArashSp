@@ -8,8 +8,8 @@
 
 <script>
 import { RouterLink, RouterView } from "vue-router";
-import Header from "./components/TheHeader.vue";
-import Footer from "./components/TheFooter.vue";
+import Header from "./components/layout/TheHeader.vue";
+import Footer from "./components/layout/TheFooter.vue";
 
 export default {
   head() {
