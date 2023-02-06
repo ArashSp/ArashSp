@@ -18,41 +18,41 @@
             <p class="fw-bold display-9">Overview</p>
           </div>
           <div class="row gx-0">
-            <ul class="fw-lighter display-5 list-unstyled">
+            <ul class="fw-lighter display-5 ">
               webhookie is an open-source webhook API platform that enables
               you to quickly add webhook API capability to your product, platform
               or integration architecture. It provides:
-              <li class="pt-3 ps-5 lh-base">
+              <li class="pt-3 ms-5 lh-base mt-2">
                 <a href="/Docs/DeveloperPortal">
                   <strong>Developer Portal</strong>
                 </a> – make your webhook APIs discoverable.
                 Brand your portal. Get started fast.
               </li>
-              <li class="pt-3 ps-5 lh-base">
+              <li class="pt-3 ms-5 lh-base ">
                 <a href="/Docs/APIManagement">
                   <strong>API Management</strong>
                 </a> – Design your webhook APIs using the
                 ASYNC API specification and deploy in seconds making it discoverable to
                 the consumers of your choice.
               </li>
-              <li class="pt-3 ps-5 lh-base">
+              <li class="pt-3 ms-5 lh-base">
                 <a href="/Docs/SubscriptionManagement">
                   <strong>Subscription Management</strong>
                 </a> – consumers can manage their own
                 subscriptions.
               </li>
-              <li class="pt-3 ps-5 lh-base">
+              <li class="pt-3 ms-5 lh-base">
                 <a href="/Docs/TrafficManagement">
                   <strong>Traffic Management</strong>
                 </a> – allow your API providers and consumers
                 to inspect the traffic being sent to their subscriptions.
               </li>
-              <li class="pt-3 ps-5 lh-base">
+              <li class="pt-3 ms-5 lh-base">
                 <a href="/Docs/Security">
                   <strong>Security</strong>
                 </a> – the most secure webhook solution on the market.
               </li>
-              <li class="pt-3 ps-5 pb-4 lh-base">
+              <li class="pt-3 ms-5 pb-4 lh-base">
                 <a href="/Docs/Administration">
                   <strong>Administration</strong>
                 </a> – setup new consumer and provider groups.

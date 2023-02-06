@@ -18,17 +18,17 @@
             <p class="fw-bold display-9">Getting Started</p>
           </div>
           <div class="row gx-0">
-            <ul class="fw-lighter display-5 list-unstyled">
+            <ul class="fw-lighter display-5 ">
               webhookie is a container based product that enables you to add advanced webhook
               capability to your architecture. It can be deployed easily using kubernettes.
               To try it out fast we recommend using one of the following kubernettes deployments:
-              <li class="pt-3 ps-5 lh-base">
+              <li class="pt-3 ms-5 lh-base mt-2">
                 Minikube
               </li>
-              <li class="pt-3 ps-5 lh-base">
+              <li class="pt-3 ms-5 lh-base">
                 AWS EKS
               </li>
-              <li class="pt-3 ps-5 pb-4 lh-base">
+              <li class="pt-3 ms-5 pb-4 lh-base">
                 For any other Kubernettes implementation it should work but may require some tweaks.
                 Create an issue in our Git repo and we'll do our best to support your deployment.
               </li>

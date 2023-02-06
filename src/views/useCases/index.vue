@@ -307,7 +307,7 @@ export default {
 <style scoped>
 
 .fixedNavBar {
-  padding-top: 50px !important;
+  padding-top: 40px !important;
   position: fixed;
   top: 58px;
   right: 0;
@@ -317,7 +317,7 @@ export default {
 .navigation a:hover {
   border-color: #33a8d1 !important;
   color: #33a8d1 !important;
-  border-bottom: 3px solid !important;
+  border-bottom: 4px solid !important;
   border-width: 4px solid !important;
   height: 90px;
 }
@@ -331,6 +331,7 @@ export default {
   border-color: #8c8c8c;
   color: #8c8c8c;
   border-bottom: 1px solid;
-  height: 90px;
+  height: 80px;
+  padding-bottom: 100px !important;
 }
 </style>

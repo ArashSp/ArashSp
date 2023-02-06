@@ -17,120 +17,120 @@
           <div class="row gx-0 pb-3">
             <p class="fw-bold display-9">Release Notes</p>
           </div>
-          <div class="row">
+          <div class="row gx-0 pb-3">
             <p class="fw-bold display-3">Release 2.0.0</p>
-            <ul class="fw-lighter display-5 list-unstyled">
+            <ul class="fw-lighter display-5 ">
               <strong>Features</strong>
-              <li class="pt-3 ps-5 lh-base">
+              <li class="pt-3 ms-5 lh-base mt-2">
                 Split up webhookie services to microservices
               </li>
-              <li class="pt-3 ps-5 lh-base">
+              <li class="pt-3 ms-5 lh-base">
                 Support of AWS EKS
               </li>
-              <li class="pt-3 ps-5 lh-base">
+              <li class="pt-3 ms-5 lh-base">
                 Transformations in subscriptions.
               </li>
             </ul>
           </div>
-          <div class="row">
+          <div class="row gx-0 pb-3">
             <p class="fw-bold display-3">Release 1.3.5</p>
-            <ul class="fw-lighter display-5 list-unstyled">
+            <ul class="fw-lighter display-5 ">
               <strong>Bug Fixes</strong>
-              <li class="pt-3 ps-5 lh-base">
+              <li class="pt-3 ms-5 lh-base mt-2">
                 Fixed the issue when some valid subscription status
                 transitions could not be made
               </li>
-              <li class="pt-3 ps-5 lh-base">
+              <li class="pt-3 ms-5 lh-base">
                 Fixed 3 dot menu icon positioning on top of the menu
               </li>
-              <li class="pt-3 ps-5 lh-base">
+              <li class="pt-3 ms-5 lh-base">
                 Hide 3 dot menu when there is no item in the menu
               </li>
-              <li class="pt-3 ps-5 lh-base">
+              <li class="pt-3 ms-5 lh-base">
                 Fixed the issue when Suspend action is available for
                 non-suspendable subscriptions
               </li>
             </ul>
           </div>
-          <div class="row">
+          <div class="row gx-0 pb-3">
             <p class="fw-bold display-3">Release 1.3.4</p>
-            <ul class="fw-lighter display-5 list-unstyled">
+            <ul class="fw-lighter display-5 ">
               <strong>Features</strong>
-              <li class="pt-3 ps-5 lh-base">
+              <li class="pt-3 ms-5 lh-base mt-2">
                 Added Submit action to the subscription menu so that
                 consumer can go to submit subscription step from the menu
               </li>
             </ul>
-            <ul class="fw-lighter display-5 list-unstyled">
+            <ul class="fw-lighter display-5 ">
               <strong>Bug Fixes</strong>
-              <li class="pt-3 ps-5 lh-base">
+              <li class="pt-3 ms-5 lh-base mt-2">
                 Fix click issue in the context-menu
               </li>
             </ul>
           </div>
-          <div class="row">
+          <div class="row gx-0 pb-3">
             <p class="fw-bold display-3">Release 1.3.3</p>
-            <ul class="fw-lighter display-5 list-unstyled">
+            <ul class="fw-lighter display-5 ">
               <strong>Features</strong>
-              <li class="pt-3 ps-5 lh-base">
+              <li class="pt-3 ms-5 lh-base mt-2">
                 Added subscription approval to the webhooks
               </li>
-              <li class="pt-3 ps-5 lh-base">
+              <li class="pt-3 ms-5 lh-base">
                 Added the version number in the health indicator
               </li>
-              <li class="pt-3 ps-5 lh-base">
+              <li class="pt-3 ms-5 lh-base">
                 Added About menu which includes product and database version
                 information
               </li>
-              <li class="pt-3 ps-5 lh-base">
+              <li class="pt-3 ms-5 lh-base">
                 Added webhookie version to the banner
               </li>
             </ul>
           </div>
-          <div class="row">
+          <div class="row gx-0 pb-3">
             <p class="fw-bold display-3">Release 1.2.0</p>
-            <ul class="fw-lighter display-5 list-unstyled">
+            <ul class="fw-lighter display-5 ">
               <strong>Features</strong>
-              <li class="pt-3 ps-5 lh-base">
+              <li class="pt-3 ms-5 lh-base mt-2">
                 new Subscription UX
               </li>
-              <li class="pt-3 ps-5 lh-base">
+              <li class="pt-3 ms-5 lh-base">
                 rename SAVED to DRAFT when subscription is saved
               </li>
             </ul>
           </div>
-          <div class="row">
+          <div class="row gx-0 pb-3">
             <p class="fw-bold display-3">Release 1.2.0</p>
-            <ul class="fw-lighter display-5 list-unstyled">
+            <ul class="fw-lighter display-5 ">
               <strong>Features</strong>
-              <li class="pt-3 ps-5 lh-base">
+              <li class="pt-3 ms-5 lh-base mt-2">
                 new Subscription UX
               </li>
-              <li class="pt-3 ps-5 lh-base">
+              <li class="pt-3 ms-5 lh-base">
                 rename SAVED to DRAFT when subscription is saved
               </li>
             </ul>
           </div>
-          <div class="row">
+          <div class="row gx-0 pb-3">
             <p class="fw-bold display-3">Release 1.1.1</p>
-            <ul class="fw-lighter display-5 list-unstyled">
+            <ul class="fw-lighter display-5 ">
               <strong>Features</strong>
-              <li class="pt-3 ps-5 lh-base">
+              <li class="pt-3 ms-5 lh-base mt-2">
                 Add application management group and assign user to that group remove
                 consumer groups from application
               </li>
-              <li class="pt-3 ps-5 lh-base">
+              <li class="pt-3 ms-5 lh-base">
                 Add OAuth 2.0 support for subscriptions
               </li>
             </ul>
-            <ul class="fw-lighter display-5 list-unstyled">
+            <ul class="fw-lighter display-5 ">
               <strong>Bug Fixes</strong>
-              <li class="pt-3 ps-5 lh-base">
+              <li class="pt-3 ms-5 lh-base mt-2">
                 Fix and refactor Migrator issue when having only one migration to be applied
               </li>
             </ul>
           </div>
-          <div class="row">
+          <div class="row gx-0 pb-3">
             <p class="fw-bold display-3">Release 1.0</p>
             <p class="fw-lighter display-5 lh-base">
               Initial release of webhookie
