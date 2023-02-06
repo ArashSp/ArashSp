@@ -220,7 +220,7 @@
   </div>
 </template>
 <script>
-import Downloadnow from "../../components/DownloadNow.vue";
+import Downloadnow from "../../components/Downloadnow.vue";
 
 export default {
   components: { Downloadnow },

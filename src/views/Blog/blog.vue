@@ -115,7 +115,7 @@
   </div>
 </template>
 <script>
-import Downloadnow from "../../components/DownloadNow.vue";
+import Downloadnow from "../../components/Downloadnow.vue";
 import articles from "../BlogDescription/newArticle.json";
 import { useRouter } from "vue-router";
 

@@ -1,5 +1,3 @@
-
-
 <template>
   <div class="bg-blackBg text-white">
     <Header />
