@@ -113,4 +113,8 @@ export default {
 .sticky-top-fix{
   padding-top:80px !important ;
 }
+strong:hover{
+  color: #33a8d1 !important;
+
+}
 </style>
