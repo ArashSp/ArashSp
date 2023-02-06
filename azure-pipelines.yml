@@ -17,7 +17,7 @@ steps:
 
   - script:
       npm install
-      npm run generate
+      npm run build
       # mv ./dist/static/web.config ./dist/
     displayName: "npm install and build"
 
