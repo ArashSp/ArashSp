@@ -25,39 +25,50 @@
                 </div>
               </div>
               <div class="">
-                <p class="fw-bold display-9 mt-3 mt-4">
+                <p class="fw-bold display-9 mt-3 mt-3">
                   {{ article.MainTitle }}
                 </p>
                 <p class="fw-lighter display-7">{{ article.Author }}</p>
 
                 <img :src="article.ArticlePic" class="mt-3 pb-2" style="max-width: 100%" />
 
-                <div v-for="item in article.Paragraph">
+                <div v-for="item in article.sections">
                   <div :id="item.NavigationTag" class="mb-5 pb-4"></div>
                   <p class="fw-bold display-9 my-5">{{ item.Title }}</p>
 
-                  <div v-for="items in item.Body">
-                    <p class="fw-lighter display-5 lh-base pb-3">
-                      {{ items.Para }}
-                    </p>
-                  </div>
 
-                  <img :src="item.ImageName" class="mt-3 pb-4" style="max-width: 100%" />
+                  <div v-for="items in item.parts">
+                    <p class="fw-lighter display-5 lh-base pb-3"
+                      v-if="items.type == 'paragraph' || items.type == 'quote'">
+                      {{ items.value }}
+                    </p>
+
+                    <img v-if="items.type == 'image'" :src="items.value" class="mt-3 pb-4" style="max-width: 100%" />
+
+                  </div>
 
                   <div v-if="item.Child" :id="item.Child.NavigationTag">
-                    <p class="fw-light display-10 mt-3">
+                    <p class="fw-light display-10 mt-1">
                       {{ item.Child.Title }}
                     </p>
-                    <div v-for=" items in item.Child.Body">
-                      <p class="fw-lighter display-5 lh-base py-3"> {{ items.Para }}</p>
+                    <div v-for="items in item.Child.parts">
+                      <p class="fw-lighter display-5 lh-base pb-3 py-3"
+                        v-if="items.type == 'paragraph' || items.type == 'quote'">
+                        {{ items.value }}
+                      </p>
+                      <div v-if="items.type == 'List'">
+                      <ul v-for="listItem in items.value">
+                        <li class="fw-lighter display-5 lh-base pb-3 ms-4">
+                          {{ listItem }}
+                        </li>
+                      </ul>
                     </div>
-                    <ul v-for="list in item.Child.List">
-                      <li class="fw-lighter display-5 lh-base pb-3 ms-4">
-                        {{ list.item }}
-                      </li>
-                    </ul>
-                    <img :src="item.Child.ImageName" class="mt-3 pb-4" style="max-width: 100%" />
+                      <img v-if="items.type == 'image'" :src="items.value" class="mt-3 pb-4" style="max-width: 100%" />
+                    </div>
+                   
+                 
                   </div>
+
                 </div>
               </div>
               <a href="/Blog">
@@ -71,7 +82,7 @@
         <div class="col-3 d-none d-lg-block fixedSideleft">
           <div class="mt-5 pe-5">
             <nav class="nav flex-column dw-bold display-6">
-              <div v-for="item in article.Paragraph">
+              <div v-for="item in article.sections">
                 <a class="nav-link text-decoration-none link-listtext ps-1 fw-lighter display-7"
                   :href="'#' + item.NavigationTag">{{ item.Title }}</a>
                 <div v-if="item.Child">
@@ -89,7 +100,7 @@
 </template>
 <script>
 import Downloadnow from "../../components/Downloadnow.vue";
-import articles from "./newArticle.json";
+import articles from "./articles.json";
 import { useRoute } from "vue-router";
 
 export default {
@@ -114,22 +125,26 @@ export default {
 p:empty {
   display: none;
 }
+
 ul:empty {
   display: none;
 }
+
 li:empty {
   display: none;
 }
-.fixedSideleft{
+
+.fixedSideleft {
   position: fixed;
   top: 70px;
   right: 5%;
-  max-width: 400px ;
+  max-width: 400px;
 }
-.fixedSideRight{
+
+.fixedSideRight {
   position: fixed;
   top: 70px;
   left: 10%;
-  max-width: 400px ;
+  max-width: 400px;
 }
 </style>
